@@ -28,30 +28,7 @@ Thank you for attending the workshop! Help us make this workshop better by filli
 
 # Class Photo
 
-Coming soon!   
-
-*** 
-
-# Day 1 <a id="day1"></a>
-
-## Welcome
-
-*<font color="#827e9c">Name</font>*
-
-## Module 1: 
-
-*<font color="#827e9c">Name</font>* 
-
-[Lecture]()  
-
-[Lab Practical]()  
-
-***
-
-
-
-
-
+Coming soon! 
 
 ***
 
@@ -66,7 +43,7 @@ Coming soon!
 *<font color="#827e9c">Jared Simpson</font>* 
 
 [Lecture]()
-
+[Lab Practical]()  
 
 ## Module 2: Data Visualization
 
