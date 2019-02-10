@@ -7,7 +7,7 @@ header2: High-throughput Biology - From Sequence to Networks 2019
 image: /site_images/CBW-CSHL-graphic-square.png
 keywords: Visualize genomic data, pathway analysis, integrate clinical data
 description: Course covers the key bioinformatics concepts and tools required to analyze  genomic data sets and access and work with data sets in the cloud. 
-instructors: Jared Simpson, Trevor Pugh, Francis Ouellette, Andrew McPherson, Sorana Morrissy, Juri Reimand, Lincoln Stein, Robin Haw, Anna Goldenberg, Fouad Yousif, Mark Phillips, Brian O'Connor, Christina Yung, George Mihaiescu, Zhibin Lu
+instructors: Sara Goodwin, Jared Simpson, Mathieu Bourgey, Zhibin Lu, Heather Gibling, Malachi Griffith, Obi Griffith, Peter Ronning, Kelsy Cotto, Juri Reimand, Robin Haw, Veronique Voisin, Quaid Morris, Michael Hoffman
 length: 7 days
 ---
 
