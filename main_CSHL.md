@@ -17,7 +17,7 @@ Welcome to High-throughput Biology - From Sequence to Networks 2019.
 
 The course schedule can be found [here](https://bioinformaticsdotca.github.io/CSHL_2019_schedule)  
 
-Pre-readings, pre-work, and laptop setup instructions can be found [here](https://bioinformaticsdotca.github.io/laptop_setup_instructions).
+Pre-readings, pre-work, and laptop setup instructions can be found [here](https://bioinformaticsdotca.github.io/CSHL_2019_laptop_setup).
 
 If you have questions or comments, visit the workshop [Q&A forum](https://classroom.google.com). You may need to join the group by clicking on the "+" symbol and entering the class code.
 
