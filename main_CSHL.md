@@ -15,7 +15,7 @@ length: 7 days
 
 Welcome to High-throughput Biology - From Sequence to Networks 2019.  
 
-The course schedule can be found [here](https://bioinformaticsdotca.github.io/cshl_schedule)  
+The course schedule can be found [here](https://bioinformaticsdotca.github.io/CSHL_2019_schedule)  
 
 Pre-readings, pre-work, and laptop setup instructions can be found [here](https://bioinformaticsdotca.github.io/laptop_setup_instructions).
 
