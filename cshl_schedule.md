@@ -59,8 +59,7 @@ home: https://bioinformaticsdotca.github.io/CSHL_2019
 | 2:00 | <font color="purple">Module 14:  Network Visualization and Analysis with Cytoscape and Reactome (Robin Haw)</font> | | |  | |
 | 3:15 | <font color="green">*Coffee Break*</font> | 3:00 | <font color="green">*Coffee Break*</font> | | |
 | 3:45 | <font color="blue">Module 14 Lab: De novo subnetwork clustering analysis- Reactome (Robin Haw)</font> | 3:30 | <font color="blue">Module 16 Lab: geneMANIA (Veronique Voisin)</font>> | | |
-| 5:00 | <font color="green">*Dinner*</font> | | | | |
-| 7:00 | **Optional: Integrated Assignment** | 5:00 | <font color="green">*Dinner*</font> | | |
-| | | 7:00 | **Integrated Assignment** |
+| 5:00 | <font color="green">*Dinner*</font> | 5:00 | <font color="green">*Dinner*</font> | | |
+| 7:00 | **Optional: Integrated Assignment** | 7:00 | *Banquet* | | |
 
 
