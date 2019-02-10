@@ -50,15 +50,15 @@ home: https://bioinformaticsdotca.github.io/CSHL_2019
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | | **Friday, March 15** | | **Saturday, March 16** | | **Sunday, March 17** |
 | 7:30 | <font color="green">*Breakfast*</font> | 7:30 | <font color="green">*Breakfast*</font> | 7:30 | <font color="green">*Breakfast*</font> |
-| 9:00 | <font color="purple">Module 12: Introduction to Pathway and Network Analysis (Jüri Reimand)</font> | 9:00 | <font color="purple">Module 15: More Depth on Network and Pathway Analysis (Robin)</font> | 9:00 | <font color="purple">Module 17: Regulatory Network Analysis (Michael)</font> |
+| 9:00 | <font color="purple">Module 12: Introduction to Pathway and Network Analysis (Jüri Reimand)</font> | 9:00 | <font color="purple">Module 15: More depth on network and pathway + Cytoscape Enrichment map (Veronique Voisin)</font> | 9:00 | <font color="purple">Module 17: Regulatory Network Analysis (Michael Hoffman)</font> |
 | 10:00 | <font color="green">*Coffee Break*</font> | 10:00 | <font color="green">*Coffee Break*</font> | 10:30 | <font color="green">*Coffee Break*</font> |
-| 10:30 | <font color="purple">Module 13: Finding Over-Represented Pathways (Jüri Reimand)</font> | 10:30 | <font color="blue">Module 15 Lab</font> | 11:00 |  <font color="blue">Module 17 Lab (Veronique)</font> |
-| 11:30 | <font color="blue">Module 13 Lab (Jüri Reimand)</font> | 10:30 | <font color="blue">Module 15 Lab</font> | 11:00 |  <font color="blue">Module 17 Lab (Veronique)</font> |
+| 10:30 | <font color="purple">Module 13: Finding Over-Represented Pathways (Jüri Reimand)</font> | 10:30 | <font color="blue">Module 15 Lab: Cytoscape/Enrichment Map (Veronique Voisin) </font> | 11:00 |  <font color="blue">Module 17 Lab (Veronique Voisin)</font> |
+| 11:30 | <font color="blue">Module 13 Lab (Jüri Reimand)</font> | | | | |
 | 12:30 | <font color="green">*Lunch*</font> | 12:30 | <font color="green">*Lunch*</font> | 12:30 | **Survey and Closing Remarks** |
-| 1:30 | <font color="blue">Module 13 Lab - Continued</font> | 1:30 | <font color="purple">Module 16: Gene Function Prediction (Quaid)</font> | | |
-| 2:00 | <font color="purple">Module 14:  Network Visualization and Analysis with Cytoscape and Reactome (Robin Haw)</font> | 10:30 | <font color="blue">Module 15 Lab</font> | 11:00 |  <font color="blue">Module 17 Lab (Veronique)</font> |
+| 1:30 | <font color="blue">Module 13 Lab - Continued</font> | 1:30 | <font color="purple">Module 16: Gene Function Prediction (Quaid Morris)</font> | 1:00 | **Optional: Integrated Assignment to 3:00pm (Veronique Voisin)** |
+| 2:00 | <font color="purple">Module 14:  Network Visualization and Analysis with Cytoscape and Reactome (Robin Haw)</font> | | |  | |
 | 3:15 | <font color="green">*Coffee Break*</font> | 3:00 | <font color="green">*Coffee Break*</font> | | |
-| 3:45 | <font color="blue">Module 14 Lab: De novo subnetwork clustering analysis- Reactome (Robin Haw)</font> | 3:30 | <font color="blue">Module 16 Lab (Veronique)</font>> |
+| 3:45 | <font color="blue">Module 14 Lab: De novo subnetwork clustering analysis- Reactome (Robin Haw)</font> | 3:30 | <font color="blue">Module 16 Lab: geneMANIA (Veronique Voisin)</font>> | | |
 | 5:00 | <font color="green">*Dinner*</font> | | | | |
 | 7:00 | **Optional: Integrated Assignment** | 5:00 | <font color="green">*Dinner*</font> | | |
 | | | 7:00 | **Integrated Assignment** |
