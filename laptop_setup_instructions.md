@@ -1,9 +1,9 @@
 ---
 layout: tutorial_page
 permalink: /CSHL_2019_laptop_setup
-title: HT-Biology
+title: HT-Bio
 header1: Workshop Pages for Students
-header2: High-Throughput Biology - From Sequence to Networks
+header2: High-Throughput Biology - From Sequence to Networks 2019
 image: /site_images/CBW-CSHL-graphic-square.png
 home: https://bioinformaticsdotca.github.io/CSHL_2019
 ---
