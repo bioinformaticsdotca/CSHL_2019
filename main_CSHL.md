@@ -64,8 +64,6 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 Before coming to the workshop, read these:
   
-  * [Using cloud computing infrastructure with CloudBioLinux, CloudMan, and Galaxy](http://www.ncbi.nlm.nih.gov/pubmed/22700313)
-  
   * [Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration](http://www.ncbi.nlm.nih.gov/pubmed/22517427)
   
   * [Genome structural variation discovery and genotyping](http://www.ncbi.nlm.nih.gov/pubmed/21358748)
@@ -74,15 +72,17 @@ Before coming to the workshop, read these:
   
   * [Genotype and SNP calling from next-generation sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/21587300)
   
-  * [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pubmed/22383036)
+  * [Informatics for RNA Sequencing: A Web Resource for Analysis on the Cloud](https://www.ncbi.nlm.nih.gov/pubmed/26248053)  
+
+  * [Transcript-level expression analysis of RNA-seq experiments with HISAT, StringTie and Ballgown](https://www.ncbi.nlm.nih.gov/pubmed/27560171)
   
   * [ENCODE RNA-Seq Standards](https://genome.ucsc.edu/ENCODE/protocols/dataStandards/ENCODE_RNAseq_Standards_V1.0.pdf)
   
-  * [Methods to study splicing from high-throughput RNA sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/24549677)
-  
-  * [Differential analysis of gene regulation at transcript resolution with RNA-seq](http://www.ncbi.nlm.nih.gov/pubmed/23222703)
+  * [Methods to study splicing from high-throughput RNA sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/24549677)  
   
   * [A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control Consortium](http://www.ncbi.nlm.nih.gov/pubmed/25150838)
+
+  * [De novo transcript sequence reconstruction from RNA-seq using the Trinity platform for reference generation and analysis](http://www.nature.com/nprot/journal/v8/n8/full/nprot.2013.084.html)
   
   * [Recurrent chimeric RNAs enriched in human prostate cancer identified by deep sequencing](http://www.ncbi.nlm.nih.gov/pubmed/21571633)
   
