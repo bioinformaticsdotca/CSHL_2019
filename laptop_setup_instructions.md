@@ -67,7 +67,7 @@ Within all apps, search for the following and install:
  * ReactomeFIPlugin - http://apps.cytoscape.org/apps/reactomefiplugin  
  
  
-4) Install the data set within GeneMANIA.
+14) Install the data set within GeneMANIA.
 
 Select GeneMania from Apps Manager and Choose Another Data Set.  
 From the list of available data sets, select the most recent (2014-08-12/1 June 2014) and under ‘Include only these networks’: select ‘all’. Click on ‘Download’.  
@@ -75,7 +75,7 @@ An ‘Install Window’ will pop-up. Select H.Sapiens Human (2384 MB). Click on 
 This requires time and a good network connection to download completely, so be patient (around 15mins).  
 
   
-5) Install GSEA.  
+15) Install GSEA.  
 
 Go to the [GSEA page](http://www.broadinstitute.org/gsea/index.jsp)    
 Register  
