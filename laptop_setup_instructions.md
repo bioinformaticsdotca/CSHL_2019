@@ -12,12 +12,24 @@ home: https://bioinformaticsdotca.github.io/CSHL_2019
 
 1b) Download and install the most recent version of [R Studio desktop](http://www.rstudio.com/).  If prompted to install git, select yes.
 
-2) Install the BioConductor core packages. To do this, open R and at the '>' prompt, paste the commands:
+2) Install the BioConductor core packages. If you have installed R version 3.5.0 or higher, open R and at the '>' prompt, paste the commands:
+ 
+```install.packages("BiocManager");
+library(BiocManager);
+BiocManager::install();
+```
 
-```r
-source("http://bioconductor.org/biocLite.R"); 
+If you already have an older version of R installed (3.4.4 or lower), open R and at the '>' prompt, paste the commands:
+
+```source("http://bioconductor.org/biocLite.R");
 biocLite();
 ```
+
+If you are unsure which version you have installed, open R and at the '>' prompt, enter the command:
+
+```version;
+```
+
 
 3) A robust text editor.   
 
