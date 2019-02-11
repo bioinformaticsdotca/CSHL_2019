@@ -46,7 +46,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 2) **UNIX Preparation tutorials**:  
 
-* [UNIX Bootcamp](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
+* [UNIX Bootcamp](https://rnabio.org/module-00-setup/0000/06/01/Unix/)
 * Tutorials #1-3 on [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)  
 * [Unix Cheat sheet](http://www.rain.org/~mkummel/unix.html) 
 
