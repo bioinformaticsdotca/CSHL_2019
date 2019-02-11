@@ -21,7 +21,7 @@ If you have questions or comments, visit the workshop [Q&A forum](https://classr
 
 You can download the printed course manual [here](xxx).  
 
-Thank you for attending the workshop! Help us make this workshop better by filling out [our survey](xxx).
+Thank you for attending the workshop! Help us make this workshop better by filling out [our survey](To be added soon).
 ***
 
 # Class Photo
@@ -116,6 +116,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 *<font color="#827e9c">Jared Simpson</font>* 
 
 [Lecture]()
+
 [Lab Practical]()  
 
 ## Module 2: Data Visualization
@@ -124,7 +125,9 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
-[Lab Practical]()
+[Lab Practical]()  
+
+[Lab Practical on GitHub]()
 
 ## Module 3: Genome Alignment
 
@@ -132,13 +135,13 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
-[Lab Practical: Connecting to the Cloud]()
-
-[Lecture]()  
+[Lab Practical: Connecting to the Cloud]()  
 
 * We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.ppk).
 
+
 [Lab Practical]()  
+
 [Lab Practical on GitHub]()
 
 ***
@@ -152,6 +155,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 [Lecture]()
 
 [Lab Practical]()  
+
 [Lab Practical on GitHub]()
 
 ## Module 5: Structural Variant Calling
@@ -161,6 +165,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 [Lecture]()
 
 [Lab Practical]()  
+
 [Lab Practical on GitHub]()  
 
 ## Module 6: De Novo Assembly
@@ -236,7 +241,6 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 [Assignment Answers](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment-Answers)  
 
-
 ***
 
 # Day 4 <a id="day4"></a>
@@ -309,8 +313,9 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Lecture]()
 
-### Lab practical: Enrichment-Based Analysis - Performing ORA
-  *<font color="#827e9c">Jüri Reimand and Veronique Voisin</font>*
+### Lab practical: Enrichment-Based Analysis - Performing ORA  
+
+*<font color="#827e9c">Jüri Reimand and Veronique Voisin</font>*
 
 [Introduction]()
 
@@ -321,12 +326,13 @@ gProfiler
 [Precomputed results for exercise 1]()   
 
 GSEA
+
 [Exercise 2]()  
 
 [Precomputed results for Exercise 2]()  
 
 
-## Module 14: Network Visualization and Analysis with Cytoscape and Reactome
+## Module 14: Network Visualization and Analysis with Cytoscape and Reactome  
 
 *<font color="#827e9c">Robin Haw</font>* 
 
@@ -334,9 +340,9 @@ GSEA
 
 [Lecture Part 2]()  
 
-### Lab practical: De novo subnetwork clustering analysis - Reactome
-  *<font color="#827e9c">Robin Haw</font>*
+### Lab practical: De novo subnetwork clustering analysis - Reactome  
 
+*<font color="#827e9c">Robin Haw</font>*
 
 [Exercise 1]()  
   
@@ -352,7 +358,7 @@ GSEA
 
 [Lecture]()
 
-### Lab practical: Cytoscape/ Enrichment Map
+### Lab practical: Cytoscape/ Enrichment Map  
 
 [Lecture]()  
 
@@ -368,7 +374,8 @@ GSEA
 
 [Lab Practical]()  
 
-## Integrated Assignment
+## Integrated Assignment  
+
 [Integrated Assignment]()
 
 [Integrated Assignment Answers]()
