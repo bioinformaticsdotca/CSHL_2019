@@ -30,7 +30,7 @@ biocLite();
 If you are unsure which version you have installed, open R and at the '>' prompt, enter the command:
 
 ```
-version;
+version
 ```
 
 3) A robust text editor.   
