@@ -14,22 +14,24 @@ home: https://bioinformaticsdotca.github.io/CSHL_2019
 
 2) Install the BioConductor core packages. If you have installed R version 3.5.0 or higher, open R and at the '>' prompt, paste the commands:
  
-```install.packages("BiocManager");
+```
+install.packages("BiocManager");
 library(BiocManager);
 BiocManager::install();
 ```
 
 If you already have an older version of R installed (3.4.4 or lower), open R and at the '>' prompt, paste the commands:
 
-```source("http://bioconductor.org/biocLite.R");
+```
+source("http://bioconductor.org/biocLite.R");
 biocLite();
 ```
 
 If you are unsure which version you have installed, open R and at the '>' prompt, enter the command:
 
-```version;
 ```
-
+version;
+```
 
 3) A robust text editor.   
 
