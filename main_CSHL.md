@@ -21,7 +21,6 @@ If you have questions or comments, visit the workshop [Q&A forum](https://classr
 
 You can download the printed course manual [here](xxx).  
 
-Thank you for attending the workshop! Help us make this workshop better by filling out [our survey](To be added soon).
 ***
 
 # Class Photo
@@ -61,9 +60,9 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 * Filtering and Editing in Cytoscape 3
 
-###  Pre-workshop Readings  
+## Pre-workshop Readings  
 
-  Before coming to the workshop, read these:
+Before coming to the workshop, read these:
   
   * [Using cloud computing infrastructure with CloudBioLinux, CloudMan, and Galaxy](http://www.ncbi.nlm.nih.gov/pubmed/22700313)
   
@@ -117,7 +116,8 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
-[Lab Practical]()  
+[Lab Practical]()
+[Lab Practical on GitHub]()
 
 ## Module 2: Data Visualization
 
@@ -126,7 +126,6 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 [Lecture]()
 
 [Lab Practical]()  
-
 [Lab Practical on GitHub]()
 
 ## Module 3: Genome Alignment
@@ -141,7 +140,6 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 
 [Lab Practical]()  
-
 [Lab Practical on GitHub]()
 
 ***
@@ -155,7 +153,6 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 [Lecture]()
 
 [Lab Practical]()  
-
 [Lab Practical on GitHub]()
 
 ## Module 5: Structural Variant Calling
@@ -165,7 +162,6 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 [Lecture]()
 
 [Lab Practical]()  
-
 [Lab Practical on GitHub]()  
 
 ## Module 6: De Novo Assembly
@@ -175,6 +171,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 [Lecture]()
 
 [Lab Practical]()
+[Lab Practical on GitHub]()
 
 [Supplemental]()
 
@@ -194,9 +191,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
-### Lab Practical
-
-[Lab practical]()
+[Lab Practical]()
 
   [Installation](https://github.com/griffithlab/rnaseq_tutorial/wiki/Installation)
   
@@ -216,8 +211,6 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 *<font color="#827e9c">Malachi Griffith</font>* 
 
 [Lecture]()
-
-### Lab Practical
 
 [Lab Practical]()
 
@@ -251,8 +244,6 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 [Lecture]()
 
-### Lab Practical
-
 [Lab Practical]()
 
  [Expression](https://github.com/griffithlab/rnaseq_tutorial/wiki/Expression)
@@ -272,8 +263,6 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 *<font color="#827e9c">Malachi Griffith</font>* 
 
 [Lecture]()
-
-### Lab Practical
 
 [Lab Practical]()
 
@@ -313,7 +302,7 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Lecture]()
 
-### Lab practical: Enrichment-Based Analysis - Performing ORA  
+## Module 13 Lab Practical: Enrichment-Based Analysis - Performing ORA  
 
 *<font color="#827e9c">Jüri Reimand and Veronique Voisin</font>*
 
@@ -340,13 +329,13 @@ GSEA
 
 [Lecture Part 2]()  
 
-### Lab practical: De novo subnetwork clustering analysis - Reactome  
+## Module 14 Lab Practical: De novo subnetwork clustering analysis - Reactome  
 
 *<font color="#827e9c">Robin Haw</font>*
 
-[Exercise 1]()  
+[Lab Practical 1]()  
   
-[Exercise 2]()  
+[Lab Practical 2]()  
 
 ***
 
@@ -358,7 +347,7 @@ GSEA
 
 [Lecture]()
 
-### Lab practical: Cytoscape/ Enrichment Map  
+## Module 15 Lab Practical: Cytoscape-Enrichment Map  
 
 [Lecture]()  
 
@@ -374,12 +363,6 @@ GSEA
 
 [Lab Practical]()  
 
-## Integrated Assignment  
-
-[Integrated Assignment]()
-
-[Integrated Assignment Answers]()
-
 ***
 
 # Day 7 <a id="day7"></a>
@@ -390,7 +373,7 @@ GSEA
 
 [Lecture]()
 
-#### Lab practical: iRegulon
+## Module 17 Lab Practical: iRegulon
 
 *<font color="#827e9c">Veronique Voisin</font>*
 
@@ -409,5 +392,12 @@ To use the precomputed results:
 3) go to App > iRegulon > 'Load results from the iregulon_results.irf file'  
   
 [Download a zip file of the git repo here]()  
+
+## Integrated Assignment  
+
+[Integrated Assignment]()
+
+[Integrated Assignment Answers]()
+
 
 
