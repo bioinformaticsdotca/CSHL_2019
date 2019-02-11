@@ -17,13 +17,11 @@ Welcome to High-throughput Biology - From Sequence to Networks 2019.
 
 The course schedule can be found [here](https://bioinformaticsdotca.github.io/CSHL_2019_schedule)  
 
-Pre-readings, pre-work, and laptop setup instructions can be found [here](https://bioinformaticsdotca.github.io/CSHL_2019_laptop_setup).
-
 If you have questions or comments, visit the workshop [Q&A forum](https://classroom.google.com). You may need to join the group by clicking on the "+" symbol and entering the class code.
 
-You can download the printed course manual [here]().  
+You can download the printed course manual [here](xxx).  
 
-Thank you for attending the workshop! Help us make this workshop better by filling out [our survey]().
+Thank you for attending the workshop! Help us make this workshop better by filling out [our survey](xxx).
 ***
 
 # Class Photo
@@ -111,7 +109,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 ## Welcome
 
-*<font color="#827e9c">Ann Meyer</font>*
+*<font color="#827e9c">Michelle Brazas</font>*
 
 ## Module 1: Introduction to High-throughput Sequencing
 
@@ -122,7 +120,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 ## Module 2: Data Visualization
 
-*<font color="#827e9c">Florence Cavalli</font>* 
+*<font color="#827e9c">Heather Gibling</font>* 
 
 [Lecture]()
 
@@ -210,7 +208,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 ## Module 8: RNA-seq Alignment and Visualization
 
-*<font color="#827e9c">Fouad Yousif</font>* 
+*<font color="#827e9c">Malachi Griffith</font>* 
 
 [Lecture]()
 
@@ -230,7 +228,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 ## Integrated Assignment
 
-*<font color="827e9c">Fouad Yousif</font>*
+*<font color="827e9c">Kelsy Cotto</font>*
 
 Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by deep sequencing](http://www.ncbi.nlm.nih.gov/pubmed/21571633)
 
@@ -328,16 +326,16 @@ GSEA
 [Precomputed results for Exercise 2]()  
 
 
-## Module 14: Network Visualization and Analysis with Cytoscape
+## Module 14: Network Visualization and Analysis with Cytoscape and Reactome
 
-*<font color="#827e9c">Veronique Voisin</font>* 
+*<font color="#827e9c">Robin Haw</font>* 
 
 [Lecture Part 1]()  
 
 [Lecture Part 2]()  
 
-### Lab practical: Cytoscape Demo, Enrichment Map
-  *<font color="#827e9c">Veronique Voisin</font>*
+### Lab practical: De novo subnetwork clustering analysis - Reactome
+  *<font color="#827e9c">Robin Haw</font>*
 
 
 [Exercise 1]()  
@@ -348,13 +346,13 @@ GSEA
 
 # Day 6 <a id="day6"></a>
 
-## Module 15: More Depth on Network and Pathway Analysis
+## Module 15: More Depth on Network and Pathway Analysis and Cytoscape Enrichment map
 
-*<font color="#827e9c">Robin Haw</font>* 
+*<font color="#827e9c">Veronique Voisin</font>* 
 
 [Lecture]()
 
-### Lab practical: *De Novo* Subnetwork Clustering Analysis in Reactome
+### Lab practical: Cytoscape/ Enrichment Map
 
 [Lecture]()  
 
