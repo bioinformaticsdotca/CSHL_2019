@@ -60,6 +60,6 @@ home: https://bioinformaticsdotca.github.io/CSHL_2019
 | 3:15 | <font color="green">*Coffee Break*</font> | 3:00 | <font color="green">*Coffee Break*</font> | | |
 | 3:45 | <font color="blue">Module 14 Lab: De novo subnetwork clustering analysis- Reactome</font> | 3:30 | <font color="blue">Module 16 Lab: geneMANIA</font> | | |
 | 5:00 | <font color="green">*Dinner*</font> | 5:00 | <font color="green">*Dinner*</font> | | |
-| 7:00 | **Optional: Integrated Assignment** | 7:00 | *Banquet* | | |
+| 7:00 | **Optional: Integrated Assignment** | 7:00 | <font color="green">*Banquet*</font> | | |
 
 
