@@ -12,7 +12,7 @@ home: https://bioinformaticsdotca.github.io/CSHL_2019
 
 | | **Day 1** | | **Day 2** |
 | :---: | :---: | :---: | :---: |
-| | **Monday, March 1** | | **Tuesday, March 12** |
+| | **Monday, March 11** | | **Tuesday, March 12** |
 | 7:30 | <font color="green">*Breakfast*</font> | 7:30 | <font color="green">*Breakfast*</font> |
 | 9:00 | <font color="purple">Welcome (Michelle)</font> | 9:00 | <font color="purple">Module 4: Small-Variant Calling and Annotation (Mathieu)</font> |
 | 9:30 | <font color="purple">Module 1: Introduction to High-Throughput Sequencing (Sara Goodwin)</font> | | |
