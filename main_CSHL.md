@@ -381,7 +381,7 @@ GSEA
 
 [Lab lecture]() 
 
-[Lab practical]()  
+[Lab practical](CSHL_2019/Module17/Module17_lab.md)  
 
 [Precomputed results cys file]() and [Precomputed results irf file]()  
 
