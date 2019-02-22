@@ -114,7 +114,7 @@ Before coming to the workshop, read these:
 
 ## Module 1: Introduction to High-throughput Sequencing
 
-*<font color="#827e9c">Jared Simpson</font>* 
+*<font color="#827e9c">Sara Goodwin</font>* 
 
 [Lecture]()
 
@@ -210,7 +210,7 @@ Before coming to the workshop, read these:
 
 ## Module 8: RNA-seq Alignment and Visualization
 
-*<font color="#827e9c">Malachi Griffith</font>* 
+*<font color="#827e9c">Obi Griffith</font>* 
 
 [Lecture]()
 
@@ -262,7 +262,7 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 ## Module 11: Isoform Discovery and Alternative Expression
 
-*<font color="#827e9c">Malachi Griffith</font>* 
+*<font color="#827e9c">Kelsy Cotto</font>* 
 
 [Lecture]()
 
