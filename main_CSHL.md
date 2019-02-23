@@ -363,7 +363,7 @@ GSEA
 
 [Lecture]()   
 
-[Lab Practical](https://bioinformaticsdotca.github.io//CSHL_2019_Module16_lab)  
+[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module16_lab)  
 
 ***
 
@@ -381,7 +381,7 @@ GSEA
 
 [Lab lecture]() 
 
-[Lab practical](https://bioinformaticsdotca.github.io//CSHL_2019_Module17_lab)  
+[Lab practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module17_lab)  
 
 [Precomputed results cys file]() and [Precomputed results irf file]()  
 
