@@ -341,7 +341,7 @@ GSEA
 
 ## Integrated Assignment - Day 7  
 
-[Integrated Assignment]()
+[Integrated Assignment](https://bioinformaticsdotca.github.io/CSHL_2019_IA_Day5)
 
 [Integrated Assignment Answers]()
 
