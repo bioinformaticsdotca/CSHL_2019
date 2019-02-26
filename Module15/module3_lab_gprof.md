@@ -5,7 +5,7 @@ title: Pathways
 header1: Workshop Pages for Students
 header2: Pathway and Network Analysis of Omics Data Lab 3
 image: /site_images/CBW_pathway_icon.jpg
-home: https://bioinformaticsdotca.github.io/pathways_2018
+home: https://bioinformaticsdotca.github.io/CSHL_2019
 description: Pathways Module 3 Lab
 author: Veronique Voisin
 modified: June 26th, 2018
