@@ -116,7 +116,7 @@ Before coming to the workshop, read these:
 
 *<font color="#827e9c">Sara Goodwin</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1rLdASUMVirxbNgI_EzcUNwXHbrVh82qB/view?usp=sharing)
 
 [Lab Practical]()
 [Lab Practical on GitHub]()
@@ -125,7 +125,7 @@ Before coming to the workshop, read these:
 
 *<font color="#827e9c">Heather Gibling</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1CYJpWRQI4wG1BkhHFialbxYibZm4yQK_/view?usp=sharing)
 
 [Lab Practical]()  
 [Lab Practical on GitHub]()
@@ -134,9 +134,9 @@ Before coming to the workshop, read these:
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1WVZ8_tIsrH8v86YlL_JR6uUZmf6JsyiV/view?usp=sharing)
 
-[Lab Practical: Connecting to the Cloud]()  
+[Lab Practical: Connecting to the Cloud](https://drive.google.com/a/bioinformatics.ca/file/d/1xeYxecTL4ZtPGPjhPFOKy68Us3c2RtJQ/view?usp=sharing)  
 
 * We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.ppk).
 
@@ -152,7 +152,7 @@ Before coming to the workshop, read these:
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1zavCcLwVnzmB-4bbJFjwBySsaltjtopq/view?usp=sharing)
 
 [Lab Practical]()  
 [Lab Practical on GitHub]()
@@ -161,7 +161,7 @@ Before coming to the workshop, read these:
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/19zaC0qHw_H2tH41b06iyiy05Nrq5Fijo/view?usp=sharing)
 
 [Lab Practical]()  
 [Lab Practical on GitHub]()  
@@ -170,7 +170,7 @@ Before coming to the workshop, read these:
 
 *<font color="#827e9c">Jared Simpson</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1dAnxTnVsMxpS_nQysZP3Lmq-SymP1Dc0/view?usp=sharing)
 
 [Lab Practical]()
 [Lab Practical on GitHub]()
@@ -191,7 +191,7 @@ Before coming to the workshop, read these:
 
 *<font color="#827e9c">Malachi Griffith</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1blCvrQ2EJ_nPkpDfuWLzALdskd43-A2B/view?usp=sharing)
 
 [Lab Practical]()
 
@@ -212,7 +212,7 @@ Before coming to the workshop, read these:
 
 *<font color="#827e9c">Obi Griffith</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/11mznj7y9IbV7sOnihZAIyYv-nwHZNWmk/view?usp=sharing)
 
 [Lab Practical]()
 
@@ -244,7 +244,7 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 *<font color="#827e9c">Obi Griffith</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1NWq-8OupdSDoN-ZNaKc6B80d2XrS9nwD/view?usp=sharing)
 
 [Lab Practical]()
 
@@ -258,13 +258,17 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 *<font color="#827e9c">Malachi Griffith</font>* 
 
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1rGHVI0-ev_LQxCKs5UcD57pEfWJyD67X/view?usp=sharing)
+
+[Lab Practical]()
+
 [Kallisto](https://github.com/griffithlab/rnaseq_tutorial/wiki/Kallisto)  
 
 ## Module 11: Isoform Discovery and Alternative Expression
 
 *<font color="#827e9c">Kelsy Cotto</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1mn1dp2YX4hrSkDpo6BPzGca84In5CEMC/view?usp=sharing)
 
 [Lab Practical]()
 
@@ -296,13 +300,13 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Jüri Reimand</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1g6u3Eo_aa3LnVlOFSrXHItE5ONGKlcui/view?usp=sharing)
 
 ## Module 13: Finding Over-Represented Pathways
 
 *<font color="#827e9c">Jüri Reimand</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1bmdpYinb52Ok3Wq1xvzOm-iRQ0nAhg4d/view?usp=sharing)
 
 ## Module 13 Lab Practical: Enrichment-Based Analysis - Performing ORA  
 
@@ -327,17 +331,13 @@ GSEA
 
 *<font color="#827e9c">Robin Haw</font>* 
 
-[Lecture Part 1]()  
-
-[Lecture Part 2]()  
+[Lecture Part 1](https://drive.google.com/a/bioinformatics.ca/file/d/1jwIGC_5ACs7aHBJdsPBXHeuqlJ6JJRmS/view?usp=sharing)  
 
 ## Module 14 Lab Practical: De novo subnetwork clustering analysis - Reactome  
 
 *<font color="#827e9c">Robin Haw</font>*
 
-[Lab Practical 1]()  
-  
-[Lab Practical 2]()  
+[Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1w6BsHN91HQPnqZpArGl6DbsVg3X-HBsO/view?usp=sharing)   
 
 ## Integrated Assignment - Day 7  
 
@@ -353,11 +353,11 @@ GSEA
 
 *<font color="#827e9c">Veronique Voisin</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1h6aGFK9YNRDRz6ar5QL59-uI4bXtsSVK/view?usp=sharing)
 
-## Module 15 Lab Practical: Cytoscape-Enrichment Map  
+## Module 15 Lab Practical: Cytoscape-Enrichment Map 
 
-[Lecture]()  
+*<font color="#827e9c">Veronique Voisin</font>* 
 
 [Lab Practical - Part 1](https://bioinformaticsdotca.github.io/CSHL_2019_Module15_lab_1) 
 
@@ -367,7 +367,7 @@ GSEA
 
 *<font color="#827e9c">Quaid Morris</font>* 
 
-[Lecture]()   
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1ZAjWBteahjXpENhZIi2HySWOCzwLp-n5/view?usp=sharing)   
 
 [Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module16_lab)  
 
@@ -379,7 +379,7 @@ GSEA
 
 *<font color="#827e9c">Michael Hoffman</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1EvvRPFQUukqoNBH_6jLlOVaCyk4_RrzY/view?usp=sharing)
 
 ## Module 17 Lab Practical: iRegulon
 
