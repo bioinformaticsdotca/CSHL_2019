@@ -339,6 +339,12 @@ GSEA
   
 [Lab Practical 2]()  
 
+## Integrated Assignment - Day 7  
+
+[Integrated Assignment]()
+
+[Integrated Assignment Answers]()
+
 ***
 
 # Day 6 <a id="day6"></a>
