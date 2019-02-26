@@ -353,9 +353,9 @@ GSEA
 
 [Lecture]()  
 
-[Lab Practical]() 
+[Lab Practical - Part 1](https://bioinformaticsdotca.github.io/CSHL_2019_Module15_lab_1) 
 
-[Lab answers]()  
+[Lab Practical - Part 2](https://bioinformaticsdotca.github.io/CSHL_2019_Module15_lab_2)  
 
 ## Module 16: Gene Function Prediction
 
