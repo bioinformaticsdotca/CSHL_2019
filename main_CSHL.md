@@ -177,7 +177,7 @@ Before coming to the workshop, read these:
 
 [Supplemental]()
 
-## Integrated Assignment
+## Integrated Assignment - Day 2
 
 [Integrated Assignment]()
 
@@ -226,7 +226,7 @@ Before coming to the workshop, read these:
   
   [Alignment QC](https://github.com/griffithlab/rnaseq_tutorial/wiki/PostAlignment-QC)
 
-## Integrated Assignment
+## Integrated Assignment - Day 3
 
 *<font color="827e9c">Kelsy Cotto</font>*
 
@@ -278,7 +278,7 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
   
   [Splicing Visualization](https://github.com/griffithlab/rnaseq_tutorial/wiki/Transcript-Assembly-Visualization)
 
-## Integrated Assignment
+## Integrated Assignment - Day 4
 
 [Assignment Questions](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment)  
 
@@ -395,7 +395,7 @@ To use the precomputed results:
   
 [Download a zip file of the git repo here]()  
 
-## Integrated Assignment  
+## Integrated Assignment - Day 7  
 
 [Integrated Assignment]()
 
