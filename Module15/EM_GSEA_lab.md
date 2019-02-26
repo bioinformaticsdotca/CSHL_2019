@@ -1,11 +1,14 @@
 ---
 layout: tutorial_page
-permalink: /pathways_2018_module3_lab_1
-title: Pathways
+permalink: /CSHL_2019_Module15_lab_1
+title: HT-Bio
 header1: Workshop Pages for Students
-header2: Pathway and Network Analysis of Omics Data Lab 3 Part 1
-image: /site_images/CBW_pathway_icon.jpg
+header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 15 - Part 1
+image: /site_images/CBW-CSHL-graphic-square.png
 home: https://bioinformaticsdotca.github.io/CSHL_2019
+description: HT-Bio Module 15 Lab - Part 1
+author: Veronique Voisin
+modified: June 27th, 2018
 ---
 
 **This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.**
