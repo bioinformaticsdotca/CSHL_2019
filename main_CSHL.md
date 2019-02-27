@@ -164,9 +164,9 @@ Before coming to the workshop, read these:
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1dAnxTnVsMxpS_nQysZP3Lmq-SymP1Dc0/view?usp=sharing)
 
-[Lab Practical]()
+[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module6_lab)
 
-[Supplemental]()
+[Supplemental](https://bioinformaticsdotca.github.io/CSHL_2019_Module6_Supplemental)
 
 ## Integrated Assignment - Day 2
 
