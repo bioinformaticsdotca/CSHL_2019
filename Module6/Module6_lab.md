@@ -1,12 +1,12 @@
 ---
 layout: tutorial_page
-permalink: /HTSeq_2018_module6_lab
-title: HTSeq Lab 6
+permalink: /CSHL_2019_Module6_lab
+title: HT-Bio
 header1: Workshop Pages for Students
-header2: Informatics on High-Throughput Sequencing Data
-image: /site_images/CBW_High-throughput_icon.jpg
-home: https://bioinformaticsdotca.github.io/htseq_2018
-description: HTSeq Lab 6
+header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 6
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/CSHL_2019
+description: HT-Bio Module 6 Lab
 author: Jared Simpson
 modified: May 26th, 2018
 ---
