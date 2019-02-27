@@ -1,6 +1,6 @@
 ---
 layout: tutorial_page
-permalink: /CSHL_2019_Module17_lab_supplemental
+permalink: /CSHL_2019_Module6_lab_supplemental
 title: HT-Bio
 header1: Workshop Pages for Students
 header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 6 Supplemental
