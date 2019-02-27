@@ -118,17 +118,13 @@ Before coming to the workshop, read these:
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1rLdASUMVirxbNgI_EzcUNwXHbrVh82qB/view?usp=sharing)
 
-[Lab Practical]()
-[Lab Practical on GitHub]()
-
 ## Module 2: Data Visualization
 
 *<font color="#827e9c">Heather Gibling</font>* 
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1CYJpWRQI4wG1BkhHFialbxYibZm4yQK_/view?usp=sharing)
 
-[Lab Practical]()  
-[Lab Practical on GitHub]()
+[Lab Practical]()
 
 ## Module 3: Genome Alignment
 
@@ -140,9 +136,7 @@ Before coming to the workshop, read these:
 
 * We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.ppk).
 
-
-[Lab Practical]()  
-[Lab Practical on GitHub]()
+[Lab Practical]()
 
 ***
 
@@ -154,8 +148,7 @@ Before coming to the workshop, read these:
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1zavCcLwVnzmB-4bbJFjwBySsaltjtopq/view?usp=sharing)
 
-[Lab Practical]()  
-[Lab Practical on GitHub]()
+[Lab Practical]() 
 
 ## Module 5: Structural Variant Calling
 
@@ -163,8 +156,7 @@ Before coming to the workshop, read these:
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/19zaC0qHw_H2tH41b06iyiy05Nrq5Fijo/view?usp=sharing)
 
-[Lab Practical]()  
-[Lab Practical on GitHub]()  
+[Lab Practical]()   
 
 ## Module 6: De Novo Assembly
 
@@ -173,7 +165,6 @@ Before coming to the workshop, read these:
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1dAnxTnVsMxpS_nQysZP3Lmq-SymP1Dc0/view?usp=sharing)
 
 [Lab Practical]()
-[Lab Practical on GitHub]()
 
 [Supplemental]()
 
@@ -300,13 +291,15 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Jüri Reimand</font>* 
 
-[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1g6u3Eo_aa3LnVlOFSrXHItE5ONGKlcui/view?usp=sharing)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1g6u3Eo_aa3LnVlOFSrXHItE5ONGKlcui/view?usp=sharing)  
+
 
 ## Module 13: Finding Over-Represented Pathways
 
 *<font color="#827e9c">Jüri Reimand</font>* 
 
-[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1bmdpYinb52Ok3Wq1xvzOm-iRQ0nAhg4d/view?usp=sharing)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1bmdpYinb52Ok3Wq1xvzOm-iRQ0nAhg4d/view?usp=sharing)  
+
 
 ## Module 13 Lab Practical: Enrichment-Based Analysis - Performing ORA  
 
@@ -314,15 +307,11 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Introduction]()
 
-gProfiler
-
-[Exercise 1]()  
+[Exercise 1 - gProfiler]()  
   
 [Precomputed results for exercise 1]()   
 
-GSEA
-
-[Exercise 2]()  
+[Exercise 2 - GSEA]()  
 
 [Precomputed results for Exercise 2]()  
 
@@ -331,13 +320,15 @@ GSEA
 
 *<font color="#827e9c">Robin Haw</font>* 
 
-[Lecture Part 1](https://drive.google.com/a/bioinformatics.ca/file/d/1jwIGC_5ACs7aHBJdsPBXHeuqlJ6JJRmS/view?usp=sharing)  
+[Lecture Part 1](https://drive.google.com/a/bioinformatics.ca/file/d/1jwIGC_5ACs7aHBJdsPBXHeuqlJ6JJRmS/view?usp=sharing)    
+
 
 ## Module 14 Lab Practical: De novo subnetwork clustering analysis - Reactome  
 
 *<font color="#827e9c">Robin Haw</font>*
 
 [Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1w6BsHN91HQPnqZpArGl6DbsVg3X-HBsO/view?usp=sharing)   
+
 
 ## Integrated Assignment - Day 7  
 
@@ -353,7 +344,8 @@ GSEA
 
 *<font color="#827e9c">Veronique Voisin</font>* 
 
-[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1h6aGFK9YNRDRz6ar5QL59-uI4bXtsSVK/view?usp=sharing)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1h6aGFK9YNRDRz6ar5QL59-uI4bXtsSVK/view?usp=sharing)  
+
 
 ## Module 15 Lab Practical: Cytoscape-Enrichment Map 
 
@@ -361,7 +353,8 @@ GSEA
 
 [Lab Practical - Part 1](https://bioinformaticsdotca.github.io/CSHL_2019_Module15_lab_1) 
 
-[Lab Practical - Part 2](https://bioinformaticsdotca.github.io/CSHL_2019_Module15_lab_2)  
+[Lab Practical - Part 2](https://bioinformaticsdotca.github.io/CSHL_2019_Module15_lab_2)    
+
 
 ## Module 16: Gene Function Prediction
 
@@ -379,7 +372,8 @@ GSEA
 
 *<font color="#827e9c">Michael Hoffman</font>* 
 
-[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1EvvRPFQUukqoNBH_6jLlOVaCyk4_RrzY/view?usp=sharing)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1EvvRPFQUukqoNBH_6jLlOVaCyk4_RrzY/view?usp=sharing)  
+
 
 ## Module 17 Lab Practical: iRegulon
 
@@ -388,6 +382,8 @@ GSEA
 [Lab lecture]() 
 
 [Lab practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module17_lab)  
+
+
 
 [Precomputed results cys file]() and [Precomputed results irf file]()  
 
@@ -399,7 +395,8 @@ To use the precomputed results:
 
 3) go to App > iRegulon > 'Load results from the iregulon_results.irf file'  
   
-[Download a zip file of the git repo here]()  
+[Download a zip file of the git repo here]()   
+
 
 ## Integrated Assignment - Day 7  
 
