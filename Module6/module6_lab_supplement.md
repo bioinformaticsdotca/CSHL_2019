@@ -1,11 +1,14 @@
 ---
 layout: tutorial_page
-permalink: /HTSeq_2017_module6_lab_supplement
-title: HT-Biology Lab 6
+permalink: /CSHL_2019_Module17_lab_supplemental
+title: HT-Bio
 header1: Workshop Pages for Students
-header2: Informatics on High-Throughput Sequencing Data
-image: /site_images/CBW_High-throughput_icon.jpg
-home: https://bioinformaticsdotca.github.io/htseq_2017
+header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 6 Supplemental
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/CSHL_2019
+description: HT-Bio Module 6 Lab Supplemental
+author: Jared Simpson
+modified: June 27th, 2018
 ---
 
 ## Generating a preqc report for the E. coli data set
