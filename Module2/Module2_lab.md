@@ -1,12 +1,12 @@
 ---
 layout: tutorial_page
-permalink: /HTSeq_2018_module2_lab
-title: HTSeq Lab 2
+permalink: /CSHL_2019_Module2_lab
+title: HT-Bio
 header1: Workshop Pages for Students
-header2: Informatics on High-Throughput Sequencing Data
-image: /site_images/CBW_High-throughput_icon.jpg
-home: https://bioinformaticsdotca.github.io/htseq_2018
-description: HtSeq Lab 2
+header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 2
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/CSHL_2019
+description: HT-Bio Module 2 Lab
 author: Sorana Morrissy and Florence Cavalli
 modified: May 25, 2018
 ---
