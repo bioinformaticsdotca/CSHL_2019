@@ -33,11 +33,11 @@ home: https://bioinformaticsdotca.github.io/CSHL_2019
 | :---: | :---: | :---: | :---: |
 | | **Wednesday, March 13** | | **Thursday, March 14** |
 | 7:30 | <font color="green">*Breakfast*</font> | 7:30 | <font color="green">*Breakfast*</font> |
-| 9:00 | <font color="purple">Module 7: Introduction to RNA Sequencing (Malachi Griffith)</font> | 9:00 | <font color="purple">Module 9: Expression and Differential Expression (Obi Griffith)</font> |
+| 9:00 | <font color="purple">Module 7: Introduction to RNA Sequencing (Malachi Griffith)</font> | 9:00 | <font color="purple">Module 9: Expression and Differential Expression (Christopher Miller)</font> |
 | 10:00 | <font color="green">*Coffee Break*</font> | 10:00 | <font color="green">*Coffee Break*</font> |
 | 10:30 |  <font color="blue">Module 7 Lab</font> | 10:30 |  <font color="blue">Module 9 Lab</font> |
 | 12:30 | <font color="green">*Lunch*</font> | 12:00 | <font color="green">*Lunch*</font> |
-| 1:30 |  <font color="purple">Module 8: RNA-Seq Alignment and Visualization (Obi Griffith)</font> | 1:00 | <font color="purple">Module 10: Reference Free Alignment (Malachi Griffith)</font> |
+| 1:30 |  <font color="purple">Module 8: RNA-Seq Alignment and Visualization (Christopher Miller)</font> | 1:00 | <font color="purple">Module 10: Reference Free Alignment (Malachi Griffith)</font> |
 | | | 2:00 | <font color="purple">Module 11: Isoform Discovery and Alternative Expression (Kelsy Cotto)</font> |
 | 3:00 | <font color="green">*Coffee Break*</font> | 3:30 | <font color="green">*Coffee Break*</font> |
 | 3:30 |  <font color="blue">Module 8 Lab</font> | 4:00 | <font color="blue">Module 11 Lab</font> |
