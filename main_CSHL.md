@@ -184,7 +184,9 @@ Before coming to the workshop, read these:
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1blCvrQ2EJ_nPkpDfuWLzALdskd43-A2B/view?usp=sharing)
 
-[Lab Practical]()
+## Module 7 Lab Practical  
+
+*<font color="#827e9c">Malachi Griffith</font>*
 
   [Installation](https://github.com/griffithlab/rnaseq_tutorial/wiki/Installation)
   
@@ -201,11 +203,13 @@ Before coming to the workshop, read these:
 
 ## Module 8: RNA-seq Alignment and Visualization
 
-*<font color="#827e9c">Obi Griffith</font>* 
+*<font color="#827e9c">Christopher Miller</font>* 
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/11mznj7y9IbV7sOnihZAIyYv-nwHZNWmk/view?usp=sharing)
 
-[Lab Practical]()
+## Module 8 Lab Practical  
+
+*<font color="#827e9c">Christopher Miller</font>*
 
   [Adapter Trim](https://github.com/griffithlab/rnaseq_tutorial/wiki/Adapter-Trim)
   
@@ -233,11 +237,13 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 ## Module 9: Expression and Differential Expression
 
-*<font color="#827e9c">Obi Griffith</font>* 
+*<font color="#827e9c">Christopher Miller</font>* 
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1NWq-8OupdSDoN-ZNaKc6B80d2XrS9nwD/view?usp=sharing)
 
-[Lab Practical]()
+## Module 9 Lab Practical  
+
+*<font color="#827e9c">Christopher Miller</font>*
 
  [Expression](https://github.com/griffithlab/rnaseq_tutorial/wiki/Expression)
  
@@ -251,7 +257,9 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1rGHVI0-ev_LQxCKs5UcD57pEfWJyD67X/view?usp=sharing)
 
-[Lab Practical]()
+## Module 10 Lab Practical  
+
+*<font color="#827e9c">Malachi Griffith</font>*
 
 [Kallisto](https://github.com/griffithlab/rnaseq_tutorial/wiki/Kallisto)  
 
@@ -261,7 +269,9 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1mn1dp2YX4hrSkDpo6BPzGca84In5CEMC/view?usp=sharing)
 
-[Lab Practical]()
+## Module 11 Lab Practical  
+
+*<font color="#827e9c">Kelsy Cotto</font>*
 
   [Ref Guided](https://github.com/griffithlab/rnaseq_tutorial/wiki/Reference-Guided-Transcript-Assembly)
   
