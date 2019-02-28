@@ -124,7 +124,7 @@ Before coming to the workshop, read these:
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1CYJpWRQI4wG1BkhHFialbxYibZm4yQK_/view?usp=sharing)
 
-[Lab Practical]()
+[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module2_lab)
 
 ## Module 3: Genome Alignment
 
