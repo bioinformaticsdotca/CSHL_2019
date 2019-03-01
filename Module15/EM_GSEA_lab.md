@@ -105,7 +105,7 @@ Create an enrichment map
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EMinput.png?raw=true" width="750" />
 
-2b. Specify the following parameters:
+2b. Specify the following parameters and upload the specified files:
 
 *	*Name*: leave default or a name of your choice like "GSEAmap"
 
@@ -132,7 +132,7 @@ Create an enrichment map
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EMinput2.png?raw=true" alt="EM" width="750" />
 
 ###IMPORTANT### 
-We populated the fields manually. If you work with your own data, a way to populate automatically the fields is to drag and drop your GSEA folder in the 'Data Set' window. You are encouraged to give it a try once you finished the lab.
+We populated the fields manually. If you work with your own data, a way to populate automatically the fields is to drag and drop your GSEA folder in the 'Data Set' window. You are encouraged to give it a try once you finished the lab with your own GSEA results.
 
 
 Unformatted results:
