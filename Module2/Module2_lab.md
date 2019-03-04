@@ -293,8 +293,8 @@ Navigate to region "chr21:19,089,694-19,095,362"
   * Region is flanked by reads with poor mapping quality (white instead of grey)
   * Presence of reads with pairs on other chromosomes (coloured reads at the bottom when scrolling down)
 
-## Optional
-## Visualization Part 3: Automating Tasks in IGV
+# Optional
+# Visualization Part 3: Automating Tasks in IGV
 
 We can use the Tools menu to invoke running a batch script. Using a batch script, you can automatically load your data, go to a particular location, set some display options and take a snapshot. This can be useful when you want to inspect many variant calls.
 
@@ -317,5 +317,42 @@ Now run the file from the Tools menu:
 * IGV will auotmatically switch to the regions specified in the batch script. Wait until the cursor returns to an arrow to use IGV again.
 
 The IGV screenshots are in the screenshots output directory you set. Have a look!
+
+# Visualization Part 4: Visualizing Long Reads
+
+Long reads aligned to a reference genome can be visualized like short reads, but true variants might be hard to find among the noise from increased sequencing error rates in long-read sequencing technologies. We will view some reads obtained from Oxford Nanopore sequencing provided by [Miten Jain](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-genome/rel_3_4.md) from the recent publication [Nanopore sequencing and assembly of a human genome with ultra-long reads](https://www.nature.com/articles/nbt.4060). 
+
+Before getting started, **remove the tracks for HCC1143.normal.21.19M-20M.bam (both the alignment track and the coverage track)**. We will be using a different reference genome, so these reads will no longer be properly aligned. 
+
+### Data for long reads:
+* Chromosome 21: 19,000,000-20,000,000
+* [NA12878.21.19M-20M.bam](TODO: add link)
+* [NA12878.21.19M-20M.bam.bai](TODO: add link)
+
+Copy the files to your local drive, and in IGV choose File > Load from File, select the bam file, and click OK. Note that the bam and index files must be in the same directory for IGV to load these properly, but only the bam file (not the bam.bai file) needs to be loaded into IGV.
+
+Change the reference genome in the top right corner to **Human (hg38)**. If this option isn't available you will need to download it. Selct *More*, then scroll down and select *Human hg38*.
+
+## Cleaning up Sequencing Error Noise
+
+Navigate to position "chr21:19,479,237-19,479,814"
+
+* Load the Common SNPs track from server (*File -> Load from Server -> Annotations -> Common Snps 1.4.2*)
+
+**Question:**
+* What does the abundance of dashed lines and purple "I"s tell us about the types of errors produced by nanopore sequencing?
+
+Hide small indels to better view the alignments:
+* Go to *View -> Preferences -> Alignments* and enter a small number for *Hide indels <* (e.g., 20)
+* Most of the indels should now be removed.
+
+Generate a consensus sequence to hide substitution errors:
+* Go *View -> Preferences -> Alignments* and select *Quick consensus mode*
+
+**Questions:**
+* Scroll around and see if you can find a plausible SNV. What information are you using as evidence for this SNV?
+* Some of the coloring options we used for viewing the previous sample (HCC1143) are not available for this NA12878 bam, such as *View as pairs* and *Color alignments by insert size and pair orientation*. Why is this?
+
+#
 
 **You're done!** We hope that you enjoyed the lab and that you continue to enjoy IGV.
