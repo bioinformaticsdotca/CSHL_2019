@@ -188,17 +188,17 @@ Before coming to the workshop, read these:
 
 *<font color="#827e9c">Malachi Griffith</font>*
 
-  [Installation](https://github.com/griffithlab/rnaseq_tutorial/wiki/Installation)
+  [Installation](https://rnabio.org/module-00-setup/0000/08/01/Installation/)
   
-  [Reference Genomes](https://github.com/griffithlab/rnaseq_tutorial/wiki/Reference-Genome)
+  [Reference Genomes](https://rnabio.org/module-01-inputs/0001/02/01/Reference_Genomes/)
   
-  [Annotations](https://github.com/griffithlab/rnaseq_tutorial/wiki/Annotation)
+  [Annotations](https://rnabio.org/module-01-inputs/0001/03/01/Annotations/)
   
-  [Indexing](https://github.com/griffithlab/rnaseq_tutorial/wiki/Indexing)
+  [Indexing](https://rnabio.org/module-01-inputs/0001/04/01/Indexing/)
   
-  [Data](https://github.com/griffithlab/rnaseq_tutorial/wiki/RNAseq-Data)
+  [Data](https://rnabio.org/module-01-inputs/0001/05/01/RNAseq_Data/)
   
-  [Data QC](https://github.com/griffithlab/rnaseq_tutorial/wiki/PreAlignment-QC)
+  [Data QC](https://rnabio.org/module-01-inputs/0001/06/01/Pre-alignment_QC/)
 
 
 ## Module 8: RNA-seq Alignment and Visualization
@@ -211,15 +211,17 @@ Before coming to the workshop, read these:
 
 *<font color="#827e9c">Christopher Miller</font>*
 
-  [Adapter Trim](https://github.com/griffithlab/rnaseq_tutorial/wiki/Adapter-Trim)
+  [Adapter Trim](https://rnabio.org/module-02-alignment/0002/02/01/Adapter_Trim/)
   
-  [Alignment](https://github.com/griffithlab/rnaseq_tutorial/wiki/Alignment)
-  
-  [IGV](https://github.com/griffithlab/rnaseq_tutorial/wiki/IGV-Tutorial)
+  [Alignment](https://rnabio.org/module-02-alignment/0002/03/01/Alignment/)
 
-  [Alignment Visualization](https://github.com/griffithlab/rnaseq_tutorial/wiki/PostAlignment-Visualization)
+  [Alignment Visualization](https://rnabio.org/module-02-alignment/0002/04/01/Alignment_Visualization/)
   
-  [Alignment QC](https://github.com/griffithlab/rnaseq_tutorial/wiki/PostAlignment-QC)
+  [Alignment QC](https://rnabio.org/module-02-alignment/0002/05/01/Alignment_QC/)
+  
+  [IGV](https://rnabio.org/module-02-alignment/0002/06/01/IGV/)
+
+
 
 ## Integrated Assignment - Day 3
 
@@ -227,9 +229,9 @@ Before coming to the workshop, read these:
 
 Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by deep sequencing](http://www.ncbi.nlm.nih.gov/pubmed/21571633)
 
-[Assignment Questions](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment)
+[Assignment Questions](https://rnabio.org/module-08-appendix/0008/06/01/Integrated_Assignment/)
 
-[Assignment Answers](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment-Answers)  
+[Assignment Answers](https://rnabio.org/module-08-appendix/0008/07/01/Integrated_Assignment_Answers/)  
 
 ***
 
@@ -245,11 +247,11 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 *<font color="#827e9c">Christopher Miller</font>*
 
- [Expression](https://github.com/griffithlab/rnaseq_tutorial/wiki/Expression)
+ [Expression](https://rnabio.org/module-03-expression/0003/02/01/Expression/)
  
- [Differential Expression](https://github.com/griffithlab/rnaseq_tutorial/wiki/Differential-Expression)
+ [Differential Expression](https://rnabio.org/module-03-expression/0003/03/01/Differential_Expression/)
  
- [DE Visualization](https://github.com/griffithlab/rnaseq_tutorial/wiki/DE-Visualization)
+ [DE Visualization](https://rnabio.org/module-03-expression/0003/04/01/DE_Visualization/)
 
 ## Module 10: Reference Free Alignment
 
@@ -261,7 +263,7 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 *<font color="#827e9c">Malachi Griffith</font>*
 
-[Kallisto](https://github.com/griffithlab/rnaseq_tutorial/wiki/Kallisto)  
+[Kallisto](https://rnabio.org/module-04-kallisto/0004/02/01/Alignment_Free_Kallisto/)  
 
 ## Module 11: Isoform Discovery and Alternative Expression
 
@@ -273,25 +275,25 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 *<font color="#827e9c">Kelsy Cotto</font>*
 
-  [Ref Guided](https://github.com/griffithlab/rnaseq_tutorial/wiki/Reference-Guided-Transcript-Assembly)
+  [Ref Guided](https://rnabio.org/module-05-isoforms/0005/02/01/Reference_Guided_Transcript_Assembly/)
   
-  [De novo](https://github.com/griffithlab/rnaseq_tutorial/wiki/de-novo-Transcript-Assembly)
+  [De novo](https://rnabio.org/module-05-isoforms/0005/03/01/De_Novo_Transcript/)
   
-  [Merging](https://github.com/griffithlab/rnaseq_tutorial/wiki/Transcript-Assembly-Merge)
+  [Merging](https://rnabio.org/module-05-isoforms/0005/04/01/Transcript_Assembly_Merge/)
   
-  [Differential Splicing](https://github.com/griffithlab/rnaseq_tutorial/wiki/Differential-Splicing)
+  [Differential Splicing](https://rnabio.org/module-05-isoforms/0005/05/01/Differential-Splicing/)
   
-  [Splicing Visualization](https://github.com/griffithlab/rnaseq_tutorial/wiki/Transcript-Assembly-Visualization)
+  [Splicing Visualization](https://rnabio.org/module-05-isoforms/0005/06/01/Transcript_Assembly_Visualization/)
 
 ## Integrated Assignment - Day 4
 
-[Assignment Questions](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment)  
+[Assignment Questions](https://rnabio.org/module-08-appendix/0008/06/01/Integrated_Assignment/)  
 
-[Assignment Answers](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment-Answers)  
+[Assignment Answers](https://rnabio.org/module-08-appendix/0008/07/01/Integrated_Assignment_Answers/)  
 
 ## Keeping Up-to-date with RNA-Seq Analysis Developments
 
-For additional resources, tutorials, future directions, and more please refer to the [RNA-seq wiki](http://www.rnaseq.wiki/)
+For additional resources, tutorials, future directions, and more please refer to the [RNA-seq tutorial](https://rnabio.org/)
 
 ***
 
