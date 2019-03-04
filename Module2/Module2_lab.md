@@ -101,7 +101,7 @@ When loaded, tracks are stacked on top of each other. You can identify which tra
 
 ## Region Lists
 
-Sometimes it's really useful to save where you are, or to load regions of interest. For this purpose, there is A **Region Navigator** in IGV. To access it, click Regions > Region Navigator. While you browse around the genome, you can save some bookmarks by pressing the Add button at any time.
+Sometimes it's really useful to save where you are, or to load regions of interest. For this purpose, there is a **Region Navigator** in IGV. To access it, click *Regions > Region Navigator*. While you browse around the genome, you can save some bookmarks by pressing the **Add** button at any time.
 
 ![Bookmarks in IGV.](https://bioinformatics-ca.github.io/images/Igv-bookmarks.png)
 
@@ -116,11 +116,11 @@ We will be using the breast cancer cell line HCC1143 to visualize alignments.  F
 
 *Note: these are the same files listed at the top of tutorial.*
 
-Copy the files to your local drive, and in IGV choose **File > Load from File...**, select the bam file, and click **OK**.  Note that the bam and index files must be in the same directory for IGV to load these properly, but only the bam file (not the bam.bai file) needs to be loaded into IGV.
+Copy the files to your local drive, and in IGV choose *File > Load from File*, select the bam file, and click **OK**.  Note that the bam and index files must be in the same directory for IGV to load these properly, but only the bam file (not the bam.bai file) needs to be loaded into IGV.
 
 ![Load BAM track from File](https://bioinformatics-ca.github.io/images/Igv_load_bam.png)
 
-## Visualizing read alignments
+## Visualizing Read Alignments
 
 Navigate to a narrow window on chromosome 21: "chr21:19,480,041-19,480,386". 
 
@@ -145,7 +145,7 @@ Once you select a read, you will learn what many of these metrics mean, and how 
 
 In this section we will be looking in detail at 8 positions in the genome, and determining whether they represent real events or artifacts.
 
-## Neighbouring somatic SNV and germline SNP 
+## Neighbouring Somatic SNV and Germline SNP 
 
 Navigate to position "chr21:19,479,237-19,479,814"
 
@@ -165,7 +165,7 @@ Navigate to position "chr21:19,479,237-19,479,814"
  * What does Shade base by quality do? How might this be helpful?
  * How does Color by "read strand" help?
 
-## Homopolymer repeat with indel 
+## Homopolymer Repeat with Indel 
 
 Navigate to position "chr21:19,518,412-19,518,497"
 
@@ -198,8 +198,8 @@ Note that the range contains areas where coverage drops to zero in a few places.
 
  * Use Collapsed view
  * Color alignments by "insert size"
- * load GC track (if not loaded already; *File -> Load from Server -> Annotations -> Sequence and Regulations -> GC Percentage*)
-   * see concordance of coverage with GC content
+ * Load GC track (if not loaded already; *File -> Load from Server -> Annotations -> Sequence and Regulations -> GC Percentage*)
+   * See concordance of coverage with GC content
 
 ![Example3](https://bioinformatics-ca.github.io/images/Igv_example3.png)
 
@@ -207,7 +207,7 @@ Note that the range contains areas where coverage drops to zero in a few places.
  
  * Why are there blue and red reads throughout the alignments?
 
-## Heterozygous SNPs on different alleles 
+## Heterozygous SNPs on Different Alleles 
 
 Navigate to region "chr21:19,666,833-19,667,007"
   
@@ -221,12 +221,12 @@ Navigate to region "chr21:19,666,833-19,667,007"
  
  * Linkage between alleles is obvious in this case because both SNV positions are spanned by single reads, but reads only have either one or the other
 
-## Low mapping quality 
+## Low Mapping Quality 
 
 Navigate to region "chr21:19,800,320-19,818,162"
 
 * Use Collapsed view
-* Load repeat track (*from Load from Server*)
+* Load repeat track (from *Load from Server*)
 
 ![Load repeats](https://github.com/bioinformaticsdotca/HT-Biology_2017/raw/master/HtSeq/img/igv_RepeatMasker_load.png)
 <!---(https://bioinformatics-ca.github.io/images/Igv_load_repeats.png)-->
@@ -241,7 +241,7 @@ Navigate to region "chr21:19,800,320-19,818,162"
 
  * Why do LINE elements affect mapping quality?
 
-## Homozygous deletion 
+## Homozygous Deletion 
 
 Navigate to region "chr21:19,324,469-19,331,468"
 
@@ -261,7 +261,7 @@ Navigate to region "chr21:19,324,469-19,331,468"
 
  * What other track provides evidence of a deletion at this location?
 
-## Mis-alignment 
+## Mis-Alignment 
 
 Navigate to region "chr21:19,102,154-19,103,108"
 * Turn on "View as Pairs" and "Expanded" view
@@ -293,7 +293,8 @@ Navigate to region "chr21:19,089,694-19,095,362"
   * Region is flanked by reads with poor mapping quality (white instead of grey)
   * Presence of reads with pairs on other chromosomes (coloured reads at the bottom when scrolling down)
 
-## Optional- Visualization Part 3: Automating Tasks in IGV
+## Optional
+## Visualization Part 3: Automating Tasks in IGV
 
 We can use the Tools menu to invoke running a batch script. Using a batch script, you can automatically load your data, go to a particular location, set some display options and take a snapshot. This can be useful when you want to inspect many variant calls.
 
