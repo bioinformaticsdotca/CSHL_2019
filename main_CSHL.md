@@ -136,7 +136,7 @@ Before coming to the workshop, read these:
 
 * We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.ppk).
 
-[Lab Practical]()
+[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module3_lab)
 
 ***
 
@@ -148,7 +148,7 @@ Before coming to the workshop, read these:
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1zavCcLwVnzmB-4bbJFjwBySsaltjtopq/view?usp=sharing)
 
-[Lab Practical]() 
+[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module4_lab) 
 
 ## Module 5: Structural Variant Calling
 
@@ -156,7 +156,7 @@ Before coming to the workshop, read these:
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/19zaC0qHw_H2tH41b06iyiy05Nrq5Fijo/view?usp=sharing)
 
-[Lab Practical]()   
+[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module5_lab)   
 
 ## Module 6: De Novo Assembly
 
