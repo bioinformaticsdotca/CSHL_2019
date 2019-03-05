@@ -17,7 +17,7 @@ modified: March 5, 2019
 
 -----------------------
 
-# CBW HT-seq Module 3 - Genome Alignment   
+# CSHL-CBW HT-Bio Module 3 - Genome Alignment   
 
  
 by Mathieu Bourgey, _Ph.D_
