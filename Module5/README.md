@@ -1,11 +1,14 @@
 ---
 layout: tutorial_page
-permalink: /htseq_2019_module5_lab
-title: HTSeq Lab 5
+permalink: /CSHL_2019_Module5_lab
+title: HT-Bio
 header1: Workshop Pages for Students
-header2: Informatics on High-Throughput Sequencing Data Module 5 Lab
-image: /site_images/CBW_High-throughput_icon.jpg
-home: https://bioinformaticsdotca.github.io/htseq_2018
+header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 5
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/CSHL_2019
+description: HT-Bio Module 5 Lab
+author: Mathieu Bourgey
+modified: March 5, 2019
 ---
 
 -----------------------
@@ -14,7 +17,7 @@ home: https://bioinformaticsdotca.github.io/htseq_2018
 
 -----------------------
 
-# CBW HT-seq Module 5 - Structural Variant Calling   
+# CSHL-CBW HT-Bio Module 5 - Structural Variant Calling   
 
  
 by Mathieu Bourgey, _Ph.D_
