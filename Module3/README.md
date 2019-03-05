@@ -1,11 +1,14 @@
 ---
 layout: tutorial_page
-permalink: /htseq_2019_module3_lab
-title: HTSeq Lab 3
+permalink: /CSHL_2019_Module3_lab
+title: HT-Bio
 header1: Workshop Pages for Students
-header2: Informatics on High-Throughput Sequencing Data Module 3 Lab
-image: /site_images/CBW_High-throughput_icon.jpg
-home: https://bioinformaticsdotca.github.io/htseq_2018
+header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 3
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/CSHL_2019
+description: HT-Bio Module 3 Lab
+author: Mathieu Bourgey
+modified: March 5, 2019
 ---
 
 -----------------------
