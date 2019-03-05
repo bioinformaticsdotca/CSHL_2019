@@ -170,6 +170,8 @@ Before coming to the workshop, read these:
 
 ## Integrated Assignment - Day 2
 
+*<font color="827e9c">Heather Gibling</font>*
+
 [Integrated Assignment]()
 
 ***
@@ -287,6 +289,8 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 ## Integrated Assignment - Day 4
 
+*<font color="827e9c">Kelsy Cotto</font>*
+
 [Assignment Questions](https://rnabio.org/module-08-appendix/0008/06/01/Integrated_Assignment/)  
 
 [Assignment Answers](https://rnabio.org/module-08-appendix/0008/07/01/Integrated_Assignment_Answers/)  
@@ -342,7 +346,7 @@ For additional resources, tutorials, future directions, and more please refer to
 [Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1w6BsHN91HQPnqZpArGl6DbsVg3X-HBsO/view?usp=sharing)   
 
 
-## Integrated Assignment - Day 7  
+## Integrated Assignment - Day 5  
 
 [Integrated Assignment](https://bioinformaticsdotca.github.io/CSHL_2019_IA_Day5)
 
