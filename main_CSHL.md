@@ -148,7 +148,7 @@ Before coming to the workshop, read these:
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1zavCcLwVnzmB-4bbJFjwBySsaltjtopq/view?usp=sharing)
 
-[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module4_lab) 
+[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module4_lab)
 
 ## Module 5: Structural Variant Calling
 
