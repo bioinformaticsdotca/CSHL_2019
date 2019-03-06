@@ -134,9 +134,11 @@ Before coming to the workshop, read these:
 
 [Lab Practical: Connecting to the Cloud](https://drive.google.com/a/bioinformatics.ca/file/d/1xeYxecTL4ZtPGPjhPFOKy68Us3c2RtJQ/view?usp=sharing)  
 
-* We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.ppk).
+* We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://main.oicrcbw.ca/private/CBWNY.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://main.oicrcbw.ca/private/CBWNY.ppk).
 
-[Lab Practical]()
+* Detail instructions can be found [here](https://bioinformaticsdotca.github.io/AWS_setup).
+
+[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module3_lab)
 
 ***
 
@@ -148,7 +150,7 @@ Before coming to the workshop, read these:
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1zavCcLwVnzmB-4bbJFjwBySsaltjtopq/view?usp=sharing)
 
-[Lab Practical]() 
+[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module4_lab)
 
 ## Module 5: Structural Variant Calling
 
@@ -156,7 +158,7 @@ Before coming to the workshop, read these:
 
 [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/19zaC0qHw_H2tH41b06iyiy05Nrq5Fijo/view?usp=sharing)
 
-[Lab Practical]()   
+[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module5_lab)   
 
 ## Module 6: De Novo Assembly
 
@@ -169,6 +171,8 @@ Before coming to the workshop, read these:
 [Supplemental](https://bioinformaticsdotca.github.io/CSHL_2019_Module6_lab_supplemental)
 
 ## Integrated Assignment - Day 2
+
+*<font color="827e9c">Heather Gibling</font>*
 
 [Integrated Assignment]()
 
@@ -287,6 +291,8 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 ## Integrated Assignment - Day 4
 
+*<font color="827e9c">Kelsy Cotto</font>*
+
 [Assignment Questions](https://rnabio.org/module-08-appendix/0008/06/01/Integrated_Assignment/)  
 
 [Assignment Answers](https://rnabio.org/module-08-appendix/0008/07/01/Integrated_Assignment_Answers/)  
@@ -342,7 +348,7 @@ For additional resources, tutorials, future directions, and more please refer to
 [Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1w6BsHN91HQPnqZpArGl6DbsVg3X-HBsO/view?usp=sharing)   
 
 
-## Integrated Assignment - Day 7  
+## Integrated Assignment - Day 5  
 
 [Integrated Assignment](https://bioinformaticsdotca.github.io/CSHL_2019_IA_Day5)
 
