@@ -8,7 +8,7 @@ image: /site_images/CBW-CSHL-graphic-square.png
 home: https://bioinformaticsdotca.github.io/CSHL_2019
 description: HT-Bio Module 6 Lab
 author: Jared Simpson
-modified: May 26th, 2018
+modified: March 5th, 2019
 ---
 
 # Genome Assembly for short and long reads
@@ -17,7 +17,7 @@ by [Jared Simpson](https://simpsonlab.github.io)
 
 ## Introduction
 
-In this lab we will perform de novo genome assembly of a bacterial genome. You will be guided through the genome assembly starting with data quality control, through to building contigs and analysis of the results. At the end of the lab you will know:
+In this lab we will perform de novo genome assembly of a bacterial genome using three different sequencing technologies. You will be guided through the genome assembly starting with data quality control, through to building contigs and analysis of the results. At the end of the lab you will know:
 
 1. How to perform basic quality checks on the input data
 2. How to run a short read assembler on Illumina data
@@ -84,27 +84,30 @@ The N50 statistic is the most commonly used measure of assembly contiguity. An N
 
 ## E. coli Genome Assembly with Long Reads
 
-Now, we'll use long sequencing reads to assemble the E. coli genome. Long sequencing reads are better at resolving repeats and typically give much more contiguous assemblies. Long reads have a much higher error rate than short reads though, so we need to use a different assembly strategy. In this tutorial, we'll use [canu](https://github.com/marbl/canu) to assemble the 25X PacBio dataset. The canu assembly of the pacbio data should take about 15 minutes on your computer (maybe take a break while it is running).  Run this command to generate the assembly:
+Now, we'll use long sequencing reads to assemble the E. coli genome. Long sequencing reads are better at resolving repeats and typically give much more contiguous assemblies. Long reads have a much higher error rate than short reads though, so we need to use a different assembly strategy. In this tutorial, we'll use [canu](https://github.com/marbl/canu) to assemble the 100X PacBio dataset. The canu assembly of the pacbio data should take about 15 minutes on your computer (maybe take a break while it is running).  Run this command to generate the assembly:
 
 ```
-canu gnuplotTested=true -p ecoli-pacbio-canu -d ecoli-pacbio-auto genomeSize=4.6m -pacbio-raw ecoli.pacbio.25x.fastq
+canu -fast -p ecoli-pacbio-canu -d ecoli-pacbio-auto genomeSize=1.0m -pacbio-raw ecoli.pacbio.100x.fastq
 ```
 
 When it completes, copy the Pacbio assembly to our results directory:
 
 ```
 # Copy the pacbio assembly from canu's directory
-cp ecoli-pacbio-auto/ecoli-pacbio-canu.contigs.fasta assemblies/ecoli.pacbio.25x.canu-contigs.fasta
+cp ecoli-pacbio-auto/ecoli-pacbio-canu.contigs.fasta assemblies/ecoli.pacbio.100x.canu-contigs.fasta
 ```
 
-Our data set also includes a higher-coverage Oxford Nanopore data set (50X). This assembly takes quite a bit longer to run so we won't run it now, you can just copy the results that the instructors generated earlier in the week:
+Our data set also includes an Oxford Nanopore data set. We can assemble the genome using canu, this time providing command line arguments specific to nanopore data.
 
 ```
-# Copy the nanopore assembly that was provided by the instructors
-cp ~/CourseData/HT_data/Module6/results/ecoli-nanopore-canu.contigs.fasta assemblies/ecoli.nanopore.50x.canu-contigs.fasta
+canu -fast -p ecoli-nanopore-canu -d ecoli-nanopore-auto genomeSize=1.0m -nanopore-raw ecoli.nanopore.100x.fastq
 ```
 
-The command used to generate the nanopore assembly can be found [here](https://bioinformaticsdotca.github.io/HTSeq_2017_module6_lab_supplement).
+Now let's copy the assembly:
+
+```
+cp ecoli-nanopore-auto/ecoli-nanopore-canu.contigs.fasta assemblies/ecoli.nanopore.100x.canu-contigs.fasta
+```
 
 ## Assessing the quality of your assemblies using a reference
 
@@ -118,29 +121,45 @@ quast.py -R ~/CourseData/HT_data/Module6/references/ecoli_k12.fasta assemblies/*
 
 Using the web browser for your instance, open the QUAST PDF report and try to determine which of the assemblies was a) the most complete b) the most contiguous and c) the most accurate.
 
-## Improving the Accuracy of the Long Read Assemblies
+## 
 
-As PacBio and Nanopore reads have a higher error rate than Illumina reads it is expected that the long read assemblies has errors in the consensus sequence (mostly insertions and deletions). We can increase the accuracy of our consensus sequence by using more coverage (up to around 100x), or by "polishing" the assembly (inferring a better consensus sequence) with high-accuracy Illumina reads. We'll use [Pilon](https://github.com/broadinstitute/pilon) to calculate a new consensus sequence for our PacBio assembly. First we have to map the Illumina reads to our assembly using bwa.
+Both the nanopore and pacbio assemblies have errors in their consensus sequence as indicated by the "mismatches per 100kb" and "indels per 100kb" lines in the QUAST output. To help improve the accuracy of the assembly, we can use a post-assembly consensus improvement step called "polishing". There are many assembly polishing programs available for both pacbio data (racon, arrow) and nanopore data (nanopolish, racon). To demonstrate polishing we will use a program called `medaka` that is particularly fast and easy to run. While we're only polishing the nanopore assembly today, please note that the pacbio assembly could also be improved.
+
+We're now going to use `medaka` to improve our assembly. Medaka uses a neural network which is trained to calculate a better consensus sequence for nanopore assemblies.
 
 ```
-bwa index assemblies/ecoli.pacbio.25x.canu-contigs.fasta
-bwa mem -t 4 -p assemblies/ecoli.pacbio.25x.canu-contigs.fasta ecoli.illumina.50x.fastq | samtools sort -T tmp -o ecoli.illumina.50x.mapped_to_pacbio_contigs.sorted.bam -
+medaka_consensus -i ecoli.nanopore.100x.fastq -d assemblies/ecoli.nanopore.100x.canu-contigs.fasta -o ecoli_medaka_polished -t 4 -m r941_flip235
+```
+
+Now we can copy the medaka assembly to our output directory:
+
+```
+cp ecoli_medaka_polished/consensus.fasta assemblies/ecoli.nanopore.100x.canu-contigs-polished.fasta
+```
+
+Now, re-run the QUAST step from above:
+
+```
+quast.py -R ~/CourseData/HT_data/Module6/references/ecoli_k12.fasta assemblies/*.fasta
+```
+
+Did the quality of your nanopore assembly improve?
+
+
+## Improving the Accuracy of the Long Read Assemblies using Short Reads
+
+Even after technology-specific polishing our assembly might still have some errors. If we have Illumina data available we can use it to correct our long-read assembly. We'll use [Pilon](https://github.com/broadinstitute/pilon) to calculate a new consensus sequence for our PacBio assembly. First we have to map the Illumina reads to our assembly using bwa.
+
+```
+bwa index assemblies/ecoli.pacbio.100x.canu-contigs.fasta
+bwa mem -t 4 -p assemblies/ecoli.pacbio.100x.canu-contigs.fasta ecoli.illumina.50x.fastq | samtools sort -T tmp -o ecoli.illumina.50x.mapped_to_pacbio_contigs.sorted.bam -
 samtools index ecoli.illumina.50x.mapped_to_pacbio_contigs.sorted.bam
 ```
 
 Now we can run pilon:
 
 ```
-java -Xmx4G -jar /usr/local/pilon/pilon-1.22.jar --genome assemblies/ecoli.pacbio.25x.canu-contigs.fasta --frags ecoli.illumina.50x.mapped_to_pacbio_contigs.sorted.bam --output assemblies/ecoli.pacbio.25x.canu-contigs-pilon
+java -Xmx4G -jar /usr/local/pilon/pilon-1.23.jar --genome assemblies/ecoli.pacbio.100x.canu-contigs.fasta --frags ecoli.illumina.50x.mapped_to_pacbio_contigs.sorted.bam --output assemblies/ecoli.pacbio.100x.canu-contigs-pilon
 ```
 
-Let's also polish the nanopore assembly:
-
-```
-bwa index assemblies/ecoli.nanopore.50x.canu-contigs.fasta
-bwa mem -t 4 -p assemblies/ecoli.nanopore.50x.canu-contigs.fasta ecoli.illumina.50x.fastq | samtools sort -T tmp -o ecoli.illumina.50x.mapped_to_nanopore_contigs.sorted.bam -
-samtools index ecoli.illumina.50x.mapped_to_nanopore_contigs.sorted.bam
-java -Xmx4G -jar /usr/local/pilon/pilon-1.22.jar --genome assemblies/ecoli.nanopore.50x.canu-contigs.fasta --frags ecoli.illumina.50x.mapped_to_nanopore_contigs.sorted.bam --output assemblies/ecoli.nanopore.50x.canu-contigs-pilon
-```
-
-After running pilon on the PacBio and nanopore assemblies, re-run the Quast step to generate a new report including all five assemblies. Did pilon-polishing help the accuracy of the long read assemblies?
+After running pilon finishes, re-run the Quast step to generate a new report. Did pilon-polishing help the accuracy of the long read assembly?
