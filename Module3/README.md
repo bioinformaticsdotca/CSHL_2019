@@ -60,7 +60,7 @@ Read these [directions](http://bioinformaticsdotca.github.io/AWS_setup) for info
 These are all already installed, but here are the original links.
 
   * [BVATools](http://bitbucket.org/mugqic/bvatools/downloads/)
-  * [SAMTools](http://sourceforge.net/projects/samtools/)
+  * [SAMTools](https://sourceforge.net/projects/samtools/files/samtools/)
   * [BWA](http://bio-bwa.sourceforge.net/)
   * [Genome Analysis ToolKit](http://www.broadinstitute.org/gatk/)
   * [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
