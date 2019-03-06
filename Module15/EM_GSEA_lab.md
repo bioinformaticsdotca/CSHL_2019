@@ -34,7 +34,7 @@ A last optional exercise guides you toward the creation of automatically generat
 ## Data
 
 The data used in this exercise is gene expression data obtained from high throughput RNA sequencing.
-They correspond to Ovarian serous cystadenocarcinoma samples. We use precomputed results of the GSEA analysis [[GSEA part](https://bioinformaticsdotca.github.io/Module15/mod2_lab_GSEA.md)] to create an enrichment map with the aim to transform the tabular format in a network to better visualize the relationships between the significant gene-sets:
+They correspond to Ovarian serous cystadenocarcinoma samples. We use precomputed results of the GSEA analysis [[GSEA part](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/Module15/mod2_lab_GSEA.md)] to create an enrichment map with the aim to transform the tabular format in a network to better visualize the relationships between the significant gene-sets:
 
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/workflow.png?raw=true" alt="workflow" width="750" />
