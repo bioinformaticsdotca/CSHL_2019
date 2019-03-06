@@ -27,7 +27,7 @@ Before starting the exercises, download the files:
 
 *	[prostate_cancer_genemania_network.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module6_lab/prostate_cancer_genemania_network.txt)
 
-Note: in case the iRegulon server is not working, it is possible to work with precomputed results. Please look at the instructions on the course wiki.
+Note: in case the iRegulon server is not working, it is possible to work with precomputed results. Please look at the instructions at the bottom of this page.
 
 
 ## Exercise 1. Detect regulons from co-expressed genes
@@ -563,6 +563,14 @@ Cytoscape now displays the two networks in the same window, linked by the two ge
 
 
 #### END  OF EXERCISE
+
+### Use or precomputed iRegulon results:
+
+1) launch Cytoscape
+
+2) open the "prostate_cancer_genemania_network.cys" file
+
+3) go to App > iRegulon > 'Load results from the iregulon_results.irf file'  
 
 
 ### Notes about iRegulon:
