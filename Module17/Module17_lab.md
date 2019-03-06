@@ -46,7 +46,7 @@ Create a network by importing a text file, run iRegulon to detect regulons, expl
 
 2)	Create a network using the  ‘prostate_cancer_genemania_network.txt’ file.
 
-   ●	In the menu bar select ‘File > Import > Network >File…. A file open dialog pops up.
+   ●	In the menu bar select ‘File > Import > Network from File…. A file open dialog pops up.
 
    ●	Browse and locate the prostate_cancer_genemania_network.txt’ file.  Click the ‘Open’ button. An “Import Network From Table” dialog pops up.
 
