@@ -566,6 +566,11 @@ Cytoscape now displays the two networks in the same window, linked by the two ge
 
 ### Use or precomputed iRegulon results:
 
+Download these files on your computer:
+*	[prostate_cancer_genemania_network.cys](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module6_lab/prostate_cancer_genemania_network.cys)
+
+*	[iregulon_results.irf](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module6_lab/iregulon_results.irf)
+
 1) launch Cytoscape
 
 2) open the "prostate_cancer_genemania_network.cys" file
