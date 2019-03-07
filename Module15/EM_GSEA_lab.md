@@ -218,7 +218,7 @@ Optional exercise. Add drug target gene-sets to the network (Add Signature Gene-
 
 5c. Click on "Finish". 
   
-Note: Four additional nodes are now added to the network and visible as yellow triangles. Pink edges represent their overlap with the nodes of our network. These additional nodes represent gene targets of some approved drugs and these genes are either specific of the mesenchymal type (pink edges connected to red nodes) or specific of the immunoreactive type (pink edges connected to blue nodes).
+Note: Four additional nodes are now added to the network and visible as grey diamonds. Dotted orange edges represent their overlap with the nodes of our network. These additional nodes represent gene targets of some approved drugs and these genes are either specific of the mesenchymal type (dotted orange edges connected to red nodes) or specific of the immunoreactive type (dotted orange edges connected to blue nodes).
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/drug1.png?raw=true" alt="EM" width="250" />
 
