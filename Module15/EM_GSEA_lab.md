@@ -257,7 +257,7 @@ Note: The network is now subdivided into clusters that are represented by ellips
 
 Tips: further editing and formatting can be performed on the AutoAnnote results using the *AutoAnnotate Display* in the *Results Panels* located at the right side of the window. For example, it is possible to change Ellipse to Rectangle, uncheck *Scale font by cluster size* and increase the *Font Scale* using the scaling bar.
 
-<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM15.png?raw=true" alt="EM" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/Module15/img/AAStep6dnew.png?raw=true" alt="EM" width="750" />
 
 
 ###SAVE YOUR FILE!###
