@@ -89,9 +89,9 @@ Follow the steps described below at your own pace:
 
 Launch Cytoscape and open EnrichmentMap App
 
-1a. Double click on the Cytoscape icon
+**1a**. Double click on the Cytoscape icon
 
-1b. Open EnrichmentMap App
+**1b**. Open EnrichmentMap App
 
 * In the top menu bar:
 
@@ -105,11 +105,11 @@ A 'Create EnrichmentMap window is not opened.
 
 Create an enrichment map
 
-2a. In the 'Create EnrichmentMap' window, add a dataset of the GSEA type by clicking on the '+' plus sign.
+**2a**. In the 'Create EnrichmentMap' window, add a dataset of the GSEA type by clicking on the '+' plus sign.
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EMinput.png?raw=true" width="750" />
 
-2b. Specify the following parameters and upload the specified files:
+**2b**. Specify the following parameters and upload the specified files:
 
 *	*Name*: leave default or a name of your choice like "GSEAmap"
 
@@ -131,7 +131,7 @@ Create an enrichment map
 
  *	set FDR q-value cutoff to 0.0001 (= only gene-sets significantly enriched at a value of 0.0001 or less will be displayed on the map). Tip: it will be displayed as  1E-04 in the scientific notation. 
 
-2c. Click on *Build*
+**2c**. Click on *Build*
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EMinput2.png?raw=true" alt="EM" width="750" />
 
@@ -139,9 +139,9 @@ Create an enrichment map
 We populated the fields manually. If you work with your own data, a way to populate automatically the fields is to drag and drop your GSEA folder in the 'Data Set' window. You are encouraged to give it a try once you finished the lab with your own GSEA results.
 
 
-Unformatted results:
+**Unformatted results**:
 
-Note: layout will be different for each user (there is a random seed in the layout algorithm) but it does not change the results or interpretation (the connections are the same, only the display is different).
+**Note**: layout will be different for each user (there is a random seed in the layout algorithm) but it does not change the results or interpretation (the connections are the same, only the display is different).
  
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EM3.png?raw=true" alt="EM" width="750" />
 
@@ -154,27 +154,27 @@ General layout of Cytoscape panel: In addition to the main window where the netw
 
 Steps: 
 
-3a. In the Cytocape menu bar, select *View* and * Show Graphic details*. It will turn the squared nodes into circles and the gene-set labels will be visible. 
+**3a**. In the Cytocape menu bar, select *View* and * Show Graphic details*. It will turn the squared nodes into circles and the gene-set labels will be visible. 
   
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM5.png?raw=true" alt="EM" width="350" />
 
-3b: Zoom in or out using + or - in toolbar or scroll button on mouse until you are able to read the labels comfortably.
+**3b**: Zoom in or out using + or - in toolbar or scroll button on mouse until you are able to read the labels comfortably.
  
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM6.png?raw=true" alt="EM" width="350" />
 
-3c:  Use the bird’s eye view (located at the bottom of the control panel) to navigate around the network by moving the blue rectangle using the mouse or trackpad.
+**3c**:  Use the bird’s eye view (located at the bottom of the control panel) to navigate around the network by moving the blue rectangle using the mouse or trackpad.
 
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM7.png?raw=true" alt="EM" width="350" />
   
-3d: Click on an individual node of interest.
+**3d**: Click on an individual node of interest.
 
 For this example, you could use *Integrin signalling pathway*. 
 
 TIP: If you are unable to locate *Integrin signalling pathway*, type "Integrin signalling pathway" in the search box (quotes are important).  Selected nodes appear yellow (or highlighted) in the network.
 
-3e. In the Table Panel in the * EM Heat map* tab change:
+**3e**. In the Table Panel in the * EM Heat map* tab change:
 
 * Expressions: "Row Norm*
 
@@ -189,18 +189,18 @@ Tip: Genes in the heatmap that are highlighted yellowm (rank column)  represent 
 
 Use Filters to automatically select nodes on the map: Move the blue nodes to the left side of the window and the red nodes to the right side of the window.
 
-4a. Locate the *Select* tab from the *Control Panel*.
+**4a**. Locate the *Select* tab from the *Control Panel*.
 
-4b. Click on the + sign to view the menu and select *Column Filter*.
+**4b**. Click on the + sign to view the menu and select *Column Filter*.
 
-4c. From the *Choose column …* box, select *Node: EM1_ES_dataset1* and set filter values from -0.953 and 0 inclusive.
+**4c**. From the *Choose column …* box, select *Node: EM1_ES_dataset1* and set filter values from -0.953 and 0 inclusive.
 
-4d. The blue nodes are now automatically selected. Zoom out to be able to look at the entire network and drag all blue nodes to the left side of the screen.
+**4d**. The blue nodes are now automatically selected. Zoom out to be able to look at the entire network and drag all blue nodes to the left side of the screen.
   
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM9.png?raw=true" alt="EM" width="750" />
 
-4e. Optional. Change *is* to *is not* to select the red nodes.
+**4e**. Optional. Change *is* to *is not* to select the red nodes.
   
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM10.png?raw=true" alt="EM" width="750" />
@@ -212,11 +212,11 @@ Note: the red pathways (nodes) are specific of the mesenchymal phenotype. There 
 
 Optional exercise. Add drug target gene-sets to the network (Add Signature Gene-Sets...).
 
-5a. In Control Panel, go to the EnrichmentMap tab and click on "Add Signature Gene Sets..." located below the white 'Data Sets:' window. A window named "EnrichmentMap: Add Signature Gene Sets (Post-Analysis) is now opened.
+**5a**. In Control Panel, go to the EnrichmentMap tab and click on "Add Signature Gene Sets..." located below the white 'Data Sets:' window. A window named "EnrichmentMap: Add Signature Gene Sets (Post-Analysis) is now opened.
 
-5b. Using the 'Load from File...' button, select the *Human_DrugBank_approved_symbol_selected.gmt* file that you saved on your computer.
+**5b**. Using the 'Load from File...' button, select the *Human_DrugBank_approved_symbol_selected.gmt* file that you saved on your computer.
 
-5c. Click on "Finish". 
+**5c**. Click on "Finish". 
   
 Note: Four additional nodes are now added to the network and visible as grey diamonds. Dotted orange edges represent their overlap with the nodes of our network. These additional nodes represent gene targets of some approved drugs and these genes are either specific of the mesenchymal type (dotted orange edges connected to red nodes) or specific of the immunoreactive type (dotted orange edges connected to blue nodes).
 
@@ -253,11 +253,11 @@ In the case that an *AutoAnnotate* window pops up with the message *AutoAnnotate
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM14.png?raw=true" alt="EM" width="750" />
 
-Note: The network is now subdivided into clusters that are represented by ellipses. Each of these clusters are composed of pathways (nodes) interconnected by many common genes. These pathways represent similar biological processes. The app WordCloud take all the labels of the pathways in one cluster and summarize them as a unique cluster label displayed at the top of each ellipse. 
+**Note**: The network is now subdivided into clusters that are represented by ellipses. Each of these clusters are composed of pathways (nodes) interconnected by many common genes. These pathways represent similar biological processes. The app WordCloud take all the labels of the pathways in one cluster and summarize them as a unique cluster label displayed at the top of each ellipse. 
 
-Tip 1: further editing and formatting can be performed on the AutoAnnote results using the *AutoAnnotate Display* in the *Results Panels* located at the right side of the window. For example, it is possible to change Ellipse to Rectangle, uncheck *Scale font by cluster size* and increase the *Font Scale* using the scaling bar. It is also possible to reduce the length of the cluster label by checking the "Word Wrap" option.
+**Tip 1**: further editing and formatting can be performed on the AutoAnnote results using the *AutoAnnotate Display* in the *Results Panels* located at the right side of the window. For example, it is possible to change Ellipse to Rectangle, uncheck *Scale font by cluster size* and increase the *Font Scale* using the scaling bar. It is also possible to reduce the length of the cluster label by checking the "Word Wrap" option.
 
-Tip 2: The AutoAnnotate window on the left side in Result Panel contains the list of all clusters. Clicking on a cluster label will highlight in yellow all nodes in this cluster. It is then easy to move the nodes using the mouse to avoid cluster overlaps. 
+**Tip 2**: The AutoAnnotate window on the left side in Result Panel contains the list of all clusters. Clicking on a cluster label will highlight in yellow all nodes in this cluster. It is then easy to move the nodes using the mouse to avoid cluster overlaps. 
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/AAStep6dnew.png?raw=true" alt="workflow" width="750" />
 
