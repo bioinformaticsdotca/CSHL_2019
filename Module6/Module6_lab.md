@@ -144,22 +144,3 @@ quast.py -R ~/CourseData/HT_data/Module6/references/ecoli_k12.fasta assemblies/*
 ```
 
 Did the quality of your nanopore assembly improve?
-
-
-## Improving the Accuracy of the Long Read Assemblies using Short Reads
-
-Even after technology-specific polishing our assembly might still have some errors. If we have Illumina data available we can use it to correct our long-read assembly. We'll use [Pilon](https://github.com/broadinstitute/pilon) to calculate a new consensus sequence for our PacBio assembly. First we have to map the Illumina reads to our assembly using bwa.
-
-```
-bwa index assemblies/ecoli.pacbio.100x.canu-contigs.fasta
-bwa mem -t 4 -p assemblies/ecoli.pacbio.100x.canu-contigs.fasta ecoli.illumina.50x.fastq | samtools sort -T tmp -o ecoli.illumina.50x.mapped_to_pacbio_contigs.sorted.bam -
-samtools index ecoli.illumina.50x.mapped_to_pacbio_contigs.sorted.bam
-```
-
-Now we can run pilon:
-
-```
-java -Xmx4G -jar /usr/local/pilon/pilon-1.23.jar --genome assemblies/ecoli.pacbio.100x.canu-contigs.fasta --frags ecoli.illumina.50x.mapped_to_pacbio_contigs.sorted.bam --output assemblies/ecoli.pacbio.100x.canu-contigs-pilon
-```
-
-After running pilon finishes, re-run the Quast step to generate a new report. Did pilon-polishing help the accuracy of the long read assembly?
