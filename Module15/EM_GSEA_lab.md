@@ -75,7 +75,8 @@ To start the lab practical section, first download the files.
 
 4.	Enrichments 1 (GSEA results for the “neg” immunoreactive phenotype) - [gsea_report_for_na_neg_1453222854028.xls](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_GSEA_data/gsea_report_for_na_neg_1453222854028.xls)
 
-5.	Rank file (file that has been used as input to GSEA) - [MesenchymalvsImmunoreactive_edger_ranks.rnk](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_GSEA_data/MesenchymalvsImmunoreactive_edger_ranks.rnk)
+5.	Rank file (file that has been used as input to GSEA) - [MesenchymalvsImmunoreactive_edger_ranks.rnk](https://raw.githubusercontent.com/bioinformaticsdotca/CSHL_2019/master/Module15/MesenchymalvsImmunoreactive_edger_ranks2.rnk)
+      
 
 6.	Classes (define which samples are mesenchymal and which samples are immunoreactive) - [MesenchymalvsImmunoreactive_rnaseq_classes.cls](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_GSEA_data/MesenchymalvsImmunoreactive_rnaseq_classes.cls)
 
