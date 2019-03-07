@@ -121,9 +121,9 @@ quast.py -R ~/CourseData/HT_data/Module6/references/ecoli_k12.fasta assemblies/*
 
 Using the web browser for your instance, open the QUAST PDF report and try to determine which of the assemblies was a) the most complete b) the most contiguous and c) the most accurate.
 
-## 
+## Assembly Polishing
 
-Both the nanopore and pacbio assemblies have errors in their consensus sequence as indicated by the "mismatches per 100kb" and "indels per 100kb" lines in the QUAST output. To help improve the accuracy of the assembly, we can use a post-assembly consensus improvement step called "polishing". There are many assembly polishing programs available for both pacbio data (racon, arrow) and nanopore data (nanopolish, racon). To demonstrate polishing we will use a program called `medaka` that is particularly fast and easy to run. While we're only polishing the nanopore assembly today, please note that the pacbio assembly could also be improved.
+Both the nanopore and pacbio assemblies have errors in their consensus sequence as indicated by the "mismatches per 100kb" and "indels per 100kb" lines in the QUAST output. To help improve the accuracy of the assembly, we can use a post-assembly consensus improvement step called "polishing". There are many assembly polishing programs available for both pacbio data (racon, arrow) and nanopore data (nanopolish, racon). To demonstrate polishing we will use a program called `medaka` that is particularly fast and easy to run. While we're only polishing the nanopore assembly today as a demonstration, please note that the pacbio assembly could also be improved by polishing it with arrow.
 
 We're now going to use `medaka` to improve our assembly. Medaka uses a neural network which is trained to calculate a better consensus sequence for nanopore assemblies.
 
