@@ -345,7 +345,7 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Robin Haw</font>*
 
-[Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1w6BsHN91HQPnqZpArGl6DbsVg3X-HBsO/view?usp=sharing)   
+[Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1M28EnvgxgZG1FW9Wc2UgH4TKwzerd-Gm/view?usp=sharing)   
 
 
 ## Integrated Assignment - Day 5  
@@ -397,7 +397,7 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Veronique Voisin</font>*
 
-[Lab lecture]() 
+[Lab lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1oVpBFW845FoGJ4Ox6tZV6d9cnIyk5k-M/view?usp=sharing) 
 
 [Lab practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module17_lab)  
 

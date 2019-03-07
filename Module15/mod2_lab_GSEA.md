@@ -29,6 +29,10 @@ Learn how to run GSEA and explore the results.
 
 The data used in this exercise is gene expression (transcriptomics) obtained from high-throughput RNA sequencing. They correspond to Ovarian Serous Cystadenocarcinoma samples. This cohort was previously stratified into four distinct expression subtypes [PMID:21720365](http://www.ncbi.nlm.nih.gov/pubmed/21720365) and a subset of the immunoreactive and mesenchymal subtypes are compared to demonstrate the GSEA workflow.
 
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/workflow.png?raw=true" alt="workflow" width="750" />
+
+
 #### How was the data processed?
 
 Gene expression from the TCGA Ovarian serous cystadenocarcinoma RNASeq V2 cohort was downloaded on 2015-05-22 from [cBioPortal for Cancer Genomics](http://www.cbioportal.org/data_sets.jsp). Differential expression for all genes between the mesenchymal and immunoreactive groups was estimated using [edgeR](http://www.ncbi.nlm.nih.gov/pubmed/19910308). The R code used to generate the data and the rank file used in GSEA is included at the bottom of the document in the *Additional information* section. 
