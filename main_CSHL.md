@@ -350,6 +350,10 @@ For additional resources, tutorials, future directions, and more please refer to
 
 ## Integrated Assignment - Day 5  
 
+*<font color="#827e9c">Veronique Voisin</font>* 
+
+[Slides](https://drive.google.com/a/bioinformatics.ca/file/d/1d3QlHGRvEs5Q8tarFYqd_xKbcaYjA5Z3/view?usp=sharing)
+
 [Integrated Assignment](https://bioinformaticsdotca.github.io/CSHL_2019_IA_Day5)
 
 [Integrated Assignment Answers](https://bioinformaticsdotca.github.io/CSHL_2019_IA_Answers_Day5)
