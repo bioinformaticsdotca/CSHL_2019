@@ -231,7 +231,7 @@ Note: Four additional nodes are now added to the network and visible as grey dia
 
 ### Step 6
 
-Optional exercise: Auto-annotate the network with cluster labels.
+Auto-annotate the network with cluster labels.
 
 Important note 1: the Apps WordCloud, ClusterMaker and Autoannotate have to be installed.
 
@@ -239,7 +239,7 @@ Important note 2: if you run step 5, delete the drug targets diamond nodes and a
 select the 4 nodes and associated dotted orange edges by browsing the mouse and click "delete" on your keyboard or in the Cytoscape menu, 'Edit', 'Delete Selected Nodes and Edges'.
 
 
-6a. In the menu bar, select *Apps*, *AutoAnnotate*, *New Annotation Set …*. An *Autoannotate: Create Annotation Set* window pops up. Leave default settings and click on *Create Annotations*.  
+**6a**. In the menu bar, select *Apps*, *AutoAnnotate*, *New Annotation Set …*. An *Autoannotate: Create Annotation Set* window pops up. Leave default settings and click on *Create Annotations*.  
 
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM12.png?raw=true" alt="EM" width="350" />
@@ -262,9 +262,9 @@ Tip 2: The AutoAnnotate window on the left side in Result Panel contains the lis
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/AAStep6dnew.png?raw=true" alt="workflow" width="750" />
 
 
-6a. If your network is dense and clusters are overlapping, there is an option in AutoAnnotate that you can try that expands the network to prevent cluster overlap. In the menu bar, select *Apps*, *AutoAnnotate*, *New Annotation Set …*. An *Autoannotate: Create Annotation Set* window pops up. Check the *Layout network to prevent cluster overlap* and click on *Create Annotations*.  
+**6b**. If your network is dense and clusters are overlapping, there is an option in AutoAnnotate that you can try that expands the network to prevent cluster overlap. In the menu bar, select *Apps*, *AutoAnnotate*, *New Annotation Set …*. An *Autoannotate: Create Annotation Set* window pops up. Check the *Layout network to prevent cluster overlap* and click on *Create Annotations*.  
 
-<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/AA6f.png?raw=true" alt="workflow" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/AA6f.png?raw=true" alt="workflow" width="500" />
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/AA6g.png?raw=true" alt="workflow" width="750" />
 
