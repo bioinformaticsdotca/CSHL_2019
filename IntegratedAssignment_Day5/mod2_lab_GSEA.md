@@ -1,12 +1,12 @@
 ---
 layout: tutorial_page
-permalink: /pathways_2018_module2_lab_2
-title: Pathways
+permalink: /CSHL_2019_IA_Day5
+title: HT-Bio
 header1: Workshop Pages for Students
-header2: Pathway and Network Analysis of Omics Data Lab 2
-image: /site_images/CBW_pathway_icon.jpg
-home: https://bioinformaticsdotca.github.io/pathways_2018
-description: Pathways Module 2 Lab
+header2: High-throughput Biology - From Sequence to Networks 2019 - Integrated Assignment Day 5
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/CSHL_2019
+description: HT-Bio Integrated Assignment Day 5
 author: Veronique Voisin
 modified: June 25th, 2017
 ---
