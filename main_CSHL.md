@@ -323,13 +323,13 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Jüri Reimand and Veronique Voisin</font>*
 
-[Lab Practical]()
+[Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019/Module13/HT-Biology_CSHL2019_Module13_Lab.pdf)
 
-[Genelist_GBM.txt]()  
+[Genelist_GBM.txt](https://bioinformaticsdotca.github.io/CSHL_2019/Module13/Genelist_GBM.txt)  
   
-[Genelist_KIRC.txt]()   
+[Genelist_KIRC.txt](https://bioinformaticsdotca.github.io/CSHL_2019/Module13/Genelist_KIRC.txt)   
 
-[hsapiens.pathways.NAME.gmt]() 
+[hsapiens.pathways.NAME.gmt](https://bioinformaticsdotca.github.io/CSHL_2019/Module13/hsapiens.pathways.NAME.gmt) 
 
 
 ## Module 14: Network Visualization and Analysis with Cytoscape and Reactome  
