@@ -323,15 +323,13 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Jüri Reimand and Veronique Voisin</font>*
 
-[Introduction]()
+[Lab Practical]()
 
-[Exercise 1 - gProfiler]()  
+[Genelist_GBM.txt]()  
   
-[Precomputed results for exercise 1]()   
+[Genelist_KIRC.txt]()   
 
-[Exercise 2 - GSEA]()  
-
-[Precomputed results for Exercise 2]()  
+[hsapiens.pathways.NAME.gmt]() 
 
 
 ## Module 14: Network Visualization and Analysis with Cytoscape and Reactome  
