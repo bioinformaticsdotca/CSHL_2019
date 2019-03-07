@@ -261,6 +261,13 @@ Tip 2: The AutoAnnotate window on the left side in Result Panel contains the lis
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/AAStep6dnew.png?raw=true" alt="workflow" width="750" />
 
+
+6a. If your network is dense and clusters are overlapping, there is an option in AutoAnnotate that you can try that expands the network to prevent cluster overlap. In the menu bar, select *Apps*, *AutoAnnotate*, *New Annotation Set …*. An *Autoannotate: Create Annotation Set* window pops up. Check the *Layout network to prevent cluster overlap* and click on *Create Annotations*.  
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/AA6f.png?raw=true" alt="workflow" width="750" />
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/AA6g.png?raw=true" alt="workflow" width="750" />
+
 ###SAVE YOUR FILE!###
  
 
