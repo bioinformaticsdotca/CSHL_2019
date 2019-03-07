@@ -234,8 +234,9 @@ Note: Four additional nodes are now added to the network and visible as grey dia
 Optional exercise: Auto-annotate the network with cluster labels.
 
 Important note 1: the Apps WordCloud, ClusterMaker and Autoannotate have to be installed.
+
 Important note 2: if you run step 5, delete the drug targets diamond nodes and associated edge before performing step 6:
- * select the 4 nodes and associated dotted orange edges by browsing the mouse and click "delete" on your keyboard or in the Cytoscape menu, 'Edit', 'Delete Selected Nodes and Edges'.
+select the 4 nodes and associated dotted orange edges by browsing the mouse and click "delete" on your keyboard or in the Cytoscape menu, 'Edit', 'Delete Selected Nodes and Edges'.
 
 
 6a. In the menu bar, select *Apps*, *AutoAnnotate*, *New Annotation Set …*. An *Autoannotate: Create Annotation Set* window pops up. Leave default settings and click on *Create Annotations*.  
