@@ -149,7 +149,7 @@ Note: you may get slightly different results as 100 permutations is not enough t
   * Using your GSEA map at q-value 0.01, select all nodes from the extracellular matrix/collagen cluster. Go to Table Panel, and click on the Settings icon (located on the right, shaped like a ship wheel) and click on 'Export as TXT'. Save the text file under the name 'extracellularmatrix_cluster_genes.txt' or use this file [extracellularmatrix_cluster_genes.txt](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/extracellularmatrix_cluster_genes.txt).
  
  2. Import the extracellular matrix genes as a network.
-  * In Cytoscape, go to the menu bar and select, File, Import, Network, File... 
+  * In Cytoscape, go to the menu bar and select, File, Import, Network from File... 
   * Browse your computer and select the 'extracellularmatrix_cluster_genes.txt' file and click on open.
   * An 'Import Network From Table' opens and in the table preview, make sure that the 'Gene'column is the source node (green dot). Click on 'OK'. A 'Confirmation' dialog box saying that 'No edges will be created in the network' opens. Click on 'Yes'.
   
