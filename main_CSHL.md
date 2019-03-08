@@ -321,7 +321,7 @@ For additional resources, tutorials, future directions, and more please refer to
 
 ## Module 13 Lab Practical: Enrichment-Based Analysis - Performing ORA  
 
-*<font color="#827e9c">Jüri Reimand and Veronique Voisin</font>*
+*<font color="#827e9c">Jüri Reimand</font>*
 
 [Lab Practical](https://bioinformaticsdotca.github.io/CSHL_2019/Module13/HT-Biology_CSHL2019_Module13_Lab.pdf)
 
@@ -405,15 +405,9 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Precomputed results cys file]() and [Precomputed results irf file]()  
 
-To use the precomputed results:  
 
-1) launch Cytoscape 
-
-2) open the "prostate_cancer_genemania_network.cys" file 
-
-3) go to App > iRegulon > 'Load results from the iregulon_results.irf file'  
   
-[Download a zip file of the git repo here]()   
+
 
 
 ## Integrated Assignment - Day 7  
@@ -425,5 +419,7 @@ To use the precomputed results:
 [Integrated Assignment Answers](https://bioinformaticsdotca.github.io/CSHL_2019_IA_Answers_Day7)
 
 
+## Post Workshop 
 
+[Download a zip file of the git repo here]()   
 
