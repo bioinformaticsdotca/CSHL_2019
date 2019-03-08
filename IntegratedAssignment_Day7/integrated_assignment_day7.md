@@ -52,7 +52,7 @@ For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were
 
 3.  Choose the databases: GO BP and Reactome.
 
-4.  Set minimum size of functional category to 3 and maximum to 500. Set 2 for the *Size of query/ term intersection*.
+4.  'Set minimum size of functional category to 3 and maximum to 500. Set 2 for the *Size of query/ term intersection*.': ***These options are not available in the current version of g:Profiler. They might be available again in the next release.***. 
 
 5.  Set Benjamini-Hochberg in the 'Significance threshold' box.
 
