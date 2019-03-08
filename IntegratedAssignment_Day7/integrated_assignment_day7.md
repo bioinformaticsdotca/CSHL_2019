@@ -96,20 +96,22 @@ Create an enrichment map to visualize the outputs from g:Profiler. Let's create 
 
 9. In Control Panel and in the 'EnrichmentMap' tab, go to 'Style' and change the 'Chart Data:' to 'Color by Data Set'. Now the nodes are colored in blue for dataset1 and in green for dataset2. 
 
-10.  Try different layouts if you'd like. Zoom in  and move nodes around to be able to read the labels.
-
-11.   Select a node of your choice. When the node is highlighted, the 'EM Heat Map' in 'Table Panel' will display the genes in this pathway that are overlapping with your input gene list. A gray square means that the gene is absent in the dataset.
-Note: you also could create and upload an expression file when you build the enrichment map, and the expression values for each gene in the pathways will be displayed here in the 'EM Heat Map'. 
-
-12.  Click on any edge (the line between nodes). In the 'Table panel' ('EM Heat Map') you should see a heatmap of all genes both gene-sets connected by this edge have in common.
-
-13.  Select several nodes and edges. EM Heat map will show the union of all genes (Genes: All) or genes in common (Genes:Common) in the selected gene sets. 
-
-14.  In Control Panel, go to the EnrichmentMap tab. Change Q-value as well as Edge (Similarity) cutoffs and see how the network changes. Redo the layout. Save the file.
+10. Annotate the network using the AutoAnnotate Apps. 
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/gprofiler_EMinput.png?raw=true" alt="gprofiler_EMinput.png" width="750" />
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/gprofilerEM.png?raw=true" alt="gprofilerEM.png" width="750" />
+
+11.  Try different layouts if you'd like. Zoom in  and move nodes around to be able to read the labels.
+
+12.   Select a node of your choice. When the node is highlighted, the 'EM Heat Map' in 'Table Panel' will display the genes in this pathway that are overlapping with your input gene list. A gray square means that the gene is absent in the dataset.
+Note: you also could create and upload an expression file when you build the enrichment map, and the expression values for each gene in the pathways will be displayed here in the 'EM Heat Map'. 
+
+13.  Click on any edge (the line between nodes). In the 'Table panel' ('EM Heat Map') you should see a heatmap of all genes both gene-sets connected by this edge have in common.
+
+14.  Select several nodes and edges. EM Heat map will show the union of all genes (Genes: All) or genes in common (Genes:Common) in the selected gene sets. 
+
+15.  In Control Panel, go to the EnrichmentMap tab. Change Q-value as well as Edge (Similarity) cutoffs and see how the network changes. Redo the layout. Save the file.
 
 **Question** What conclusions can you make based on these networks?
 
