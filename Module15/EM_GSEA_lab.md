@@ -210,7 +210,7 @@ Note: the red pathways (nodes) are specific of the mesenchymal phenotype. There 
 
 ### Step 5
 
-Optional exercise. Add drug target gene-sets to the network (Add Signature Gene-Sets...).
+Add drug target gene-sets to the network (Add Signature Gene-Sets...).
 
 **5a**. In Control Panel, go to the EnrichmentMap tab and click on "Add Signature Gene Sets..." located below the white 'Data Sets:' window. A window named "EnrichmentMap: Add Signature Gene Sets (Post-Analysis) is now opened.
 
@@ -228,6 +228,7 @@ Note: Four additional nodes are now added to the network and visible as grey dia
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/drug4.png?raw=true" alt="EM" width="750" />
 
+tip: more info using this link: https://enrichmentmap.readthedocs.io/en/latest/PostAnalysis.html
 
 ### Step 6
 
