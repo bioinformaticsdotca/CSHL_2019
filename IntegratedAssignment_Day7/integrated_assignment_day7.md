@@ -133,11 +133,12 @@ and an expression file [BE_vs_NE_expression.txt](https://github.com/bioinformati
 3.  Create an enrichment map:
   * Open Cytoscape and the EnrichmentMap app. The enrichment results are 2 excel files called gsea_report_for_na_neg and gsea_report_for_na_pos within the GSEA folder saved on your computer but you should be able to drag and drop the whole GSEA folder and that will populate the required fields automatically. 
   
-  *  use an FDR q-value cutoff of 0.05. Upload the expression file [BE_vs_NE_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BE_vs_NE_expression.txt)(right click, save link as). 
+  *  use an FDR q-value cutoff of 0.01. Upload the expression file [BE_vs_NE_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BE_vs_NE_expression.txt)(right click, save link as). 
 
 4.  Examine the results as you did for the g:Profiler map (e.g move nodes around, use the slide bar to adjust q value to 0.01 and redo the layout, separate blue and red nodes). Save the file. Save an image. Keep your session open for Part 8.
 
 Optional: Autoannotate your map (see below screenshot for results)
+Note: you may get slightly different results as 100 permutations is not enough to get reliable results. It is better to use 1000 permuatations.
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/BEvsNE_GSEAmap_Q0_01.png?raw=true" alt="GSEA_map.png" width="750" />
 
