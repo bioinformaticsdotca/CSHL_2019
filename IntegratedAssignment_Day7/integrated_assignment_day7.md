@@ -174,7 +174,7 @@ Note: you may get slightly different results as 100 permutations is not enough t
   * go to the Cytoscape menu, Layout, Circular Layout, all Nodes. Feel free to use your own strategy.
  
  7. optional. Import the .rnk file that we use for GSEA []() as attribute and color the nodes accordingly to the score values.
-  * in the menu bar, select, File, Import, File, select the rank file and click on 'Open'. A dialog box ('Import Columns From Table') opens. Uncheck 'Use first line as column names' and click 'OK'. Rename Column2 as 'myscore'. Click 'OK'. 
+  * in the menu bar, select, *File*, *Import*, *Table from File...*, select the rank file and click on 'Open'. A dialog box ('Import Columns From Table') opens. Uncheck 'Use first line as column names' and click 'OK'. Rename Column2 as 'myscore'. Click 'OK'. 
   * in Control Panel, go to Style and in the Node tab, expand the 'Fill Color' tab.  Retrieve and select the 'myscore' column in the 'column' fied. Make sure that the 'Mapping type' is set to 'Continuous Mapping'. The score  should ranged from -13.16 to 13.16. Adjust the color if necessary.
  
  
