@@ -116,7 +116,7 @@ Note: you also could create and upload an expression file when you build the enr
 **Question** What conclusions can you make based on these networks?
 
 
-Optional: when you build the enrichment map using the g:Profiler results, you have the option to upload a .gmt file (downloadable from the g:Profiler website) [in current version, you need to concatenate hsapiens.GO/BP.name.gmt and hsapiens.REAC.name.gmt into one file, for example using the shell cat command: *cat hsapiens.GO/BP.name.gmt hsapiens.REAC.name.gmt > REAC_GO/gmt*)
+Tip: when you build the enrichment map using the g:Profiler results, you have the option to upload a .gmt file (downloadable from the g:Profiler website) [in current version, you need to concatenate hsapiens.GO/BP.name.gmt and hsapiens.REAC.name.gmt into one file, for example using the shell cat command: *cat hsapiens.GO/BP.name.gmt hsapiens.REAC.name.gmt > REAC_GO/gmt*)
 and an expression file [BE_vs_NE_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BE_vs_NE_expression.txt). The .gmt file provides the advantage to show not only the genes that are in your gene list and the enriched pathway (selected node) but all the genes in the original pathway. The expression file will be displayed in the EM Heat Map when a node is selected and it will display expression values for each gene in the selected pathway (selected node). Try it and adapt it to your needs. 
 
 ## PART 7: GSEA (run and create an enrichment map)
