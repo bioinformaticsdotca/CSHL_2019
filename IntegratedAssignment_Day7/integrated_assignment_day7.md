@@ -62,41 +62,27 @@ For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were
 
 8.  **Question:** Is this p-value already corrected for multiple hypothesis testing? What type of correction is used for your current analysis?
 
-## PART 2: run g:Profiler p-value
-
-1.  Re-run the analysis with *User p-value* threshold set to 0.0001. **Question:** What has been changed?
-
-## PART 3: run g:Profiler ordered query
-
-An important feature of g:Profiler is an ability to work with sorted or ranked lists. The top of such a list is given more weight in determining the functional connections to GO:terms and/or pathways (minimum hypergeometric test). Our gene list was initially sorted based on significance (FDR) in an increasing order (most significant genes (smallest FDR) at the top of the list).
-
-1.  Open g:Profiler in a new window and paste genes from [BEonly_genelist.txt](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/BEonly_genelist_v2.txt) .
-
-2.  Use same options as part 2 (*User p-value* threshold set to 0.0001) and select also *Ordered query*.
-
-3. **Question:**  Do you seen any changes in the output in comparison to the analysis of the unordered gene list (PART 2)?
-
-## PART 4: save as Generic Enrichment Map output (BE)
+## PART 2: save as Generic Enrichment Map output (BE)
 
 Now we have to generate an output from the enrichment analysis and save it in appropriate format for EnrichmentMap. Please, change the output type to *Generic Enrichment Map (TAB)*.
 
-Run it using options used in PART 3. Download data in Generic EnrichmentMap (GEM) format and save it on your computer. We will need this file to create an enrichment map.
+Run it using options used in PART 1. Download data in Generic EnrichmentMap (GEM) format and save it on your computer. We will need this file to create an enrichment map.
 
-## PART 5: save as Generic Enrichment Map output (NE)
+## PART 3: save as Generic Enrichment Map output (NE)
 
-Generate and save the Generic EnrichmentMap for genes in [NConly_genelist.txt](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/NEonly_genelist.txt). It contains the genes specific of the normal tissue samples. Run g:Profiler with this list using same options as in PART 4 selecting Generic Enrichment Map (GEM) format as output type. We will need this file for EnrichmentMap.
+Generate and save the Generic EnrichmentMap for genes in [NConly_genelist.txt](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/NEonly_genelist.txt). It contains the genes specific of the normal tissue samples. Run g:Profiler with this list using same options as in PART 1 selecting Generic Enrichment Map (GEM) format as output type. We will need this file for EnrichmentMap.
 
-## PART 6: create an enrichment map
+## PART 4: create an enrichment map
 
 Create an enrichment map to visualize the outputs from g:Profiler. Let's create an EnrichmentMap for the pathways that were enriched by the genes specific of the BE samples and one for the genes specific of the NE samples. 
 
-1. Make sure to rename your g:Profiler results so you know which one is BE and which one is NE. Create a directory and copy the results of your 2 g:Profiler runs ( 1 for BE and 1 fo NE) in this folder. Let's name this folder 'IA_gprofiler_results'. This folder should contains only these 2 files.
+1. Make sure to rename your g:Profiler results so you know which one is BE and which one is NE. 
 
 2.  Open Cytoscape
 
 3.  Go: Apps and click on EnrichmentMap. A 'Create Enrichment Map' dialog box appears.
 
-4.  Drag and Drop your 'IA_gprofiler_results' folder in the 'Data Sets:' window. It populated automatically two data sets on for the BE results and one for the NE results. Make sure that for the 2 datasets the 'Analysis Type' is set to 'Generic/gProfiler' and that the g:Profiler result file has been correctly uploaded in the 'Enrichments' field.
+4.  Drag and Drop the 2 g:Profiler result files in the 'Data Sets:' window. It populated automatically two data sets on for the BE results and one for the NE results. Make sure that for the 2 datasets the 'Analysis Type' is set to 'Generic/gProfiler' and that the g:Profiler result file has been correctly uploaded in the 'Enrichments' field.
 
 5. As 'Network Name', uncheck 'Use Default' and write "BEvsNE" or the name of your choice for this network.
 
@@ -110,16 +96,14 @@ Create an enrichment map to visualize the outputs from g:Profiler. Let's create 
 
 10.  Try different layouts if you'd like. Zoom in  and move nodes around to be able to read the labels.
 
-11. Try to separate blue nodes and green nodes. In 'Control Panel' located at the left style, choose the 'Select' tab. Click on the '+' plus sign to add a column to filter your data. Choose "NodeL:EM1_Colouring" corresponding to the NE datasets. Do not touch the slide bar and click on "Apply" located at the bottom of the tab. Now it has selected all the NE nodes. Click on one NE nodes and drag them all to the one side of the window, apart from the BE nodes. Click once on a blank space of the window to unselect the nodes.
-
-6.   Select a node of your choice. When the node is highlighted, the 'EM Heat Map' in 'Table Panel' will display the genes in this pathway that are overlapping with your input gene list. A gray square means that the gene is absent in the dataset.
+11.   Select a node of your choice. When the node is highlighted, the 'EM Heat Map' in 'Table Panel' will display the genes in this pathway that are overlapping with your input gene list. A gray square means that the gene is absent in the dataset.
 Note: you also could create and upload an expression file when you build the enrichment map, and the expression values for each gene in the pathways will be displayed here in the 'EM Heat Map'. 
 
-7.  Click on any edge (the line between nodes). In the 'Table panel' ('EM Heat Map') you should see a heatmap of all genes both gene-sets connected by this edge have in common.
+12.  Click on any edge (the line between nodes). In the 'Table panel' ('EM Heat Map') you should see a heatmap of all genes both gene-sets connected by this edge have in common.
 
-8.  Select several nodes and edges. EM Heat map will show the union of all genes (Genes: All) or genes in common (Genes:Common) in the selected gene sets. 
+13.  Select several nodes and edges. EM Heat map will show the union of all genes (Genes: All) or genes in common (Genes:Common) in the selected gene sets. 
 
-9.  In Control Panel, go to the EnrichmentMap tab. Change Q-value as well as Edge (Similarity) cutoffs and see how the network changes. Redo the layout. Save the file.
+14.  In Control Panel, go to the EnrichmentMap tab. Change Q-value as well as Edge (Similarity) cutoffs and see how the network changes. Redo the layout. Save the file.
 
 **Question** What conclusions can you make based on these networks?
 
