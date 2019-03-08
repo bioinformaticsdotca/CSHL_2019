@@ -290,7 +290,7 @@ A *STRING Protein Query* box appears. Unselect all genes *Select None* and selec
 
 **7c**:Go back to enrichment map network. In Control Panel (left side of the window), select the "Network" tab and click on the Enrichment Map network as shown in below screenshot. 
 
-<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/sting_genemani.png?raw=true" alt="workflow" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/sting_genemani.png?raw=true" alt="workflow" width="500" />
 
 
 **7d**: Search again for the node labelled *Integrin in angiogenesis* as in Step 7a. Right Click on the node of interest to diplay the option menu. Select *Apps*, *EnrichmentMap - Show in GeneMANIA*. A *GeneMANIA Query* box appears. Unselect all genes *Select None* and select only the collagen genes with gene name starting with *COL*. Click on *OK*. 
