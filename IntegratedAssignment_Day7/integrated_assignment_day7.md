@@ -58,6 +58,8 @@ For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were
 
 6.  Run analysis of the genes differentially altered between BE and normal: copy and paste the gene list into the g:Profiler input window [BEonly_genelist.txt](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/BEonly_genelist_v2.txt).
 
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/gprofilerinput.png?raw=true" alt="gprofiler_BE_map.png" width="750" />
+
 7.  **Question:** What is the most significant GO:term? What is the p-value for this GO:term?
 
 8.  **Question:** Is this p-value already corrected for multiple hypothesis testing? What type of correction is used for your current analysis?
@@ -105,15 +107,12 @@ Note: you also could create and upload an expression file when you build the enr
 
 14.  In Control Panel, go to the EnrichmentMap tab. Change Q-value as well as Edge (Similarity) cutoffs and see how the network changes. Redo the layout. Save the file.
 
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/gprofiler_EMinput.png?raw=true" alt="gprofiler_EMinput.png" width="750" />
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/gprofilerEM.png?raw=true" alt="gprofilerEM.png" width="750" />
+
 **Question** What conclusions can you make based on these networks?
 
-**BE map Q-value 0.01** 
-
-<img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/BEmapQ0_01.png?raw=true" alt="gprofiler_BE_map.png" width="750" />
-
-**NC map Q-value 0.01** 
-
-<img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/NEmapQ0_01.png?raw=true" alt="gprofiler_NC_map.png" width="750" />
 
 Optional: when you build the enrichment map using the g:Profiler results, you have the option to upload a .gmt file (downloadable from the g:Profiler website) [in current version, you need to concatenate hsapiens.GO/BP.name.gmt and hsapiens.REAC.name.gmt into one file, for example using the shell cat command: *cat hsapiens.GO/BP.name.gmt hsapiens.REAC.name.gmt > REAC_GO/gmt*)
 and an expression file [BE_vs_NE_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BE_vs_NE_expression.txt). The .gmt file provides the advantage to show not only the genes that are in your gene list and the enriched pathway (selected node) but all the genes in the original pathway. The expression file will be displayed in the EM Heat Map when a node is selected and it will display expression values for each gene in the selected pathway (selected node). Try it and adapt it to your needs. 
