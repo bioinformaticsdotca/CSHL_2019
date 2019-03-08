@@ -11,7 +11,7 @@ author: Jared Simpson
 modified: March 5th, 2019
 ---
 
-# Genome Assembly for short and long reads
+# Genome Assembly for Short and Long Reads
 
 by [Jared Simpson](https://simpsonlab.github.io)
 
@@ -51,11 +51,11 @@ If you run `ls` you should now be able to see three files of sequencing data.
 
 In the lecture we heard about many factors that may result in a poor assembly: not having enough coverage, very high repeat content, very high heterozygosity, etc. In this section of the lab we will use the [sga preqc](https://academic.oup.com/bioinformatics/article/30/9/1228/237596/Exploring-genome-characteristics-and-sequence) program to explore our short read data set before starting the assembly. We have generated a report for two E. coli Illumina data sets - one at 15x coverage and one at 50x coverage. This will allow us to look at the effect of sequencing coverage on the results of our assembly. The preqc report for these two datasets, and a human genome and difficult-to-assemble fish dataset, can be found [here](https://github.com/bioinformaticsdotca/HTSeq_2017/blob/master/module6_data/preqc_report.pdf). We aren't generating the report as part of this exercise because it takes a few hours to run. If you'd like to see how it was generated you can find the commands [here](https://bioinformaticsdotca.github.io/HTSeq_2019_module6_lab_supplement).
 
-Open the PDF report and try to interpret the results. Was the genome size estimated correctly? What differences do you notice between the 15x (blue) and the 50x (red) datasets? Which dataset do you expect to be easier to assemble (hint: preqc will perform a simulated genome assembly to estimate the contig sizes you might get).
+Open the preqc report linked above and try to interpret the results. Was the genome size estimated correctly? What differences do you notice between the 15x (blue) and the 50x (red) datasets? Which dataset do you expect to be easier to assemble (hint: preqc will perform a simulated genome assembly to estimate the contig sizes you might get).
 
 ## E. coli Genome Assembly with Short Reads
 
-Now we'll assemble the E. coli 50x Illumina data using the [spades](http://bioinf.spbau.ru/spades) assembler. Parameterizing a short read assembly can be tricky and tuning the parameters (for example the size of the k-mer used) is often quite time consuming. Thankfully, spades will automatically select values for its parameters, making it particularly easy to use. You can start spades with this command (it will take a few minutes to run):
+Now we'll assemble the E. coli 50x Illumina data using the [spades](http://bioinf.spbau.ru/spades) assembler. Parameterizing a short read assembly can be tricky and tuning the parameters (for example the size of the *k*-mer used) is often quite time consuming. Thankfully, spades will automatically select values for its parameters, making it particularly easy to use. You can start spades with this command (it will take a few minutes to run):
 
 ```
 spades.py -o ecoli-illumina-50-spades/ -t 4 --12 ecoli.illumina.50x.fastq
@@ -109,7 +109,7 @@ Now let's copy the assembly:
 cp ecoli-nanopore-auto/ecoli-nanopore-canu.contigs.fasta assemblies/ecoli.nanopore.100x.canu-contigs.fasta
 ```
 
-## Assessing the quality of your assemblies using a reference
+## Assessing the Quality of your Assemblies using a Reference
 
 The accuracy of the genome assembly is determined by how many misassemblies (large-scale rearrangements) and consensus errors (mismatches, insertions or deletions) the assembler makes. Calculating the accuracy of an assembly typically requires the use of a reference genome. We will use the [QUAST](http://quast.bioinf.spbau.ru/) software package to assess the accuracy of the assemblies.
 
@@ -119,7 +119,7 @@ Run QUAST on your three E. coli assemblies by running this command:
 quast.py -R ~/CourseData/HT_data/Module6/references/ecoli_k12.fasta assemblies/*.fasta
 ```
 
-Using the web browser for your instance, open the QUAST PDF report and try to determine which of the assemblies was a) the most complete b) the most contiguous and c) the most accurate.
+Using the web browser for your instance, open the QUAST PDF report (HTseq/Module6/quast_results/latest/report.pdf) and try to determine which of the assemblies was a) the most complete b) the most contiguous and c) the most accurate.
 
 ## Assembly Polishing
 
@@ -143,4 +143,4 @@ Now, re-run the QUAST step from above:
 quast.py -R ~/CourseData/HT_data/Module6/references/ecoli_k12.fasta assemblies/*.fasta
 ```
 
-Did the quality of your nanopore assembly improve?
+The report will be updated in HTseq/Module6/quast_results/latest/report.pdf (all versions will also be stored in their own time-stamped directories in HTseq/Module6/quast_results/latest). Did the quality of your nanopore assembly improve?
