@@ -270,7 +270,7 @@ In the case that an *AutoAnnotate* window pops up with the message *AutoAnnotate
 
 ### Step 7
 
-Visualize genes in a pathway/node of interest using the apps STRING and GeneMANIA. This will create a protein-protein  interaction network using the genes included in the pathway.
+Visualize genes in a pathway/node of interest using the apps STRING and GeneMANIA. This will create a protein-protein  interaction network using the genes included in the pathway. Note: GeneMANIA theory and practical will be covered in next module.
 
 **7a**: Click on an individual node of interest.
 
@@ -279,11 +279,30 @@ For this example, you could use *Integrin in angiogenesis*.
 TIP: If you are unable to locate *Integrin in angiogenesis*, type "Integrin in angiogenesis" in the search box (quotes are important).  The selected node appears yellow (or highlighted) in the network. If you have annotated your network, it should be included in the *ecm receptor interaction* cluster.
 
 **7b**: Right Click on the node of interest to diplay the option menu. Select *Apps*, *EnrichmentMap - Show in STRING*
-A *STRING Protein Query* box appears, click on *OK*. 
+A *STRING Protein Query* box appears. Unselect all genes *Select None* and select only the collagen genes with gene name starting with *COL*. Click on *OK*. 
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/Stringa.png?raw=true" alt="workflow" width="500" />
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/Stringb.png?raw=true" alt="workflow" width="500" />
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/Stringc.png?raw=true" alt="workflow" width="750" />
+
 
 **7c**:Go back to enrichment map network. In Control Panel (left side of the window), select the "Network" tab and click on the Enrichment Map network as shown in below screenshot. 
 
-**7d**: Search again for the node labelled *Integrin in angiogenesis* as in Step 7a. Right Click on the node of interest to diplay the option menu. Select *Apps*, *EnrichmentMap - Show in GeneMANIA*. A *GeneMANIA Query* box appears, click on *OK*. 
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/sting_genemani.png?raw=true" alt="workflow" width="750" />
+
+
+**7d**: Search again for the node labelled *Integrin in angiogenesis* as in Step 7a. Right Click on the node of interest to diplay the option menu. Select *Apps*, *EnrichmentMap - Show in GeneMANIA*. A *GeneMANIA Query* box appears. Unselect all genes *Select None* and select only the collagen genes with gene name starting with *COL*. Click on *OK*. 
+
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/Stringa.png?raw=true" alt="workflow" width="500" />
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/Genemaniab.png?raw=true" alt="workflow" width="500" />
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/genemaniaquery.png?raw=true" alt="workflow" width="500" />
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/Genemaniac.png?raw=true" alt="workflow" width="750" />
 
 
 Tip: It is possible to view gene expression data for the nodes in the STRING network. See the section https://enrichmentmap.readthedocs.io/en/latest/Integration.html and try it out after the workshop. 
