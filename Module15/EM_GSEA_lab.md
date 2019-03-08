@@ -268,6 +268,27 @@ In the case that an *AutoAnnotate* window pops up with the message *AutoAnnotate
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/AA6g.png?raw=true" alt="workflow" width="750" />
 
+### Step 7
+
+Visualize genes in a pathway/node of interest using the apps STRING and GeneMANIA. This will create a protein-protein  interaction network using the genes included in the pathway.
+
+**7a**: Click on an individual node of interest.
+
+For this example, you could use *Integrin in angiogenesis*. 
+
+TIP: If you are unable to locate *Integrin in angiogenesis*, type "Integrin in angiogenesis" in the search box (quotes are important).  The selected node appears yellow (or highlighted) in the network. If you have annotated your network, it should be included in the *ecm receptor interaction* cluster.
+
+**7b**: Right Click on the node of interest to diplay the option menu. Select *Apps*, *EnrichmentMap - Show in STRING*
+A *STRING Protein Query* box appears, click on *OK*. 
+
+**7c**:Go back to enrichment map network. In Control Panel (left side of the window), select the "Network" tab and click on the Enrichment Map network as shown in below screenshot. 
+
+**7d**: Search again for the node labelled *Integrin in angiogenesis* as in Step 7a. Right Click on the node of interest to diplay the option menu. Select *Apps*, *EnrichmentMap - Show in GeneMANIA*. A *GeneMANIA Query* box appears, click on *OK*. 
+
+
+Tip: It is possible to view gene expression data for the nodes in the STRING network. See the section https://enrichmentmap.readthedocs.io/en/latest/Integration.html and try it out after the workshop. 
+
+
 ###SAVE YOUR FILE!###
  
 
