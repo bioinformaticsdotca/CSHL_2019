@@ -1,6 +1,6 @@
 ---
 layout: tutorial_page
-permalink: /HTSeq_2018_IA_lab
+permalink: /CSHL_2019_IA_Day2
 title: HTSeq Integrated Assignment
 header1: Workshop Pages for Students
 header2: Informatics on High-Throughput Sequencing Data
