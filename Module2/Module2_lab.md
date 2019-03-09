@@ -363,7 +363,7 @@ Navigate to position "chr21:19,479,237-19,479,814"
 
 * Load the Common SNPs track from server (*File -> Load from Server -> Annotations -> Common Snps 1.4.2*)
 
-![Common SNPS GRCh38](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-GRCh39-SNPs.png)
+![Common SNPS GRCh38](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-GRCh38-SNPs.png)
 
 **Question:**
 * What does the abundance of dashed lines and purple "I"s tell us about the types of errors produced by nanopore sequencing?
