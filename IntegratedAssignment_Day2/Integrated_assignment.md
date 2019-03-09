@@ -18,11 +18,11 @@ home: https://bioinformaticsdotca.github.io/htseq_2018
 # CBW HT-seq Integrative Assignment
 
  
-Written originally by Mathieu Bourgey, edited by Florence Cavalli
+Written originally by Mathieu Bourgey, edited by Florence Cavalli and Heather Gibling
 
 
 ### Task
-We will perform the same analysis as in Module 3 but using the mother and father samples i.e sample NA12891 and NA12891.
+We will perform the same analysis as in Module 3, but using the mother and father samples, i.e sample NA12891 and NA12891.
 
 ```bash
 The fastq files are in the following directory of the cloud instance: ~/CourseData/HT_data/Module3/
@@ -38,13 +38,7 @@ The fastq files are in the following directory of the cloud instance: ~/CourseDa
 
 ```
 #set up
-export SOFT_DIR=/usr/local/
 export WORK_DIR=~/workspace/HTseq/Integrative_Assignment/
-export TRIMMOMATIC_JAR=$SOFT_DIR/Trimmomatic-0.36/trimmomatic-0.36.jar
-export PICARD_JAR=$SOFT_DIR/picard/picard.jar
-export GATK_JAR=$SOFT_DIR/gatk-4.0.1.2/gatk-package-4.0.1.2-local.jar
-export GATK_OLD_JAR=~/CourseData/HT_data/software/GenomeAnalysisTK-3.8/GenomeAnalysisTK.jar
-export BVATOOLS_JAR=~/CourseData/HT_data/software/bvatools-1.6/bvatools-1.6-full.jar
 export REF=$WORK_DIR/reference/
 
 
@@ -53,6 +47,11 @@ mkdir -p $WORK_DIR
 cd $WORK_DIR
 ln -s ~/CourseData/HT_data/Module3/* .
 
+singularity run -B ~/cvmfs_cache:/cvmfs-cache/ docker://c3genomics/genpipes:0.7  -V 3.1.2
+
+module load mugqic/java/openjdk-jdk1.8.0_72 mugqic/bvatools/1.6 mugqic/trimmomatic/0.36 mugqic/samtools/1.9 mugqic/bwa/0.7.17 mugqic/GenomeAnalysisTK/4.1.0.0 mugqic/R_Bioconductor/3.5.0_3.7
+
+
 ```
 Task list:
 
@@ -60,31 +59,27 @@ Task list:
 
 2. Trim unreliable bases from the read ends
 
-3. Align the reads to the reference
+3. Align the reads to the reference & sort the alignments by chromosome position
 
-4. Sort the alignments by chromosome position
+4. Realign short indels
 
-5. Realign short indels
+5. Mark duplicates
 
-6. Fixe mate issues (optional)
+6. Recalibrate the Base Quality
 
-7. Mark duplicates
-
-8. Recalibrate the Base Quality
-
-9. Generate alignment metrics
+7. Generate alignment metrics
 
 
 Discussion/Questions:
 
 1. Explain the purpose of each step
 
-2. Which software tool can be used for each step 
+2. Which software tool can be used for each step? 
 
 
 
 
-The full commands can be downloaded here [solution](https://github.com/bioinformaticsdotca/HTSeq_2018/blob/master/Integrated%20Assignment/integrative_assigment_commands.sh)
+The full commands can be found here [solution](https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day2/integrative_assigment_commands.sh)
 
 
 
