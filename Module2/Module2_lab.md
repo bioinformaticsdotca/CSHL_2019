@@ -7,13 +7,13 @@ header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 2
 image: /site_images/CBW-CSHL-graphic-square.png
 home: https://bioinformaticsdotca.github.io/CSHL_2019
 description: HT-Bio Module 2 Lab
-author: Sorana Morrissy and Florence Cavalli
+author: Sorana Morrissy, Florence Cavalli and Heather Gibling
 modified: March 4, 2019
 ---
 
 # CBW HT-seq Module 2 - IGV lab
 
-This lab was created by Sorana Morrissy, then modified by Florence Cavalli
+This lab was created by Sorana Morrissy, then modified by Florence Cavalli and Heather Gibling
 
 ## Introduction
 
@@ -353,6 +353,6 @@ Generate a consensus sequence to hide substitution errors:
 * Scroll around and see if you can find a plausible SNV. What information are you using as evidence for this SNV?
 * Some of the coloring options we used for viewing the previous sample (HCC1143) are not available for this NA12878 bam, such as *View as pairs* and *Color alignments by insert size and pair orientation*. Why is this?
 
-#
+---
 
 **You're done!** We hope that you enjoyed the lab and that you continue to enjoy IGV.
