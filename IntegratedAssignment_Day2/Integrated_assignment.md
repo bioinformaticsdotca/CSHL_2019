@@ -52,7 +52,7 @@ singularity run -B ~/cvmfs_cache:/cvmfs-cache/ docker://c3genomics/genpipes:0.7 
 module load mugqic/java/openjdk-jdk1.8.0_72 mugqic/bvatools/1.6 mugqic/trimmomatic/0.36 mugqic/samtools/1.9 mugqic/bwa/0.7.17 mugqic/GenomeAnalysisTK/4.1.0.0 mugqic/R_Bioconductor/3.5.0_3.7
 ```
 
-**Task list:**
+#### Task list:
 
 1. Check read QC
 
@@ -64,19 +64,19 @@ module load mugqic/java/openjdk-jdk1.8.0_72 mugqic/bvatools/1.6 mugqic/trimmomat
 
 5. Mark duplicates
 
-6. Recalibrate the Base Quality
+6. Recalibrate the base quality
 
 7. Generate alignment metrics
 
 
-**Discussion/Questions:**
+#### Discussion/Questions:
 
 1. Explain the purpose of each step
 
 2. Which software tool can be used for each step? 
 
 
-
+-----------------------
 
 The full commands can be found [here](https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day2/integrative_assigment_commands.sh), but try to work on it yourself before checking!
 
