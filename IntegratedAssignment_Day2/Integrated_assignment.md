@@ -1,11 +1,11 @@
 ---
 layout: tutorial_page
 permalink: /CSHL_2019_IA_Day2
-title: HTSeq Integrated Assignment
+title: HT-Bio
 header1: Workshop Pages for Students
-header2: Informatics on High-Throughput Sequencing Data
-image: /site_images/CBW_High-throughput_icon.jpg
-home: https://bioinformaticsdotca.github.io/htseq_2018
+header2: High-throughput Biology - From Sequence to Networks 2019 - Integrated Assignment Day 7
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/CSHL_2019
 ---
 
 
