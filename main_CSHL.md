@@ -174,7 +174,7 @@ Before coming to the workshop, read these:
 
 *<font color="827e9c">Heather Gibling</font>*
 
-[Integrated Assignment]()
+[Integrated Assignment](https://bioinformaticsdotca.github.io/CSHL_2019_IA_Day2)
 
 ***
 
