@@ -363,7 +363,7 @@ Navigate to position "chr21:19,479,237-19,479,814"
 
 * Load the Common SNPs track from server (*File -> Load from Server -> Annotations -> Common Snps 1.4.2*)
 
-![Common SNPS GRCh38]((https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-GRCh39-SNPs.png)
+![Common SNPS GRCh38](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-GRCh39-SNPs.png)
 
 **Question:**
 * What does the abundance of dashed lines and purple "I"s tell us about the types of errors produced by nanopore sequencing?
@@ -372,12 +372,12 @@ Hide small indels to better view the alignments:
 * Go to *View -> Preferences -> Alignments* and enter a small number for *Hide indels <* (e.g., 20)
 * Most of the indels should now be removed.
 
-![Long Reads Hide SNPs]((https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-hide-indels.png)
+![Long Reads Hide SNPs](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-hide-indels.png)
 
 Generate a consensus sequence to hide substitution errors:
 * Go *View -> Preferences -> Alignments* and select *Quick consensus mode*
 
-![Long Reads Consensus]((https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-consensus.png)
+![Long Reads Consensus](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-consensus.png)
 
 **Questions:**
 * Scroll around and see if you can find a plausible SNV. What information are you using as evidence for this SNV?
