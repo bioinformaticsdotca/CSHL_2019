@@ -15,7 +15,9 @@ modified: March 4, 2019
 
 This lab was created by Sorana Morrissy, then modified by Florence Cavalli and Heather Gibling
 
+
 ## Introduction
+
 
 ### Description of the lab
 
@@ -33,20 +35,24 @@ Things to know before you start:
 * The lab may take between **1-2 hours**, depending on your familiarity with genome browsing. Don't worry if you don't complete the lab! It is available for you to complete later.
 * There are a few thought-provoking **Questions** or **Notes** pertaining to sections of the lab. These are **optional**, and may take more time, but are meant to help you better understand the visualizations you are seeing.
 
+
 ### Requirements 
 
 * [Integrative Genomics Viewer](http://www.broadinstitute.org/igv) 
 * Ability to run Java
 
+
 ### Compatibility
 
 This tutorial was intended for **IGV v2.4 or v2.3**, which is available on the [Download](http://www.broadinstitute.org/software/igv/download) page. It is *strongly* recommended that you use one of these versions, as other versions may not be compatible. If you have installed a former version, please uninstall it and install the latest version.
+
 
 ### Data Set for IGV
 
 * Chromosome 21: 19,000,000-20,000,000
 * [HCC1143.normal.21.19M-20M.bam](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/HCC1143.normal.21.19M-20M.bam)
 * [HCC1143.normal.21.19M-20M.bam.bai](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/HCC1143.normal.21.19M-20M.bam.bai)
+
 
 ### Check the online student page
 
@@ -60,7 +66,9 @@ a popular visualization tool for HTS data.
 
 First, lets familiarize ourselves with it.
 
+
 ## Get familiar with the interface 
+
 
 ### Load a Genome and Data Tracks
 
@@ -78,6 +86,7 @@ We will also load additional tracks from **Server** *(File -> Load from Server)*
 
 ![Load hg19 genome and additional data tracks](https://github.com/bioinformaticsdotca/HT-Biology_2017/raw/master/HtSeq/img/igv_server_load.png)
 <!---(https://bioinformatics-ca.github.io/images/Igv_load_data_tracks.png)--->
+
 
 ### Navigation
 
@@ -99,11 +108,13 @@ Genes are represented as lines and boxes. Lines represent intronic regions, and 
 
 When loaded, tracks are stacked on top of each other. You can identify which track is which by consulting the label to the left of each track.
 
+
 ## Region Lists
 
 Sometimes it's really useful to save where you are, or to load regions of interest. For this purpose, there is a **Region Navigator** in IGV. To access it, click *Regions > Region Navigator*. While you browse around the genome, you can save some bookmarks by pressing the **Add** button at any time.
 
 ![Bookmarks in IGV.](https://bioinformatics-ca.github.io/images/Igv-bookmarks.png)
+
 
 ## Loading Read Alignments
 
@@ -119,6 +130,7 @@ We will be using the breast cancer cell line HCC1143 to visualize alignments.  F
 Copy the files to your local drive, and in IGV choose *File > Load from File*, select the bam file, and click **OK**.  Note that the bam and index files must be in the same directory for IGV to load these properly, but only the bam file (not the bam.bai file) needs to be loaded into IGV.
 
 ![Load BAM track from File](https://bioinformatics-ca.github.io/images/Igv_load_bam.png)
+
 
 ## Visualizing Read Alignments
 
@@ -145,6 +157,7 @@ Once you select a read, you will learn what many of these metrics mean, and how 
 
 In this section we will be looking in detail at 8 positions in the genome, and determining whether they represent real events or artifacts.
 
+
 ## Neighbouring Somatic SNV and Germline SNP 
 
 Navigate to position "chr21:19,479,237-19,479,814"
@@ -164,6 +177,7 @@ Navigate to position "chr21:19,479,237-19,479,814"
  
  * What does Shade base by quality do? How might this be helpful?
  * How does Color by "read strand" help?
+
 
 ## Homopolymer Repeat with Indel 
 
@@ -191,6 +205,7 @@ Navigate to position "chr21:19,518,412-19,518,497"
  * The remaining bases are mismatched, because the alignment is now out of sync
  * (Using an older version of dbSNP (1.3.1) the entry at this location (rs74604068) is an A->T, and in all likelihood an artifact i.e. the common variants included some cases that are actually common misalignments caused by repeats. This is getting better; this entry is not present anymore in dbSNP 1.4.7!)
 
+
 ## Coverage by GC 
 
 Navigate to position "chr21:19,611,925-19,631,555"  
@@ -207,6 +222,7 @@ Note that the range contains areas where coverage drops to zero in a few places.
  
  * Why are there blue and red reads throughout the alignments?
 
+
 ## Heterozygous SNPs on Different Alleles 
 
 Navigate to region "chr21:19,666,833-19,667,007"
@@ -220,6 +236,7 @@ Navigate to region "chr21:19,666,833-19,667,007"
  **Note:**
  
  * Linkage between alleles is obvious in this case because both SNV positions are spanned by single reads, but reads only have either one or the other
+
 
 ## Low Mapping Quality 
 
@@ -241,6 +258,7 @@ Navigate to region "chr21:19,800,320-19,818,162"
 
  * Why do LINE elements affect mapping quality?
 
+
 ## Homozygous Deletion 
 
 Navigate to region "chr21:19,324,469-19,331,468"
@@ -261,6 +279,7 @@ Navigate to region "chr21:19,324,469-19,331,468"
 
  * What other track provides evidence of a deletion at this location?
 
+
 ## Mis-Alignment 
 
 Navigate to region "chr21:19,102,154-19,103,108"
@@ -275,6 +294,7 @@ Navigate to region "chr21:19,102,154-19,103,108"
  * This is a position where an AluY element causes mis-alignment.  
  * Misaligned reads have several mismatches to the reference and 
  * Well-aligned reads have partners on other chromosomes where additional AluY elements are encoded. You may need to scroll down to see this reads.
+
 
 ## Translocation 
 
@@ -292,6 +312,7 @@ Navigate to region "chr21:19,089,694-19,095,362"
   * Read pairs in RL pattern (instead of LR pattern)
   * Region is flanked by reads with poor mapping quality (white instead of grey)
   * Presence of reads with pairs on other chromosomes (coloured reads at the bottom when scrolling down)
+
 
 # Optional
 # Visualization Part 3: Automating Tasks in IGV
@@ -318,11 +339,13 @@ Now run the file from the Tools menu:
 
 The IGV screenshots are in the screenshots output directory you set. Have a look!
 
+
 # Visualization Part 4: Visualizing Long Reads
 
 Long reads aligned to a reference genome can be visualized like short reads, but true variants might be hard to find among the noise from increased sequencing error rates in long-read sequencing technologies. We will view some reads obtained from Oxford Nanopore sequencing provided by [Miten Jain](https://github.com/mitenjain/NA12878/blob/master/nanopore-human-genome/rel_3_4.md) from the recent publication [Nanopore sequencing and assembly of a human genome with ultra-long reads](https://www.nature.com/articles/nbt.4060). 
 
 Before getting started, **remove the tracks for HCC1143.normal.21.19M-20M.bam (both the alignment track and the coverage track)**. We will be using a different reference genome, so these reads will no longer be properly aligned. 
+
 
 ### Data for long reads:
 * Chromosome 21: 19,000,000-20,000,000
@@ -333,11 +356,14 @@ Copy the files to your local drive, and in IGV choose *File > Load from File*, s
 
 Change the reference genome in the top right corner to **Human (hg38)**. If this option isn't available you will need to download it. Selct *More*, then scroll down and select *Human hg38*.
 
+
 ## Cleaning up Sequencing Error Noise
 
 Navigate to position "chr21:19,479,237-19,479,814"
 
 * Load the Common SNPs track from server (*File -> Load from Server -> Annotations -> Common Snps 1.4.2*)
+
+![Common SNPS GRCh38]((https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/images/IGV-GRCh39-SNPs.png)
 
 **Question:**
 * What does the abundance of dashed lines and purple "I"s tell us about the types of errors produced by nanopore sequencing?
@@ -346,8 +372,12 @@ Hide small indels to better view the alignments:
 * Go to *View -> Preferences -> Alignments* and enter a small number for *Hide indels <* (e.g., 20)
 * Most of the indels should now be removed.
 
+![Long Reads Hide SNPs]((https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/images/IGV-long-reads-hide-indels.png)
+
 Generate a consensus sequence to hide substitution errors:
 * Go *View -> Preferences -> Alignments* and select *Quick consensus mode*
+
+![Long Reads Consensus]((https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/images/IGV-long-reads-consensus.png)
 
 **Questions:**
 * Scroll around and see if you can find a plausible SNV. What information are you using as evidence for this SNV?
