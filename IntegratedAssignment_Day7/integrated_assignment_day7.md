@@ -202,9 +202,9 @@ Create a network using ReactomeFI.
 2. Choose App -> Reactome FI -> Gene set/mutation analysis
 3. Upload STAD_MutSig.txt and built a network without linkers:
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/IA_reactome1.png?raw=true" alt="reactomeFI_viz_input.png" width="750" />
 
- /!\ : the latest interface contains 2016 version of the ReactomeFI underlying database but this exercise has been prepared with the 2015 version. Please use the 2015 version to complete this exercise but the most up to date version when you work with your own data. 
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/reactomefiinput.png?raw=true" alt="reactomefiinput.png" width="750" />
+
 
  * tip: upload your file or copy and paste the gene names in the gene set field.
  
