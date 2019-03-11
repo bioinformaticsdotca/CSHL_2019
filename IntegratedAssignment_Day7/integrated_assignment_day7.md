@@ -129,6 +129,9 @@ and an expression file [BE_vs_NE_expression.txt](https://github.com/bioinformati
   * Go the 'Run GSEAPreranked' window and select the correct gmt file and the rank file
   * /!\ Use 100 permutations for the lab exercise /!\ but use 1000 for your own data analysis. 
   * Choose a name for your analysis, a destination folder and run GSEA.
+  
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/INA3.png?raw=true" alt="INA3.png" width="750" />
+
 
 3.  Create an enrichment map:
   * Open Cytoscape and the EnrichmentMap app. The enrichment results are 2 excel files called gsea_report_for_na_neg and gsea_report_for_na_pos within the GSEA folder saved on your computer but you should be able to drag and drop the whole GSEA folder and that will populate the required fields automatically. 
