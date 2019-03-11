@@ -60,7 +60,7 @@ Pathway enrichment on the whole network.
 
 **Answer** The pathway with the lowest FDR is Endometrial cancer (K) with an FDR equal to 5.78w-16. 
 
-<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA6.png?raw=true" alt="INA6" width="750" />
+src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/ReacFI1.png?raw=true" alt="gprofilerresultGO.png" width="750" />
 
 Cluster the network and perform pathway enrichment on the network.
 
@@ -68,13 +68,13 @@ Cluster the network and perform pathway enrichment on the network.
 
 **Answer** The analysis retrieved 8 clusters named module 0 to module 7. 
 
-<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA7.png?raw=true" alt="INA7" width="750" />
+src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/ReacFI2.png?raw=true" alt="gprofilerresultGO.png" width="750" />
 
 **Question** What is the FDR value of the most significant pathway of module 0?
 
 **Answer** Wnt signaling pathway with FDR equal to 4.5e-08
 
-<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA8.png?raw=true" alt="INA8" width="750" />
+src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/ReacFI2.png?raw=true" alt="gprofilerresultGO.png" width="750" />
 
 
 ## PART2 GeneMANIA
