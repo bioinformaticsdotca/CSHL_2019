@@ -251,7 +251,7 @@ Install the latest version of the Cytoscape GeneMANIA app (Version 3.5.0)
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/IAgenemaniasearch2.png?raw=true" alt="IAgenemaniasearch.png" width="750" />
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/genemaniaIP2.png?raw=true" alt="genemaniaIP2.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/genemaniaIP2.png?raw=true" alt="genemaniaIP2.png" width="750" />
 
 Screenshot of the output:
 
@@ -283,6 +283,8 @@ Hint: you can click on a function of your choice to see corresponding nodes high
  * How many nodes do contain this subnetwork? Hint: Go to Control Panel, Network and look at the number of nodes corresponding to your subnetwork. 
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/IAgenemania2.png?raw=true" alt="IAgenemania2.png" width="750" />
+
+
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/IAgenemania3.png?raw=true" alt="IAgenemania2.png" width="750" />
 
