@@ -46,27 +46,11 @@ Ordered query:
 
 **Answer** Although some terms are similar, their pvalues changed as well as the number of term genes used to calculate the pvalue.
 
-**EnrichmentMap input panel** 
-
-
-<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA2.png?raw=true" alt="INA2" width="750" />
 
 **Question** What can you conclude about these networks? 
 
 **Answer** The pathways are relevant to the biological model under study. The changes are related to the transformation of the epithelial cells into mesenchymal ones. 
   
-
-## GSEA
-
-**GSEA input panel**  
-
-<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA3.png?raw=true" alt="INA3" width="750" />
- 
-**GSEA EnrichmentMap input panel** 
-
-<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA4.png?raw=true" alt="INA4" width="750" />
-
-## DATASET2
 
 ## PART1 REACTOME FI
 
