@@ -180,7 +180,7 @@ Before coming to the workshop, read these:
 
 # Day 3 <a id="day3"></a>
 
-**Day 3 and Day 4 refer to content in the [RNA-Seq wiki](https://github.com/griffithlab/rnaseq_tutorial/wiki).**
+**Day 3 and Day 4 refer to content on [rnabio.org](https://rnabio.org/).**
 
 ## Module 7: Introduction to RNA Sequencing Analysis
 
