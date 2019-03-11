@@ -382,11 +382,10 @@ Generate a consensus sequence to hide substitution errors:
 
 ## Viewing variants
 
-**Questions:**
-* Scroll around and see if you can find a plausible SNV. What information are you using as evidence for this SNV?
-* Some of the coloring options we used for viewing the previous sample (HCC1143) are not available for this NA12878 bam, such as *View as pairs* and *Color alignments by insert size and pair orientation*. Why is this?
+Scroll around and see if you can find a plausible SNV. 
+* What information are you using as evidence for this SNV?
 
-Navigate to position "chr21:19,790,758-19,790,965"
+Now navigate to position "chr21:19,790,758-19,790,965"
 
 ![Deletion at homopolymer site](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-nanopore-homopolymer-deletion.png)
 
@@ -394,6 +393,9 @@ Navigate to position "chr21:19,790,758-19,790,965"
 * The reads here all have a deletion indicated by thin black bars splitting up parts of the reads. It would seem as though this is evidence for a deletion in this sample at this position
 * However, look at the reference sequence a the deletion--it is all red, indicating "T"s! You can zoom in to confirm.
 * Nanopore sequencing is prone to deletions at homopolymer repeats, or stretches of a single base, as seen here. Therefore this is likely a sequencing artifact and not a true deletion.
+
+**Question:**
+* Some of the coloring options we used for viewing the previous sample (HCC1143) are not available for this NA12878 bam, such as *View as pairs* and *Color alignments by insert size and pair orientation*. Why is this?
 
 
 ---
