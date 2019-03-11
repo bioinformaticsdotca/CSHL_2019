@@ -275,7 +275,8 @@ Hint: you can click on a function of your choice to see corresponding nodes high
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/IAgenemaniahandle.png?raw=true" alt="IAgenemaniahandle.png" width="750" />
 
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/IAgenemania1.png?raw=true" alt="IAgenemania1.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/genemaniaresult1b.png?raw=true" alt="genemaniaIP2.png" width="750" />
+
 
 4. Create a subnetwork containing CTNNB1 and connected genes
  * Locate CTNNB1, use the "First neighbors of selected nodes" icon (has the shape of 2 houses) in the toolbar to highlight genes connected to CTNNB1 
@@ -285,8 +286,8 @@ Hint: you can click on a function of your choice to see corresponding nodes high
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/IAgenemania2.png?raw=true" alt="IAgenemania2.png" width="750" />
 
 
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/genemaniaresult2.png?raw=true" alt="genemaniaIP2.png" width="750" />
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/IAgenemania3.png?raw=true" alt="IAgenemania2.png" width="750" />
 
 Note: on the above the screenshot, the CCBN1 color of the edges were changed by bypassing the style (select the edges, right click, edit, ByPass Style, Set Bypass to Selected Edges , change color in Byp. column)
 
