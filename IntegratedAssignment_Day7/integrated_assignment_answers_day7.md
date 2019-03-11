@@ -24,22 +24,21 @@ The results are stored in this [folder](https://github.com/bioinformaticsdotca/H
 
 **Question**: What is the most significant GO:term? What is the p-value for this GO:term 
 
-**Answer**: extracellular matrix organization: p-value of 1.70e-09 
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/gprofilerresultGO.png?raw=true" alt="gprofilerresultGO.png" width="750" />
+
+**Answer**: extracellular matrix organization
 
 
 **Question**: Is this p-value already corrected for multiple testing? What type of correction is used for your current analysis? 
 
 **Answer**: yes, it is already corrected for multiple hypothesis testing. I set the Significance threshold box to  "Benjaminin-Hochberg FDR". 
 
-**g:Profiler png output**  
-
-<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA1.png?raw=true" alt="INA1" width="750" />
 
 Re-run the analysis with User p-value threshold set to 0.0001. 
 
 **Question**: What has been changed?
 
-**Answer:** Only the gene-set with pvalue equal or less than 0.0001 are displayed. The list is reduced compared to the results obtained with the default settings. 
+**Answer:** Only the gene-set with adjusted pvalue equal or less than 0.0001 are displayed. The list is reduced compared to the results obtained with the default settings. 
 
 Ordered query: 
 
