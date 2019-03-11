@@ -3,7 +3,7 @@ layout: tutorial_page
 permalink: /CSHL_2019_IA_Day2
 title: HT-Bio
 header1: Workshop Pages for Students
-header2: High-throughput Biology - From Sequence to Networks 2019 - Integrated Assignment Day 7
+header2: High-throughput Biology - From Sequence to Networks 2019 - Integrated Assignment Day 2
 image: /site_images/CBW-CSHL-graphic-square.png
 home: https://bioinformaticsdotca.github.io/CSHL_2019
 ---
