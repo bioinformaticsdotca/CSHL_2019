@@ -52,7 +52,7 @@ Ordered query:
 **Answer** The pathways are relevant to the biological model under study. The changes are related to the transformation of the epithelial cells into mesenchymal ones. 
   
 
-## PART1 REACTOME FI
+## REACTOME FI
 
 Pathway enrichment on the whole network. 
 
@@ -81,7 +81,7 @@ src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssi
 src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/ReacFI4.png?raw=true" alt="gprofilerresultGO.png" width="750" />
 
 
-## PART2 GeneMANIA
+## GeneMANIA
 
 **Question** What is the number of nodes in the CTNBB1 network. 
 
