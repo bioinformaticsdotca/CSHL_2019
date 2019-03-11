@@ -205,6 +205,7 @@ Create a network using ReactomeFI.
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/reactomefiinput.png?raw=true" alt="reactomefiinput.png" width="750" />
 
+ * Note: The network may look slightly different compared to below screenshot if the underlying database has been updated since the screenshot was taken
 
  * tip: upload your file or copy and paste the gene names in the gene set field.
  
