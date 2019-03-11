@@ -61,8 +61,6 @@ version
 
 10) A PDF viewer (Adobe Acrobat or equivalent).
 
-11) fastqc – This tool is available for Windows/Mac/Linux [here](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
-
 12) Install [Cytoscape 3.7.1](https://cytoscape.org/download-platforms.html).  
 
 Choose the version corresponding to your operating system (OS, Windows or UNIX) 
