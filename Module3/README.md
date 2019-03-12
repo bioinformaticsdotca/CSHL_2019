@@ -576,5 +576,10 @@ In this lab, we aligned reads from the sample NA12878 to the reference genome `h
 - We recalibrate the Base Quality using GATK.
 - We generate alignment metrics using GATK.  
 
+## Papers of Interest
+
+Best practices for benchmarking germline  small-variant calls in human genomes
+Nature Biotechnology 
+https://t.co/VW0x24Jsc6 
 
 
