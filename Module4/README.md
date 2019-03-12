@@ -473,6 +473,5 @@ This module is heavily based on a previous module prepared by Michael Stromberg 
 
 ## Papers of Interest
 
-Best practices for benchmarking germline  small-variant calls in human genomes
-Nature Biotechnology 
-https://t.co/VW0x24Jsc6 
+Best practices for benchmarking germline  small-variant calls in human genomes  
+[Nature Biotechnology paper](https://t.co/VW0x24Jsc6)
