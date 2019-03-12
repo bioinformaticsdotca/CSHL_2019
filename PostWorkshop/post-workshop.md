@@ -39,7 +39,7 @@ The data sets in the workshop can be downloaded from below. If your download spe
 
 ## AWS Image
 
-After all the workshop, we will public our AMI. The AMI ID will be here.
+After all the workshop, we will publish our AMI. The AMI ID will be here.
 
 ## Tools and Installation Instructions
 ### bioperl
