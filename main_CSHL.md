@@ -421,5 +421,5 @@ For additional resources, tutorials, future directions, and more please refer to
 
 ## Post Workshop 
 
-[Download a zip file of the git repo here]()   
+Post workshop content for data sets, docker containers, AWS image, tools and install instructions can be foudn [here](https://bioinformaticsdotca.github.io/CSHL_2019_Post-Workshop)  
 
