@@ -40,7 +40,9 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 ### STEPS
 
-1. Go to GeneMANIA’s homepage at <http://www.genemania.org/>  
+1. Open Cytoscape.
+
+2. Locate the GeneMANIA search window located on the left side in *Control Panel*. 
 
 2. In the search window, ensure that the model organism is set to *Homo sapiens* ![homo](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Up.png?raw=true).  
 
@@ -48,15 +50,13 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 4. Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true) and wait for the results.	
 
-5. When your search results load, examine the network. Genes you searched with are indicated with stripes, related genes added by GeneMANIA are represented in black, and colored links represent the interactions that connect the nodes (genes). **Tip**: zoom in and zoom out using trackpad or mouse scrolling up and down using the mouse or trackpad or zoom in to the maximum using the specific icon ![arrow](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/arrow.png?raw=true).
+5. When your search results load, examine the network. Genes you searched with are indicated in black, related genes added by GeneMANIA are represented in gray, and colored links represent the interactions that connect the nodes (genes). **Tip**: zoom in and zoom out using trackpad or mouse scrolling up and down using the mouse or trackpad or zoom in to the maximum using the specific icon ![arrow](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/arrow.png?raw=true).
  	
-6. Clicking on a node gives information about the name of gene, the possibility to add, remove this gene or search with this gene only. Click on the GRN node and explore the displayed information. 	
-
-7. Locate the Functions summary tab (bottom left icon ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true)). What are the functions significantly associated with  this network?  GRN is the central node of this network: which function would you predict for GRN? How well did GeneMANIA perform (hints: use GeneCards (<http://www.genecards.org/>) , PubMed (<http://www.ncbi.nlm.nih.gov/pubmed/>))?	
+7. Locate the *Functions* summary tab in Results Panel. What are the functions significantly associated with  this network?  GRN is the central node of this network: which function would you predict for GRN? How well did GeneMANIA perform (hints: use GeneCards (<http://www.genecards.org/>) , PubMed (<http://www.ncbi.nlm.nih.gov/pubmed/>))?	
 
 8. Locate the gene with the strongest association with GRN. **Tip**: this gene is the largest node on the network. 	
 
-9. Re-run an analysis by adding SORT1, HSPG2 to the search. Click on SORT1, click on Add  ![add](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/add.png?raw=true) or type the name of the gene in the search box. Do the same for HSPG2.  The genes are now added to the search box and a new network is automatically created.  Which functions are associated with this new network ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true)? 	 
+9. Re-run an analysis by adding SORT1, HSPG2 to the search.   Type 'SORT1' and 'HSPG2' in the search box that already contains 'GRN'.  Click on the search button.  Which functions are associated with this new network?	 
 
 10. On the left side of the window are located icons that we haven’t yet explored. The first 3 buttons are activating different network layouts. Try the circular ![circular](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circledot.png?raw=true), the aligned ![aligned](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/twodown.png?raw=true), and the force_directed ![force](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/crossing.png?raw=true) layouts.  	
 
