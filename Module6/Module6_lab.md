@@ -143,4 +143,4 @@ Now, re-run the QUAST step from above:
 quast.py -R ~/CourseData/HT_data/Module6/references/ecoli_k12.fasta assemblies/*.fasta
 ```
 
-The report will be updated in HTseq/Module6/quast_results/latest/report.pdf (all versions will also be stored in their own time-stamped directories in HTseq/Module6/quast_results/latest). Did the quality of your nanopore assembly improve?
+The report will be updated in HTseq/Module6/quast_results/latest/report.pdf (all versions will also be stored in their own time-stamped directories in HTseq/Module6/quast_results). Did the quality of your nanopore assembly improve?
