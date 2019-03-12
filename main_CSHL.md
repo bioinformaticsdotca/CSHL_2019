@@ -25,7 +25,7 @@ You can download the printed course manual [here](https://drive.google.com/a/bio
 
 # Class Photo
 
-Coming soon! 
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/images/2019%20Course%20Photo%20CBW.jpg?raw=true" alt="Class Photo" width="750" />      
 
 ***
 
