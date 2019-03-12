@@ -52,7 +52,7 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 4. Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true) and wait for the results.	
 
-5. When your search results load, examine the network. Genes you searched with are indicated in black, related genes added by GeneMANIA are represented in gray, and colored links represent the interactions that connect the nodes (genes). **Tip**: zoom in and zoom out using trackpad or mouse scrolling up and down using the mouse or trackpad or zoom in to the maximum using the specific icon ![arrow](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/arrow.png?raw=true).
+5. When your search results load, examine the network. Genes you searched with are indicated in black, related genes added by GeneMANIA are represented in gray, and colored links represent the interactions that connect the nodes (genes). **Tip**: zoom in and zoom out using trackpad or mouse scrolling up and down.
  	
 7. Locate the *Functions* summary tab in Results Panel. What are the functions significantly associated with  this network?  GRN is the central node of this network: which function would you predict for GRN? How well did GeneMANIA perform (hints: use GeneCards (<http://www.genecards.org/>) , PubMed (<http://www.ncbi.nlm.nih.gov/pubmed/>))?	
 
@@ -60,9 +60,7 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 9. Re-run an analysis by adding SORT1, HSPG2 to the search.   Type 'SORT1' and 'HSPG2' in the search box that already contains 'GRN'.  Click on the search button.  Which functions are associated with this new network?	 
 
-10. On the left side of the window are located icons that we haven’t yet explored. The first 3 buttons are activating different network layouts. Try the circular ![circular](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circledot.png?raw=true), the aligned ![aligned](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/twodown.png?raw=true), and the force_directed ![force](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/crossing.png?raw=true) layouts.  	
-
-11. Choose your favorite layout and save the  network as an image  using the *Network image As Shown* option from the *save*  menu ![save](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/save.png?raw=true).  	
+ 11. Save the  network as an image by clicking on 'File', 'Export', 'Network to Image...' and setting the "Export File Format" to "PDF(*.pdf)".  	
 
 ## EXERCISE 1 ANSWERS: DETAILED EXPLANATION AND SCREENSHOTS
 
