@@ -13,7 +13,7 @@ modified: June 26th, 2018
 
 **This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.**
 
-# Module 16 Practical Lab: GeneMANIA (web version)
+# Module 16 Practical Lab: GeneMANIA (Cytoscape version)
 
 By Quaid Morris and Veronique Voisin 
 
