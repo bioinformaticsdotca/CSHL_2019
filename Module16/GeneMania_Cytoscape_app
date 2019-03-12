@@ -1,6 +1,6 @@
 ---
 layout: tutorial_page
-permalink: /CSHL_2019_Module16_lab2
+permalink: /CSHL_2019_Module16_lab
 title: HT-Bio
 header1: Workshop Pages for Students
 header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 16
@@ -13,10 +13,12 @@ modified: June 26th, 2018
 
 **This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.**
 
-# Module 16 Practical Lab: GeneMANIA using Cytoscape 
+# Module 16 Practical Lab: GeneMANIA (web version)
+
+By Quaid Morris and Veronique Voisin 
+
 
 ## Goal of this practical lab 
-
 Create GeneMANIA networks starting from a single gene to predict its function or starting from a gene list. Explore and understand the main output features of GeneMANIA such as the network composition or the enriched functions. 
 
 This practical consists of 3 exercises. You can choose to do these exercises using the questions as your only guide (section 'QUESTIONS AND STEPS TO FOLLOW) - or see the following pages for the step-by-step checklist to finding the answers (section 'ANSWERS: DETAILED STEPS AND SCREENSHOTS'). 
