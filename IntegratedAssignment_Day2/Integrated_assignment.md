@@ -76,9 +76,27 @@ module load mugqic/java/openjdk-jdk1.8.0_72 mugqic/bvatools/1.6 mugqic/trimmomat
 2. Which software tool can be used for each step? 
 
 
------------------------
 
 The full commands can be found [here](https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day2/integrative_assigment_commands.sh), but try to work on it yourself before checking!
 
+---
 
+### Optional
 
+Perform the same analysis as in Module 4, but using the mother and father samples, i.e sample NA12891 and NA12891.
+
+Some additional things you can look at:
+
+1. **If you load up all three realigned BAM files and all three final vcf files into IGV, do the variants look plausible?** Use a [Punnett square](https://en.wikipedia.org/wiki/Punnett_square) to help evaluate this. i.e. if both parents have a homozygous reference call and the child has a homozygous variant call at that locus, this might indicate a trio conflict. [solution](https://github.com/mbourgey/CBW_HTseq_module4/blob/master/solutions/_trio1.md)
+
+ 2. **Do you find any additional high or moderate impact variants in either of the parents?** [solution](https://github.com/mbourgey/CBW_HTseq_module4/blob/master/solutions/_trio2.md)
+
+ 3. **Do all three family members have the same genotype for Rs7538876 and Rs2254135?** [solution](https://github.com/mbourgey/CBW_HTseq_module4/blob/master/solutions/_trio3.md)
+
+ 4. GATK produces even better variant calling results if all three BAM files are specified at the same time (i.e. specifying multiple `-I filename` options). Try this and then perform the rest of module 5 on the trio vcf file. **Does this seem to improve your variant calling results? Does it seem to reduce the trio conflict rate?** [solution](https://github.com/mbourgey/CBW_HTseq_module4/blob/master/solutions/_trio4.md)
+
+ Remember to quit the singularity container environment on AWS:
+
+```
+exit
+```
