@@ -170,6 +170,9 @@ Before coming to the workshop, read these:
 
 [Supplemental](https://bioinformaticsdotca.github.io/CSHL_2019_Module6_lab_supplemental)
 
+Interesting paper on gaps: [Mind the gaps - ignoring errors in long read assemblies critically affects protein prediction](https://www.biorxiv.org/content/10.1101/285049v1)
+
+
 ## Integrated Assignment - Day 2
 
 *<font color="827e9c">Heather Gibling</font>*
