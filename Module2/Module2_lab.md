@@ -349,8 +349,8 @@ Before getting started, **remove the tracks for HCC1143.normal.21.19M-20M.bam (b
 
 ### Data for long reads:
 * Chromosome 21: 19,000,000-20,000,000
-* [NA12878.21.19M-20M.bam](https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/data/NA12878.21.19M-20M.bam)
-* [NA12878.21.19M-20M.bam.bai](https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/data/NA12878.21.19M-20M.bam.bai)
+* [NA12878.21.19M-20M.bam](https://drive.google.com/a/bioinformatics.ca/file/d/1UmDWfRZYPtAflIA6BrBGGTzd-1ztE6ld/view?usp=sharing)
+* [NA12878.21.19M-20M.bam.bai](https://drive.google.com/a/bioinformatics.ca/file/d/17LbbE40w2czS3px6_DGIq0n09TdMkJjW/view?usp=sharing)
 
 Copy the files to your local drive, and in IGV choose *File > Load from File*, select the bam file, and click OK. Note that the bam and index files must be in the same directory for IGV to load these properly, but only the bam file (not the bam.bai file) needs to be loaded into IGV.
 
