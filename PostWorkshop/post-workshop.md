@@ -132,6 +132,16 @@ unzip fastqc_v0.11.8.zip
 cd FastQC
 chmod +x fastqc
 ```
+Note: if you get error: 
+Exception in thread "Thread-1" java.awt.AWTError: Assistive Technology not found: org.GNOME.Accessibility.AtkWrapper
+You can comment out the following line in /etc/java-8-openjdk/accessibility.properties
+```
+assistive_technologies=org.GNOME.Accessibility.AtkWrapper
+```
+or run the following before you run fastqc
+```
+export _JAVA_OPTIONS=-Djavax.accessibility.assistive_technologies=
+```
 ### Flexbar
 ```
 sudo apt install flexbar
