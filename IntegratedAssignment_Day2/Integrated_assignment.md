@@ -91,7 +91,7 @@ exit
 
 ### Optional
 
-Perform the same analysis as in Module 4, but using the mother and father samples, i.e sample NA12891 and NA12891.
+Perform the same analysis as in Module 4 (SNP calling), but using the mother and father samples, i.e sample NA12891 and NA12891.
 
 ```
 #set up
