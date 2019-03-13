@@ -27,6 +27,8 @@ You can download the printed course manual [here](https://drive.google.com/a/bio
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/images/2019%20Course%20Photo%20CBW.jpg?raw=true" alt="Class Photo" width="750" />      
 
+[Link to all class photos](http://cshsymposium.com/connie/viewer1.php?directory=c_cbw_2019&page=1)
+
 ***
 
 # Pre-Workshop Materials <a id="preworkshop"></a>
