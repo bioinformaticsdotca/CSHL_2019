@@ -79,11 +79,32 @@ module load mugqic/java/openjdk-jdk1.8.0_72 mugqic/bvatools/1.6 mugqic/trimmomat
 
 The full commands can be found [here](https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day2/integrative_assigment_commands.sh), but try to work on it yourself before checking!
 
+
+ Remember to quit the singularity container environment on AWS:
+
+
+```
+exit
+```
+
 ---
 
 ### Optional
 
 Perform the same analysis as in Module 4, but using the mother and father samples, i.e sample NA12891 and NA12891.
+
+```
+#set up
+export WORK_DIR=~/workspace/HTseq/Integrative_Assignment/
+export REF=$WORK_DIR/reference/
+
+mkdir -p $WORK_DIR/variants
+cd $WORK_DIR
+
+singularity run -B ~/cvmfs_cache:/cvmfs-cache/ docker://c3genomics/genpipes:0.7  -V 3.1.2
+
+module load mugqic/java/openjdk-jdk1.8.0_72 mugqic/bvatools/1.6 mugqic/trimmomatic/0.36 mugqic/samtools/1.9 mugqic/bwa/0.7.17 mugqic/GenomeAnalysisTK/4.1.0.0 mugqic/R_Bioconductor/3.5.0_3.7
+```
 
 Some additional things you can look at:
 
