@@ -211,6 +211,8 @@ The FDR is  equal to 6.75e-36.
 
 ---
 
+---
+
 ## EXERCISE 3: QUESTIONS AND STEPS TO FOLLOW
 
 To start this exercise, you need to download the [Mixed_gene_list.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/mixed_gene_list.txt) file and save it on your computer. 
@@ -223,72 +225,61 @@ For this exercise, you are working on a gene list created by combining 3 user de
 ### STEPS  
 
 1.  Open Cytoscape and locate the GeneMANIA search window located on the left side in *Control Panel*. 
-
+  * Tip: make sure that GeneMANIA is selected and not String. 
+  
 2.	In the search window, ensure that the model organism is set to *Homo sapiens* ![homo](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Up.png?raw=true)  .	
 
-3.	Copy and paste genes in the file [Mixed_gene_list.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/mixed_gene_list.txt). Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true)    and wait for the results.	
+3.	Copy and paste genes in the file [Mixed_gene_list.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/mixed_gene_list.txt). Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true) and wait for the results.	Explore the network.
 
-4.	Locate the Functions summary tab (bottom left ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true)) and look at functions returned by GeneMANIA	
+4.	Locate the Functions summary tab in *Result Panel* (bottom left ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true)) and look at functions returned by GeneMANIA	
 
-5.	In the functions summary tab,  check some functions to color genes included in these functions. To follow this tutorial, you can for example color the “response to insulin” , “DNA recombination” and “vitamin transport” functions. **Tip**: You need to scroll down to found DNA recombination and vitamin transport as these pathways have an FDR greater than the one for “response to insulin”. 	
+5.	In the functions summary tab,  check some functions to color genes included in these functions. To follow this tutorial, you can for example color the “response to insulin” , “DNA recombination”  functions. **Tip**: You need to scroll down to found DNA recombination as this pathway has an FDR greater than the one for “response to insulin”. 	
+    * To color genes: 
+     * Go to *Control Panel* and select the *Style* tab.  
+     * In the *Nodes* panel, expand the *Fill Color* tab.
+     * Set *Column* to *annotation name*. 
+     * Locate “DNA recombination”.
+     * Double click on the white space at the right side of the box and click on the 3 buttons menu. A *Colors* box appears.
+     * Choose a color of your choice and click on *OK*.
+     * Locate “response to insulin”. Double click on the white space at the right side of the box and click on the 3 buttons menu. A *Colors* box appears.
+     * Choose a color of your choice and click on *OK*.
 
-6.	We are going next to add miRs and drug interaction networks. Click on ‘Show advanced option   ![options](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/dotdotdot.png?raw=true)’ which is located at the right of the search box. In the 'Networks' tab, expand 'Attributes' and check “Drug-interactions-2013” and “miRNA-target-predictions-2013”. Check “Physical interactions” and “Co-expression” . Click on “Customise advanced options”. Set “Max resultant genes” to 20 and “Max resultant attributes” to 40. Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true)    and wait for the results. Explore the network. **Tips**: the Drug-interactions and miRNA-target-predictions nodes are displayed in gray. The nodes connected to a drug are genes that are targeted by the drug and nodes connected to a  microRNA (miR) are genes predicted to be targeted by this miR.	
-
-7.	Locate our favorite gene PDPK1 on the network, select it by moving the mouse cursor to its node and wait there for a second. It will highlight this gene and all its connections. **Tip**: make sure that the black box displaying the details for PDPK1 is closed.	
-
-8.	Generate and save a report of your results by locating the save menu ![save](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/save.png?raw=true), and selecting “Report”. The PDF report provides a detailed description of your search and results.	
-
-9.	Investigate the “history” function by clicking on the related icon ![redo](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/redo.png?raw=true) located at the bottom of the window. A panel pops up showing the past networks generated by GeneMANIA. Clicking on one panel will relaunch the search for this network. 	
+6.	Locate our favorite gene PDPK1 on the network. Click on the icon *First Neighbor of Selected Nodes*. It will highlight this gene and all its connections. Click on the icon *New Network from Selection (All Edges)* to create a subnetwork.
+    * Tip: copy "PDPK1" in the search box and the node will be highlighted in yellow.
+    
 
 ## Exercise 3: MORE DETAILS AND SCREENSHOTS
 
-### Exercise 3 - STEPS 1 - 3
+### Exercise 3 - STEPS 1 - 2
 
-![GM28](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM28.png?raw=true) 
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC3_2.png?raw=true" alt="GC3_2.png" width="750" />
 
-![GM29](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM29.png?raw=true)  
+ 
+### Exercise 3 - STEP 3
+
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC3_3.png?raw=true" alt="GC3_3.png" width="750" />
 
  
 ### Exercise 3 - STEP 4
 
 
-![GM30](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM30.png?raw=true)  
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC3_4.png?raw=true" alt="GC3_4.png" width="750" />
 
 
 ### Exercise 3 - STEP 5
 
 
-![GM31](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM31.png?raw=true)  
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC3_5.png?raw=true" alt="GC3_5.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC3_5b.png?raw=true" alt="GC3_5b.png" width="750" />
 
 
 ### Exercise 3 - STEPS 6 
 
-![GM32](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM32.png?raw=true) 
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC3_6.png?raw=true" alt="GC3_6.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC3_6b.png?raw=true" alt="GC3_6b.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC3_6c.png?raw=true" alt="GC3_6c.png" width="750" />
 
-![GM33](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM33.png?raw=true)  
-
- 
-### Exercise 3 - STEP 7
-	
-
-![GM34](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM34.png?raw=true)  
-
-### Exercise 3 - STEP 8
-
-![GM35](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM35.png?raw=true) 
-
-![GM36](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM36.png?raw=true)  
-
- 
-### Exercise 3 - STEP 9
-
-
-![GM37](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM37.png?raw=true)  
-
-
-
---
-
+----
 
 ## SOME DEFINITIONS:
 
