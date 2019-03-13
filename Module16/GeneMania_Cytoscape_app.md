@@ -66,15 +66,15 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 ### EXERCISE 1 - STEPS 1-5
 
-<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GM1.png?raw=true" alt="GM1.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC1.png?raw=true" alt="GC1.png" width="750" />
 
 ### EXERCISE 1 - STEP 6
 
-<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GM2.png?raw=true" alt="GM2.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC2.png?raw=true" alt="GC2.png" width="750" />
 
 ### Exercise 1 - STEP 7
 
-<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GM3.png?raw=true" alt="GM3.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC3.png?raw=true" alt="GC3.png" width="750" />
 
 **Question** What are the functions significantly associated with this network?
 **Answer** the list of the functions associated with the network are listed in the above screenshot. "lysosomal function", "vacuolar lumen", "vacuolar part" are significant under a FDR threshold less than 0.0001. 
@@ -94,13 +94,13 @@ The top functions predicted by GeneMANIA for GRN were related to lysosome and va
 
 ### Exercise 1 - STEP 9
 	 
-<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GM9.png?raw=true" alt="GM9.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC9.png?raw=true" alt="GC9.png" width="750" />
 
-<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GM9b.png?raw=true" alt="GM9b.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC9b.png?raw=true" alt="GC9b.png" width="750" />
 
 ### Exercise 1 - STEP 10  (save an image) 	
 
-<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GM10.png?raw=true" alt="GM10.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC10.png?raw=true" alt="GC10.png" width="750" />
 
 
 **Notes** about biological interpretation of the results: 
@@ -110,7 +110,7 @@ The top functions predicted by GeneMANIA for GRN were related to lysosome and va
 Targeted manipulation of the sortilin–progranulin axis rescues progranulin haploinsufficiency. Lee et al. Hum Mol Genet. 2014 March 15; 23(6): 1467–1478. Published online 2013 October 26. doi: 10.1093/hmg/ddt534. PMCID:PMC3929086
 “Progranulin (GRN) mutations causing haploinsufficiency are a major cause of frontotemporal lobar degeneration (FTLD-TDP). Recent discoveries demonstrating sortilin (SORT1) is a neuronal receptor for PGRN endocytosis and a determinant of plasma PGRN levels portend the development of enhancers targeting the SORT1–PGRN axis. We demonstrate the preclinical efficacy of several approaches through which impairing PGRN's interaction with SORT1 restores extracellular PGRN levels. “
 
-![GM11](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM11.png?raw=true) 
+![GM11](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GC11.png?raw=true) 
 
 ---
 
@@ -205,7 +205,7 @@ The FDR is  equal to 6.75e-36.
 **Question** what functions were  significantly enriched with these new settings. **Answer** With the new settings, "hormone biosynthetic process" is the new top enriched pathway. 
 	
 
-img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC2_11.png?raw=true" alt="GC2_11.png" width="750" />
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC2_11.png?raw=true" alt="GC2_11.png" width="750" />
 
 
 
