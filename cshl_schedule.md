@@ -24,7 +24,7 @@ home: https://bioinformaticsdotca.github.io/CSHL_2019
 | 2:30 | <font color="blue">Connecting to the Cloud (Zhibin)</font> | 2:15 | <font color="purple">Module 6: De Novo Assembly (Jared Simpson)</font> |
 | 3:00 | <font color="green">*Coffee Break*</font> | 3:00 | <font color="green">*Coffee Break*</font> |
 | 3:30 | <font color="blue">Module 3 Lab</font> | 3:30 | <font color="blue">Module 6 Lab</font> |
-| 5:00 | <font color="green">*Dinner*</font> | 5:30 | <font color="green">*Dinner*</font> |
+| 5:30 | <font color="green">*Dinner*</font> | 5:30 | <font color="green">*Dinner*</font> |
 | 7:00 | <font color="green">*Welcome Reception*</font> | 7:00 | **Optional: Integrated Assignment** |
 
 # RNA-Seq Data Analysis
@@ -41,7 +41,7 @@ home: https://bioinformaticsdotca.github.io/CSHL_2019
 | | | 2:00 | <font color="purple">Module 11: Isoform Discovery and Alternative Expression (Kelsy Cotto)</font> |
 | 3:00 | <font color="green">*Coffee Break*</font> | 3:30 | <font color="green">*Coffee Break*</font> |
 | 3:30 |  <font color="blue">Module 8 Lab</font> | 4:00 | <font color="blue">Module 11 Lab</font> |
-| 5:00 | <font color="green">*Dinner*</font> | 5:00 | <font color="green">*Dinner*</font> |
+| 5:30 | <font color="green">*Dinner*</font> | 5:30 | <font color="green">*Dinner*</font> |
 | 7:00 | **Optional: Integrated Assignment** | 7:00 | **Optional: Integrated Assignment** |
 
 # Pathway and Network Analysis
@@ -59,7 +59,8 @@ home: https://bioinformaticsdotca.github.io/CSHL_2019
 | 2:00 | <font color="purple">Module 14:  Network Visualization and Analysis with Cytoscape and Reactome (Robin Haw)</font> | | |  | |
 | 3:15 | <font color="green">*Coffee Break*</font> | 3:00 | <font color="green">*Coffee Break*</font> | | |
 | 3:45 | <font color="blue">Module 14 Lab: De novo subnetwork clustering analysis- Reactome</font> | 3:30 | <font color="blue">Module 16 Lab: geneMANIA</font> | | |
-| 5:00 | <font color="green">*Dinner*</font> | 5:00 | <font color="green">*Dinner*</font> | | |
+| 5:30 | <font color="green">*Pizza Dinner (Hershey)*</font> | 5:30 | <font color="green">*Banquet Dinner*</font> | | |
 | 7:00 | **Optional: Integrated Assignment** | 7:00 | <font color="green">*Banquet*</font> | | |
+| 9:00 | Dance Party with DJ (Bush Hall) |
 
 
