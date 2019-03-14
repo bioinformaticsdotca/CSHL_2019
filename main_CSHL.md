@@ -348,7 +348,9 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Robin Haw</font>*
 
-[Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1M28EnvgxgZG1FW9Wc2UgH4TKwzerd-Gm/view?usp=sharing)   
+[Lab Practical Slides](https://drive.google.com/a/bioinformatics.ca/file/d/1M28EnvgxgZG1FW9Wc2UgH4TKwzerd-Gm/view?usp=sharing)
+
+[Lab Practical Exercises](/CSHL_2019_Module14_lab)
 
 
 ## Integrated Assignment - Day 5  
