@@ -361,7 +361,7 @@ Navigate to position "chr21:19,479,237-19,479,814"
 
 * Load the Common SNPs track from server (*File -> Load from Server -> Annotations -> Common Snps 1.4.2*)
 
-<img src="https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-GRCh38-SNPs.png" width="1000"/>
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-GRCh38-SNPs.png" width="500"/>
 
 
 **Question:**
