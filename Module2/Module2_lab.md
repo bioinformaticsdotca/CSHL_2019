@@ -361,7 +361,8 @@ Navigate to position "chr21:19,479,237-19,479,814"
 
 * Load the Common SNPs track from server (*File -> Load from Server -> Annotations -> Common Snps 1.4.2*)
 
-![Common SNPS GRCh38](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-GRCh38-SNPs.png =250x)
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-GRCh38-SNPs.png" width="1000"/>
+
 
 **Question:**
 * What does the abundance of dashed lines and purple "I"s tell us about the types of errors produced by nanopore sequencing?
@@ -370,15 +371,13 @@ Hide small indels to better view the alignments:
 * Go to *View -> Preferences -> Alignments* and enter a small number for *Hide indels <* (e.g., 20)
 * Most of the indels should now be removed.
 
-![Long Reads Hide SNPs](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-hide-indels.png =250x)
-
-<img src="https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-hide-indels.png" alt="drawing" width="1000"/>
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-hide-indels.png" width="1000"/>
 
 
 Generate a consensus sequence to hide substitution errors:
 * Go *View -> Preferences -> Alignments* and select *Quick consensus mode*
 
-![Long Reads Consensus](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-consensus.png =250x)
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-consensus.png" width="1000"/>
 
 
 ## Viewing Variants
@@ -388,7 +387,7 @@ Scroll around and see if you can find a plausible SNV.
 
 Now navigate to position "chr21:19,790,758-19,790,965"
 
-![Deletion at homopolymer site](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-nanopore-homopolymer-deletion.png =250x)
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-nanopore-homopolymer-deletion.png" width="1000"/>
 
 **Notes:** 
 * The reads here all have a deletion indicated by thin black bars splitting up parts of the reads. It would seem as though this is evidence for a deletion in this sample at this position
