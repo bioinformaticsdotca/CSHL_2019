@@ -1,12 +1,12 @@
 ---
 layout: tutorial_page
-permalink: /pathways_2018_module4_lab
-title: Pathways
+permalink: /CSHL_2019_Module14_lab
+title: HT-Bio
 header1: Workshop Pages for Students
-header2: Pathway and Network Analysis of Omics Data Lab 4
-image: /site_images/CBW_pathway_icon.jpg
-home: https://bioinformaticsdotca.github.io/pathways_2018
-description: Pathways Module 4 Lab
+header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 14
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/CSHL_2019
+description: HT-Bio Module 14 Lab
 author: Robin Haw
 modified: June 26th, 2018
 ---
