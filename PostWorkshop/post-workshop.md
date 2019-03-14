@@ -313,6 +313,11 @@ put /usr/local/libexec into PATH
 wget http://ccb.jhu.edu/software/stringtie/dl/stringtie-1.3.5.Linux_x86_64.tar.gz
 tar zxf stringtie-1.3.5.Linux_x86_64.tar.gz
 ```
+### tophat
+```
+wget https://ccb.jhu.edu/software/tophat/downloads/tophat-2.1.1.Linux_x86_64.tar.gz
+tar -zxf tophat-2.1.1.Linux_x86_64.tar.gz
+```
 ### TransDecoder
 ```
 wget https://github.com/TransDecoder/TransDecoder/archive/TransDecoder-v5.5.0.tar.gz
