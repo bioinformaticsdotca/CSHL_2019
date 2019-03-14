@@ -1,20 +1,23 @@
 ---
 layout: tutorial_page
-permalink: /pathways_2018_module4_lab_answers
-title: Pathways
+permalink: /CSHL_2019_Module14_lab_answers
+title: HT-Bio
 header1: Workshop Pages for Students
-header2: Pathway and Network Analysis of Omics Data Lab 4
+header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 14
 image: /site_images/CBW-CSHL-graphic-square.png
-home: https://bioinformaticsdotca.github.io/pathways_2018
+home: https://bioinformaticsdotca.github.io/CSHL_2019
+description: HT-Bio Module 3 Lab
+author: Robin Haw
+modified: March 5, 2019
 ---
 
 **This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.**
 
-# Module 4 Practical Lab: Reactome
+# Module 14 Practical Lab: Reactome
 
 By Robin Haw
 
-CBW Lab Module 4 Answers
+CBW Lab Module 14 Answers
 
 Example 1
 1.	SCF-KIT, EGFR, PDGF, PI3K/AKT signaling, INSR, NGF, FGFR, etc; 
