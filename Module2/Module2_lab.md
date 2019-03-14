@@ -372,7 +372,7 @@ Hide small indels to better view the alignments:
 
 ![Long Reads Hide SNPs](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-hide-indels.png =250x)
 
-<img src="https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-hide-indels.png" alt="drawing" width="700"/>
+<img src="https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/IGV-long-reads-hide-indels.png" alt="drawing" width="1000"/>
 
 
 Generate a consensus sequence to hide substitution errors:
