@@ -19,10 +19,7 @@ By Robin Haw
 
 CBW Lab Module 14 Answers
 
-Example 1
-1.	SCF-KIT, EGFR, PDGF, PI3K/AKT signaling, INSR, NGF, FGFR, etc; 
-
-Example 2
+Example 1.
 1.	The overall sub-network consists of 282 nodes and 730 edges. The largest component of the subnetwork consists of 249 nodes and 633 edges, with the remainder of nodes and edges distributed amongst 8 other small subnetworks and interactions.
 2.	Couple of ways to answer this. The driver mutations are probably the frequently mutated gene in the samples. The node size is proportional to the number of samples where the gene is mutated. Method 1- Look for the largest nodes in the diagram. Method 2 – Click Node Table and sort by “sampleNumber”. The largest node is TP53, ie. mutations in the TP53 gene are highly prevalent, occurring in 100 samples. Other driver mutations include EGFR (95) and PTEN (93). Additional mutations of interest include NF1, PIK3R1, PIK3CA, PIK3R1, RYR2, RB1.
 3.	Search for “TP53 PEG3” in search bar in top right of Cytoscape tool. Annotated Functional Interaction based upon data from the TRED database. This targeted interaction describes an interaction between TP53 (regulator) and PEG3 (target). An immunoprecipitation experiment demonstrates the interaction, and the supporting evidence has been published in the paper with a PubMed ID: 11679586.
@@ -32,7 +29,7 @@ Example 2
 7.	0: RTK signalling, 2: ECM and Integrin signalling, 3: TP53 Signaling.
 
 
-Example 3
+Example 2.
 1.	The overall sub-network consists of 251 nodes and 518 edges. The largest component of the subnetwork consists of 211 nodes and 430 edges, with the remainder of nodes and edges distributed amongst 14 other small subnetworks and interactions.
 2.	The largest node is TP53, ie. mutations in the TP53 gene are highly prevalent, occurring in at least 96% of HGS-OvCa samples.
 3.	After clustering, there are 26 modules with 11 modules of 10 ≥ genes.
