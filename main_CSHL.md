@@ -434,3 +434,5 @@ For additional resources, tutorials, future directions, and more please refer to
 
 Post workshop content for data sets, docker containers, AWS image, tools and install instructions can be found [here](https://bioinformaticsdotca.github.io/CSHL_2019_Post-Workshop)  
 
+Additional resources for continuing your bioinformatics education can be found [here](https://bioinformaticsdotca.github.io/CSHL_2019_additional_resources)
+
