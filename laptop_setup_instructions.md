@@ -89,7 +89,7 @@ Go to the [GSEA page](http://www.broadinstitute.org/gsea/index.jsp)
 Register  
 Login  
 In menu, choose Downloads  
-Go to the javaGSEA Java Jar file section and download the gsea_3.0.jar file and save in your Documents folder (do not leave it in the “Downloads”folder).  
+Go to the javaGSEA Java Jar file section and download the gsea-3.0.jar file and save in your Documents folder (do not leave it in the “Downloads”folder).  
  
 To run GSEA during the workshop, you must use the command line. You will need to open a terminal and execute the install commands. Since we will need to run GSEA this same way each time, it will be a good idea to save this information on how to run GSEA.
  
