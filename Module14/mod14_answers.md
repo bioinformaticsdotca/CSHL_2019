@@ -42,11 +42,11 @@ Example 2.
 10.	3 module: 1, 4 and 19.
 
  
-![img1](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module4_lab/Reactome1-1.png?raw=true)  
+![img1](https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module14/Reactome1-1.png?raw=true)  
 
 11.	The ReactomeFIViz app splits samples into two groups: samples having genes mutated in a module (green line), and samples having no genes mutated in the module (red line). The plugin uses the log-rank test to compare the two survival curves, and estimates p-values. In Modules 4 (KM: p=0.0019324), patient with genes mutated (green line) have a better prognosis than patients with no gene mutations (red line). Module 4 is most statistically significant modules from the CoxPH and KM analysis. 
   
-![img2](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module4_lab/Reactome2-1.png?raw=true)   
+![img2](https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module14/Reactome2-1.png?raw=true)   
 
 11.	In Module 4, the Calcium signaling, Chemical Synapse/Neurotransmission and Muscle Contraction annotations reflect a shared set of genes. These genes represent voltage-gated ion channels, which are a group of transmembrane ion channels that activated by changes in electrical potential difference. Even though ion channels are especially critical in neurons and muscle tissue, they are common in many types of cells, controlling the influx and outflux of ions. There are a number of genetic disorders, which disrupt normal functioning of ion channels. Calcium homeostasis is essential for cell migration, and tumor metastasis in particular. It may be that mutations in Module 2 genes disrupt calcium homeostasis, thereby impairing the tumour’s ability to metastasize, and extending patient’s overall survival.
 
