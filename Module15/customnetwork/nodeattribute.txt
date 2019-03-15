@@ -1,0 +1,1 @@
+gene	mutation	expressionBAR1	10	5PIS1	2	2ALPHA2	2	5STE12	5	2MFA1	4	10MCM1	7	10STE2	3	4
