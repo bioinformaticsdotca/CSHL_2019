@@ -64,9 +64,9 @@ Cytoscape requires Java8: check your version at  https://www.java.com/verify/ an
 
 13) Within the Cytoscape program, install the following Cytoscape apps.  
 
-From the menu bar, select ‘Apps’ , ‘Manage Apps’.
+From the menu bar, select ‘Apps’, then ‘App Manager’.
  
-Within all apps, search for the following and install:  
+Within 'all apps', search for the following and install:  
 
  * EnrichmentMap (3.2.0)
  * EnrichmentMap Pipeline Collection (it will install ClusterMaker2, WordCloud and AutoAnnotate) 
@@ -77,9 +77,9 @@ Within all apps, search for the following and install:
  
 14) Install the data set within GeneMANIA app.
 
-Select GeneMania from Cytoscape 'Apps Manager' and Choose Another Data Set.  
-From the list of available data sets, select the most recent (2014-08-12/1 June 2014) and under ‘Include only these networks’: select ‘all’. Click on ‘Download’.  
-An ‘Install Window’ will pop-up. Select H.Sapiens Human (2384 MB). Click on ‘Install’.  
+From the menu bar, select 'Apps', hover over 'GeneMANIA', then select 'Choose Another Data Set'.  
+From the list of available data sets, select the most recent (2017-07-13/13 July 2017) and under ‘Include only these networks:' select ‘all’. Click on ‘Download’.  
+An ‘Install Data' window will pop-up. Select H.Sapiens Human (2589 MB). Click on ‘Install’.  
 This requires time and a good network connection to download completely, so be patient (around 15mins).  
 
   
