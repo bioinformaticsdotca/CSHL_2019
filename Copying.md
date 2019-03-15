@@ -41,10 +41,16 @@ tar -vczf rna-backup.tar.gz rna-backup
 ### On your home computer
 
 Navigate to the directory with your AWS permisions key (CBWNY.pem, CBWNY.pbk)
-* Copy over using your student number instead of XX
+* Copy over using your student number instead of `##`
 * Need to specify permissions key
 * Dot at the end means copy the data in the current directory
 
 ```
-rsync -azv -e "ssh -i CBWNY.pem" ubuntu@XX.oicrcbw.ca:/home/ubuntu/workspace/rnaseq/integrated_assignment/rna-backup.tar.gz .
+rsync -azv -e "ssh -i CBWNY.pem" ubuntu@##.oicrcbw.ca:/home/ubuntu/workspace/rnaseq/integrated_assignment/rna-backup.tar.gz .
+```
+
+You can also use `scp`, which is a bit simpler, but often not as fast
+
+```
+ scp -i CBWNY.pem ubuntu@##.oicrcbw.ca:/home/ubuntu/workspace/rnaseq/integrated_assignment/rna-backup.tar.gz .
 ```
