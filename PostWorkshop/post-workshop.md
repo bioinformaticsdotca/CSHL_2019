@@ -14,7 +14,12 @@ modified: March 12, 2019
 # Post Workshop Access and Instructions
 
 ## Copying from AWS
-Instructions on how to copy your AWS results is [here](https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Copying.md)   
+Instructions on how to copy your AWS results is [here](https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Copying.md)
+
+## Additional Training on Git and Data Management
+Software Carpentry has Version control with Git lesson - http://swcarpentry.github.io/git-novice/
+
+Data Carpentry has Data management for Genomics lesson - https://datacarpentry.org/organization-genomics
 
 ## Docker Container
 Docker container from Mathieu Bourgey is [here:](https://hub.docker.com/r/c3genomics/genpipes)
