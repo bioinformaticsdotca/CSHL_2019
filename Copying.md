@@ -40,7 +40,7 @@ tar -vczf rna-backup.tar.gz rna-backup
 
 ### On your home computer
 
-Navigate to the directory with your AWS permisions key (CBWNY.pem, CBWNY.pbk)
+Navigate to the directory with your AWS permisions key (CBWNY.pem for mac or linux, CBWNY.ppk for windows)
 * Copy over using your student number instead of `##`
 * Need to specify permissions key
 * Dot at the end means copy the data in the current directory
