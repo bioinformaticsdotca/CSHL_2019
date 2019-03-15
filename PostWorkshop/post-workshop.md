@@ -13,6 +13,10 @@ modified: March 12, 2019
 
 # Post Workshop Access and Instructions
 
+## Copying from AWS
+Instructions on how to copy your AWS results is [here:](https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Copying.md)
+      
+
 ## Docker Container
 Docker container from Mathieu Bourgey is [here:](https://hub.docker.com/r/c3genomics/genpipes)
 
