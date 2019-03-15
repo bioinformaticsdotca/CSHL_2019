@@ -380,7 +380,7 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Lab Practical - Part 2](https://bioinformaticsdotca.github.io/CSHL_2019_Module15_lab_2)    
 
-[Lab Practical - Part 3 Optional](xxx)
+[Lab Practical - Part 3 Optional](https://bioinformaticsdotca.github.io/CSHL_2019_Module15_lab3)
 
 
 ## Module 16: Gene Function Prediction
