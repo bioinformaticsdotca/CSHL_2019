@@ -99,7 +99,7 @@ To run GSEA during the workshop, you must use the command line. You will need to
 * At the prompt, type the command in your terminal window and hit enter:
 
 ```
-java -Xmx2G -jar ~/Documents/gsea2-2.2.3.jar
+java -Xmx2G -jar ~/Documents/gsea-3.0.jar
 ```
 
 **PC/Windows Computer** 
@@ -109,5 +109,5 @@ java -Xmx2G -jar ~/Documents/gsea2-2.2.3.jar
 
 ```
 cd Documents
-java -Xmx2G -jar gsea2-2.2.3.jar
+java -Xmx2G -jar gsea-3.0.jar
 ```
