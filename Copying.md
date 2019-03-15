@@ -42,6 +42,8 @@ tar -vczf rna-backup.tar.gz rna-backup
 
 Navigate to the directory with your AWS permisions key (CBWNY.pem, CBWNY.pbk)
 * Copy over using your student number instead of XX
+* Need to specify permissions key
+* Dot at the end means copy the data in the current directory
 
 ```
 rsync -azv -e "ssh -i CBWNY.pem" ubuntu@XX.oicrcbw.ca:/home/ubuntu/workspace/rnaseq/integrated_assignment/rna-backup.tar.gz .
