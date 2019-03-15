@@ -28,9 +28,9 @@ This practical consists of 1 exercise. You can choose to do these exercises usin
 
 Before starting the exercises,download the files:
 
-*	[network_table.txt](https://raw.githubusercontent.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/customnetwork/network_table.txt)
+*	[network_table.txt](https://raw.githubusercontent.com/bioinformaticsdotca/CSHL_2019/master/Module15/customnetwork/networktable.txt)
 
-*	[node_attributes.txt](https://raw.githubusercontent.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/customnetwork/node_attributes.txt)
+*	[node_attributes.txt](https://raw.githubusercontent.com/bioinformaticsdotca/CSHL_2019/master/Module15/customnetwork/nodeattribute.txt)
 
 
 NOTE: Network layouts are flexible and can be rearranged. What you see when you perform these exercises may not be identical to what you see in the tutorial, or what you have seen other times that you have performed the exercises. 
@@ -43,13 +43,13 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 1. Open Cytoscape.
 
-2. Locate the top menu bar and select 'File', 'Import', 'Network from File...'. Browse your computer and select the file   [network_table.txt](https://raw.githubusercontent.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/network_table.txt)
+2. Locate the top menu bar and select 'File', 'Import', 'Network from File...'. Browse your computer and select the file   [network_table.txt](https://raw.githubusercontent.com/bioinformaticsdotca/CSHL_2019/master/Module15/customnetwork/networktable.txt)
 and click "Open". 
 
 3. An "Import Network from Table" dialog box opens. The 3 columns of the table should be set as "source", "interaction" and "target" respectively. Click on "OK".
 A network containing the proteins as blue nodes and sharing interaction as edges should be now displayed in Cytoscape main window. 
 
-4.  Locate the top menu bar and select 'File', 'Import', 'Table from File...'. Browse your computer and select the file [node_attributes.txt](https://raw.githubusercontent.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/node_attributes.txt)
+4.  Locate the top menu bar and select 'File', 'Import', 'Table from File...'. Browse your computer and select the file [node_attributes.txt](https://raw.githubusercontent.com/bioinformaticsdotca/CSHL_2019/master/Module15/customnetwork/nodeattribute.txt)
 and click "Open".
 
 5. An "Import from Columns" dialog appears. Click on "OK". 
