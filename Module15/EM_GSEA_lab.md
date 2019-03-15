@@ -99,7 +99,7 @@ Launch Cytoscape and open EnrichmentMap App
  
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EM1.png?raw=true"  />
 
-A 'Create EnrichmentMap window is not opened.
+A 'Create EnrichmentMap window is now opened.
 
 ### Step 2 
 
