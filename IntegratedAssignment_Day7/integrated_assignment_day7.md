@@ -90,7 +90,7 @@ Create an enrichment map to visualize the outputs from g:Profiler. Let's create 
 
 8.  If successful, you will see a network where each node represents a pathway and edges connect pathways with shared genes. Blue edges connect nodes from dataset1 (BE in my case) and Green edges connect nodes from dataset2 (NE in my case). 
 
-9. In Control Panel and in the 'EnrichmentMap' tab, go to 'Style' and change the 'Chart Data:' to 'Color by Data Set'. Now the nodes are colored in blue for dataset1 and in green for dataset2. 
+9. In Control Panel and in the 'EnrichmentMap' tab, go to 'Style' (near the bottom) and change the 'Chart Data:' to 'Color by Data Set'. Now the nodes are colored in blue for dataset1 and in green for dataset2. 
 
 10. Annotate the network using the AutoAnnotate Apps. 
 
