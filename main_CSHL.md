@@ -413,9 +413,9 @@ For additional resources, tutorials, future directions, and more please refer to
 [Lab practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module17_lab)  
 
 
+[Precomputed results cys file](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module6_lab/prostate_cancer_genemania_network.cys)
 
-[Precomputed results cys file]() and [Precomputed results irf file]()  
-
+[Precomputed results irf file](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module6_lab/iregulon_results.irf)
 
   
 
