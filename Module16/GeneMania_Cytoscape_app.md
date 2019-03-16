@@ -144,9 +144,9 @@ For this exercise, you are working with a list of 30 prostate cancer genes. This
 
 10.	“Shared protein domains” is an important part of the network. What would be the GeneMANIA results if we don’t include this source when we run GSEA? In *Control Panel*, click on  the option menu button which is located at the right of the search box. Uncheck ‘Shared protein domains’ and click on a point outside the box to close it. Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true). Explore the results.
 	
-11.	Locate the Functions summary tab in *Results Panel* and look at what functions were  significantly enriched with these new settings.	
+11.	Locate the Functions summary tab in *Results Panel* and look at what functions were significantly enriched with these new settings.	
 
-12.	Try to modify additional parameters like *Max Resultant Genes*  or *Network wWighting* and look at how the changes you made influenced the results.  	
+12.	Try to modify additional parameters like *Max Resultant Genes* or *Network Weighting* and look at how the changes you made influenced the results.  	
 
 #####
 
@@ -191,7 +191,7 @@ The FDR is equal to 1.2e-40.
 ### Exercise 2 - STEP 10
 
 
-**Question** “Shared protein domains” is an important part of the network. What would be the GeneMANIA results if we don’t include this source when we run GSEA? **Answer** If "shared protein domain" is removed, the relationships between the nodes are from the Co-expression, Co-localization, Predicted and Physical interactions networks.The genes added to the network are different compared to the first network created with "Shared protein domain". 
+**Question** “Shared protein domains” is an important part of the network. What would be the GeneMANIA results if we don’t include this source when we run GSEA? **Answer** If "shared protein domain" is removed, the relationships between the nodes are from the Co-expression, Co-localization, Predicted and Physical interactions networks. The genes added to the network are different compared to the first network created with "Shared protein domain". 
 
 	
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC2_10a.png?raw=true" alt="GC2_10a.png" width="750" />
@@ -231,7 +231,7 @@ For this exercise, you are working on a gene list created by combining 3 user de
 
 3.	Copy and paste genes in the file [Mixed_gene_list.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/mixed_gene_list.txt). Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true) and wait for the results.	Explore the network.
 
-4.	Locate the Functions summary tab in *Result Panel* (bottom left ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true)) and look at functions returned by GeneMANIA	
+4.	Locate the Functions summary tab in *Result Panel* and look at functions returned by GeneMANIA.	
 
 5.	In the functions summary tab,  check some functions to color genes included in these functions. To follow this tutorial, you can for example color the “response to insulin” , “DNA recombination”  functions. **Tip**: You need to scroll down to found DNA recombination as this pathway has an FDR greater than the one for “response to insulin”. 	
     * To color genes: 
