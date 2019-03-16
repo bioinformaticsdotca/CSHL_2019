@@ -48,13 +48,11 @@ For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were
 
 1.  Open g:Profiler
 
-2.  In Options, make sure *All results* is **not** checked (this keeps significant results only), and select *No electronic GO annotations*
-
-3.  Choose the databases: GO BP and Reactome.
-
-4.  'Set minimum size of functional category to 3 and maximum to 500. Set 2 for the *Size of query/ term intersection*.': ***These options are not available in the current version of g:Profiler. They might be available again in the next release.***. 
+2.  In Options, make sure *All results* is **not** checked (this keeps significant results only), and select *GO molecular function*, *No electronic GO annotations*, and Reactome.
 
 5.  Set Benjamini-Hochberg in the 'Significance threshold' box.
+
+4.  'Set minimum size of functional category to 3 and maximum to 500. Set 2 for the *Size of query/ term intersection*.': ***These options are not available in the current version of g:Profiler. They might be available again in the next release.***. 
 
 6.  Run analysis of the genes differentially altered between BE and normal: copy and paste the gene list into the g:Profiler input window [BEonly_genelist.txt](https://github.com/bioinformaticsdotca/Pathways_2018/raw/master/integrated_assignment_1/BEonly_genelist_v2.txt).
 
@@ -66,9 +64,7 @@ For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were
 
 ## PART 2: save as Generic Enrichment Map output (BE)
 
-Now we have to generate an output from the enrichment analysis and save it in appropriate format for EnrichmentMap. Please, change the output type to *Generic Enrichment Map (TAB)*.
-
-Run it using options used in PART 1. Download data in Generic EnrichmentMap (GEM) format and save it on your computer. We will need this file to create an enrichment map.
+Now we have to generate an output from the enrichment analysis and save it in appropriate format for EnrichmentMap. Scroll down, select the tab for *Detailed results*, and export the data in Generic EnrichmentMap (GEM) format and save it on your computer. We will need this file to create an enrichment map.
 
 ## PART 3: save as Generic Enrichment Map output (NE)
 
