@@ -110,7 +110,7 @@ The top functions predicted by GeneMANIA for GRN were related to lysosome and va
 Targeted manipulation of the sortilin–progranulin axis rescues progranulin haploinsufficiency. Lee et al. Hum Mol Genet. 2014 March 15; 23(6): 1467–1478. Published online 2013 October 26. doi: 10.1093/hmg/ddt534. PMCID:PMC3929086
 “Progranulin (GRN) mutations causing haploinsufficiency are a major cause of frontotemporal lobar degeneration (FTLD-TDP). Recent discoveries demonstrating sortilin (SORT1) is a neuronal receptor for PGRN endocytosis and a determinant of plasma PGRN levels portend the development of enhancers targeting the SORT1–PGRN axis. We demonstrate the preclinical efficacy of several approaches through which impairing PGRN's interaction with SORT1 restores extracellular PGRN levels. “
 
-![GM11](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GC11.png?raw=true) 
+![GM11](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM11.png?raw=true) 
 
 ---
 
