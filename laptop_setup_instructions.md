@@ -73,6 +73,7 @@ Within 'all apps', search for the following and install:
  * GeneMANIA (3.5.0)
  * Iregulon  
  * ReactomeFIPlugin - http://apps.cytoscape.org/apps/reactomefiplugin  
+ * stringApp
  
  
 14) Install the data set within GeneMANIA app.
