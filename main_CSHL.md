@@ -10,6 +10,8 @@ description: Course covers the key bioinformatics concepts and tools required to
 instructors: Sara Goodwin, Jared Simpson, Mathieu Bourgey, Zhibin Lu, Heather Gibling, Malachi Griffith, Obi Griffith, Peter Ronning, Kelsy Cotto, Juri Reimand, Robin Haw, Veronique Voisin, Quaid Morris, Michael Hoffman
 length: 7 days
 ---
+# Survey
+Please complete an online survey to help improve Bioinformatics.ca workshops [here:](https://goo.gl/forms/p4vZvSYGHu5oJZwT2)
 
 # Welcome <a id="welcome"></a>
 
