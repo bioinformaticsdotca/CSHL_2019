@@ -48,7 +48,7 @@ For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were
 
 1.  Open g:Profiler
 
-2.  In Options, check *Significantly only*, *No electronic GO annotations*
+2.  In Options, make sure *All results* is **not** checked (this keeps significant results only), and select *No electronic GO annotations*
 
 3.  Choose the databases: GO BP and Reactome.
 
@@ -56,7 +56,7 @@ For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were
 
 5.  Set Benjamini-Hochberg in the 'Significance threshold' box.
 
-6.  Run analysis of the genes differentially altered between BE and normal: copy and paste the gene list into the g:Profiler input window [BEonly_genelist.txt](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/BEonly_genelist_v2.txt).
+6.  Run analysis of the genes differentially altered between BE and normal: copy and paste the gene list into the g:Profiler input window [BEonly_genelist.txt](https://github.com/bioinformaticsdotca/Pathways_2018/raw/master/integrated_assignment_1/BEonly_genelist_v2.txt).
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/gprofilerinput.png?raw=true" alt="gprofiler_BE_map.png" width="750" />
 
