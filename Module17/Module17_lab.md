@@ -450,7 +450,7 @@ If Cytoscape is already opened,  do File > New > Session. A ‘Current session w
 
 2)	Create the metatargetome for MTF1.
 
-●	From the menu bar , select File > Apps > iRegulon> Query TF-target database.A ‘Query TF-target database for a factor’ window pops up.
+●	From the menu bar , select Apps > iRegulon > Query TF-target database.A ‘Query TF-target database for a factor’ window pops up.
 
 ●	In the ‘Transcription Factor’ field, select ‘MTF1’. 
 
@@ -461,7 +461,7 @@ If Cytoscape is already opened,  do File > New > Session. A ‘Current session w
 
 3)	Create the metatargetome for LARP4. Follow same steps as above.
 
-●	From the Cytoscape menu bar, select File > Apps>iRegulon> Query TF-target database.
+●	From the Cytoscape menu bar, select Apps > iRegulon > Query TF-target database.
 
 ●	A ‘Query TF-target database for a factor’ window pops up. In the ‘Transcription Factor field’, enter ‘LARP4’. 
 
