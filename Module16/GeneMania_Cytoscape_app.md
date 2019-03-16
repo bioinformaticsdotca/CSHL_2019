@@ -244,7 +244,7 @@ For this exercise, you are working on a gene list created by combining 3 user de
      * Locate “response to insulin”. Double click on the white space at the right side of the box and click on the 3 buttons menu. A *Colors* box appears.
      * Choose a color of your choice and click on *OK*.
 
-6.	Locate our favorite gene PDPK1 on the network. Click on the icon *First Neighbor of Selected Nodes* (icon with two houses, near the search bar). It will highlight this gene and all its connections. Click on the icon *New Network from Selection (All Edges)* (icon with two papers, next to the search bar) to create a subnetwork.
+6.	Locate our favorite gene PDPK1 on the network. Click on the icon *First Neighbor of Selected Nodes* ![neighbour](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/neighbour.png). It will highlight this gene and all its connections. Click on the icon *New Network from Selection (All Edges)* ![new network](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/newnetwork.png) to create a subnetwork.
     * Tip: copy "PDPK1" in the search box and the node will be highlighted in yellow.
     
 
