@@ -58,9 +58,9 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 8. Locate the gene with the strongest association with GRN. **Tip**: this gene is the largest node on the network. 	
 
-9. Re-run an analysis by adding SORT1, HSPG2 to the search.   Type 'SORT1' and 'HSPG2' in the search box that already contains 'GRN'.  Click on the search button.  Which functions are associated with this new network?	 
+9. Re-run an analysis by adding SORT1, HSPG2 to the search.   Type 'SORT1' and 'HSPG2' in the search box that already contains 'GRN' (one gene per line).  Click on the search button.  Which functions are associated with this new network?	 
 
-10. Save the  network as an image by clicking on 'File', 'Export', 'Network to Image...' and setting the "Export File Format" to "PDF(*.pdf)".  	
+10. Save the  network as an image by clicking on 'File', 'Export', 'Network to Image...' and setting the "Export File Format" to "PDF(\*.pdf)".  	
 
 ## EXERCISE 1 ANSWERS: DETAILED EXPLANATION AND SCREENSHOTS
 
