@@ -72,7 +72,7 @@ Run it using options used in PART 1. Download data in Generic EnrichmentMap (GEM
 
 ## PART 3: save as Generic Enrichment Map output (NE)
 
-Generate and save the Generic EnrichmentMap for genes in [NConly_genelist.txt](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/NEonly_genelist.txt). It contains the genes specific of the normal tissue samples. Run g:Profiler with this list using same options as in PART 1 selecting Generic Enrichment Map (GEM) format as output type. We will need this file for EnrichmentMap.
+Generate and save the Generic EnrichmentMap for genes in [NConly_genelist.txt](https://github.com/bioinformaticsdotca/Pathways_2018/raw/master/integrated_assignment_1/NEonly_genelist.txt). It contains the genes specific of the normal tissue samples. Run g:Profiler with this list using same options as in PART 1 selecting Generic Enrichment Map (GEM) format as output type. We will need this file for EnrichmentMap.
 
 ## PART 4: create an enrichment map
 
@@ -149,7 +149,7 @@ Note: you may get slightly different results as 100 permutations is not enough t
 ## PART 6: iRegulon
 
  1. Export extracellular matrix genes. 
-  * Using your GSEA map at q-value 0.01, select all nodes from the extracellular matrix/collagen cluster. Go to Table Panel, and click on the Settings icon (located on the right, shaped like a ship wheel) and click on 'Export as TXT'. Save the text file under the name 'extracellularmatrix_cluster_genes.txt' or use this file [extracellularmatrix_cluster_genes.txt](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/integrated_assignment_1/extracellularmatrix_cluster_genes.txt).
+  * Using your GSEA map at q-value 0.01, select all nodes from the extracellular matrix/collagen cluster. Go to Table Panel, and click on the Settings icon (located on the right, shaped like a ship wheel) and click on 'Export as TXT'. Save the text file under the name 'extracellularmatrix_cluster_genes.txt' or use this file [extracellularmatrix_cluster_genes.txt](https://github.com/bioinformaticsdotca/Pathways_2018/raw/master/integrated_assignment_1/extracellularmatrix_cluster_genes.txt).
  
  2. Import the extracellular matrix genes as a network.
   * In Cytoscape, go to the menu bar and select, File, Import, Network from File... 
@@ -234,7 +234,7 @@ Hint:select the pathway in the table, that should highlight the genes in yellow.
 
 ## PART 2: GeneMANIA
 
-Use the same mutation data  [STAD_MutSig.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/STAD_MutSig.txt) to create a network using GeneMANIA in order to visualize which genes are known to physically interact with each other.
+Use the same mutation data  [STAD_MutSig.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/raw/master/Pathways/integrated_assignment_1/STAD_MutSig.txt) to create a network using GeneMANIA in order to visualize which genes are known to physically interact with each other.
 
 Install the latest version of the Cytoscape GeneMANIA app (Version 3.5.0)
  * Go the Cytoscape menu bar and select Apps, App Manager... . In the App Manager dialog box, go to the 'Check for Updates' tab and update GeneMANIA if necessary. Note: if the 'Check for Updates' tab is blank, it means that you have installed the most recent versions of all apps.
