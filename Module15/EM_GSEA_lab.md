@@ -170,9 +170,9 @@ Steps:
   
 **3d**: Click on an individual node of interest.
 
-For this example, you could use *Integrin signalling pathway*. 
+For this example, you could use *Integrins signalling pathway*. 
 
-TIP: If you are unable to locate *Integrin signalling pathway*, type "Integrin signalling pathway" in the search box (quotes are important).  Selected nodes appear yellow (or highlighted) in the network.
+TIP: If you are unable to locate *Integrins signalling pathway*, type "Integrins signalling pathway" in the search box (quotes are important).  Selected nodes appear yellow (or highlighted) in the network.
 
 **3e**. In the Table Panel in the * EM Heat map* tab change:
 
@@ -193,7 +193,7 @@ Use Filters to automatically select nodes on the map: Move the blue nodes to the
 
 **4b**. Click on the + sign to view the menu and select *Column Filter*.
 
-**4c**. From the *Choose column …* box, select *Node: EM1_ES_dataset1* and set filter values from -0.953 and 0 inclusive.
+**4c**. From the *Choose column …* box, select *Node: ES_dataset1* and set filter values from -0.953 and 0 inclusive.
 
 **4d**. The blue nodes are now automatically selected. Zoom out to be able to look at the entire network and drag all blue nodes to the left side of the screen.
   
@@ -275,9 +275,9 @@ Visualize genes in a pathway/node of interest using the apps STRING and GeneMANI
 
 **7a**: Click on an individual node of interest.
 
-For this example, you could use *Integrin in angiogenesis*. 
+For this example, you could use *Integrins in angiogenesis*. 
 
-TIP: If you are unable to locate *Integrin in angiogenesis*, type "Integrin in angiogenesis" in the search box (quotes are important).  The selected node appears yellow (or highlighted) in the network. If you have annotated your network, it should be included in the *ecm receptor interaction* cluster.
+TIP: If you are unable to locate *Integrins in angiogenesis*, type "Integrins in angiogenesis" in the search box (quotes are important).  The selected node appears yellow (or highlighted) in the network. If you have annotated your network, it should be included in the *ecm receptor interaction* cluster.
 
 **7b**: Right Click on the node of interest to diplay the option menu. Select *Apps*, *EnrichmentMap - Show in STRING*
 A *STRING Protein Query* box appears. Unselect all genes *Select None* and select only the collagen genes with gene name starting with *COL*. Click on *OK*. 
@@ -294,7 +294,7 @@ A *STRING Protein Query* box appears. Unselect all genes *Select None* and selec
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/sting_genemani.png?raw=true" alt="workflow" width="500" />
 
 
-**7d**: Search again for the node labelled *Integrin in angiogenesis* as in Step 7a. Right Click on the node of interest to diplay the option menu. Select *Apps*, *EnrichmentMap - Show in GeneMANIA*. A *GeneMANIA Query* box appears. Unselect all genes *Select None* and select only the collagen genes with gene name starting with *COL*. Click on *OK*. 
+**7d**: Search again for the node labelled *Integrins in angiogenesis* as in Step 7a. Right Click on the node of interest to diplay the option menu. Select *Apps*, *EnrichmentMap - Show in GeneMANIA*. A *GeneMANIA Query* box appears. Unselect all genes *Select None* and select only the collagen genes with gene name starting with *COL*. Click on *OK*. 
 
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module15/img/Stringa.png?raw=true" alt="workflow" width="500" />
