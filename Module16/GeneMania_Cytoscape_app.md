@@ -128,7 +128,7 @@ For this exercise, you are working with a list of 30 prostate cancer genes. This
 
 2.  Locate the GeneMANIA search window located on the left side in *Control Panel*. 
 
-3.	Copy and paste genes in the file [30_prostate_cancer_genes.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/30_prostate_cancer_genes.txt).  Make sure that the parameter 'Max resultant genes' is set to '20' by clicking on the menu button (with 3 lines) at the right side of the search box and selecting 'Customise advanced options'.	
+3.	Copy and paste genes in the file [30_prostate_cancer_genes.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/30_prostate_cancer_genes.txt).  Make sure that the parameter 'Max resultant genes' is set to '20' by clicking on the menu button ![options](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/options.png) at the right side of the search box and selecting 'Customise advanced options'.	
 
 4.	Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true) and wait for the results.	 
 
@@ -136,13 +136,13 @@ For this exercise, you are working with a list of 30 prostate cancer genes. This
 	
 6.	Click any link (edge) connecting two nodes to highlight information about it. The information about the interaction is display in the *Edge Table* located in *Table Panel* (at the bottom) in the *networks* and *data type* columns. **Note**: Clicking on an edge between 2 nodes will display information about all interaction networks that connect  these 2 nodes. It indicates the reference (publication) for these interactions. The colors indicate the type of interaction (co-expression, shared protein domains, co-localization, physical interactions and predicted). 
 
-7.	Locate and expand the 'Networks' summary tab  in *Results Panel* (on the right) and look at what data has been used to create the network and predictions. **Note** that Co-expression (purple colored lines, weight over 25%) and Shared protein domains (lightgold colored  lines, weight over 30%) influence the results the most, but Co-localization (blue colored lines), Physical interactions (salmon colored lines) and Predicted (orange) data are also included. At the top of the Networks summary tab, use the menu button (3 lines) and try Expand “All, then “Top-Level” and “None”  to get information about the sources of the different networks. 
+7.	Locate and expand the 'Networks' summary tab  in *Results Panel* (on the right) and look at what data has been used to create the network and predictions. **Note** that Co-expression (purple colored lines, weight over 25%) and Shared protein domains (lightgold colored lines, weight over 30%) influence the results the most, but Co-localization (blue colored lines), Physical interactions (salmon colored lines) and Predicted (orange) data are also included. At the top of the Networks summary tab, use the menu button ![options](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/options.png) and try Expand “All, then “Top-Level” and “None”  to get information about the sources of the different networks. 
 
 8.	Highlight all connections corresponding to each network by clicking the name of each network category. Click on  “Shared protein domains” and see which genes are connected by predicted protein protein interaction. You can do the same for “Co-localization” , “Co-expression”  and “Physical interactions”. **Tips**:  these observations of the number of connections make it easier to understand why co-expression and shared protein domains get the higher percent weight on this network: they are helping to connect more genes than physical interactions and predicted; A higher weight means that this network helped more to find related genes. 	
 
 9.	Locate the Functions summary tab and look at what functions were significantly enriched in this list of prostate genes.	
 
-10.	“Shared protein domains” is an important part of the network. What would be the GeneMANIA results if we don’t include this source when we run GSEA? In *Control Panel*, click on  the option menu button which is located at the right of the search box. Uncheck ‘Shared protein domains’ and click on a point outside the box to close it. Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true). Explore the results.
+10.	“Shared protein domains” is an important part of the network. What would be the GeneMANIA results if we don’t include this source when we run GSEA? In *Control Panel*, click on  the option menu button ![options](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/options.png) which is located at the right of the search box. Uncheck ‘Shared protein domains’ and click on a point outside the box to close it. Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true). Explore the results.
 	
 11.	Locate the Functions summary tab in *Results Panel* and look at what functions were significantly enriched with these new settings.	
 
@@ -239,7 +239,7 @@ For this exercise, you are working on a gene list created by combining 3 user de
      * In the *Nodes* panel, expand the *Fill Color* tab.
      * Set *Column* to *annotation name*. 
      * Locate “DNA recombination”.
-     * Double click on the white space at the right side of the box and click on the 3 dots. A *Colors* box appears.
+     * Double click on the white space at the right side of the box and click on the 3 dots ![options2](https://github.com/bioinformaticsdotca/CSHL_2019/raw/master/images/options2.png). A *Colors* box appears.
      * Choose a color of your choice and click on *OK*.
      * Locate “response to insulin”. Double click on the white space at the right side of the box and click on the 3 buttons menu. A *Colors* box appears.
      * Choose a color of your choice and click on *OK*.
