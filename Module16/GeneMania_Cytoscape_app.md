@@ -183,7 +183,7 @@ Tip: check that the parameter 'Max resultant genes' is set to '20':
 ### Exercise 2 - STEP 9
 
 The top pathways with the strongest enrichments are: "cellular hormone metabolic process" with 23 genes in the list overlapping with this pathway.
-The FDR is  equal to 6.75e-36.
+The FDR is equal to 1.2e-40.
 
 <img src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/Module16/img/GC2_9.png?raw=true" alt="GC2_9.png" width="750" />
  
