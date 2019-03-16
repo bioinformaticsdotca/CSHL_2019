@@ -68,7 +68,7 @@ Now we have to generate an output from the enrichment analysis and save it in ap
 
 ## PART 3: save as Generic Enrichment Map output (NE)
 
-Generate and save the Generic EnrichmentMap for genes in [NConly_genelist.txt](https://github.com/bioinformaticsdotca/Pathways_2018/raw/master/integrated_assignment_1/NEonly_genelist.txt). It contains the genes specific of the normal tissue samples. Run g:Profiler with this list using same options as in PART 1 selecting Generic Enrichment Map (GEM) format as output type. We will need this file for EnrichmentMap.
+Generate and save the Generic EnrichmentMap for genes in [NConly_genelist.txt](https://github.com/bioinformaticsdotca/Pathways_2018/raw/master/integrated_assignment_1/NEonly_genelist.txt) (i.e., delete the old gene list and copy/paste the new gene list in the box). It contains the genes specific of the normal tissue samples. Run g:Profiler with this list using same options as in PART 1 and again save the output as a Generic Enrichment Map (GEM) format. We will need this file for EnrichmentMap.
 
 ## PART 4: create an enrichment map
 
