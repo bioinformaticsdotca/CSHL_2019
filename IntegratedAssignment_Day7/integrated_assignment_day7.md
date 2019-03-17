@@ -264,7 +264,7 @@ Hint: you can click on a function of your choice to see corresponding nodes high
 
  * Color nodes by function. 
    * In Control Panel, select the 'Style' tab and go to the 'Node' panel.
-   * Expand the 'Fill Color' field using the down arrow and set 'Column' to 'annotation name' which is the top field (/!\ not 'annotations'). Select one annotation of your choice by clicking on the white space and choose a color. Repeat for 2 annotation names. For the current example, we have selected the top 3 enriched GO annotations 'gamma-catenin binding', 'regulation of protein serine/threonine kinase activity' and 'adherens junction organization'. Hint: the annotation names are displayed in alphabetical order. 
+   * Expand the 'Fill Color' field using the down arrow and set 'Column' to 'annotation name' which is the top field (/!\ not 'annotations'). Select one annotation of your choice by clicking on the white space and choose a color. Repeat for 2 more annotation names. For the current example, we have selected the top 3 enriched GO annotations 'gamma-catenin binding', 'regulation of protein serine/threonine kinase activity' and 'adherens junction organization'. Hint: the annotation names are displayed in alphabetical order. 
  
  * Edge width (optional). In Control Panel, go to the 'Edge' panel. Expand the 'Width' field using the down arrow. A grah is displayed. Double click on the graph to select it and move the left and right handles up. Look at the changes on the network (suggested values are approximately 7 for the left handle and approximately 18 for the right handle). Click on OK.
  
