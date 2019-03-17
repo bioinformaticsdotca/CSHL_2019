@@ -147,10 +147,10 @@ Note: you may get slightly different results as 100 permutations is not enough t
  2. Import the extracellular matrix genes as a network.
   * In Cytoscape, go to the menu bar and select, File, Import, Network from File... 
   * Browse your computer and select the 'extracellularmatrix_cluster_genes.txt' file and click on open.
-  * An 'Import Network From Table' opens and in the table preview, make sure that the 'Gene'column is the source node (green dot). Click on 'OK'. A 'Confirmation' dialog box saying that 'No edges will be created in the network' opens. Click on 'Yes'.
+  * An 'Import Network From Table' window opens and in the table preview, make sure that the 'Gene' column is the source node (green dot). Click on 'OK'. A 'Confirmation' dialog box saying that 'No edges will be created in the network' opens. Click on 'Yes'.
   
  3. Select nodes and run iRegulon.
-   * If successful, you should see a grid of gray nodes. Zoom out to see all the nodes and select them all using the mouse.
+   * If successful, you should see a grid of gray nodes. If you are zoomed out, they might be very faint. Zoom in until you see them, then zoom out until you see all the nodes and select them all using the mouse.
    * Go the Cytoscape menu and select 'Apps', 'iRegulon', 'Predict regulators and targets'. 
    * Click on 'Submit'.
    * Observe the iRegulon results in the Results Panel.
