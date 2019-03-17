@@ -220,7 +220,7 @@ Hint:select the pathway in the table, that should highlight the genes in yellow.
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_4.png?raw=true" alt="reactomeFI_viz_network.png" width="750" />
 
-7. Cluster the network and perform pathway enrichment on the network. 
+7. Go back to the full network (in the Control panel on the left, click the highest level of 'STAD_MutSig'). Cluster the network and perform pathway enrichment on the network. 
 **Questions** How many clusters did the analysis retrieve?  What is the FDR value of the most significant pathway of module 0
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_5.png?raw=true" alt="reactomeFI_viz_network.png" width="750" />
