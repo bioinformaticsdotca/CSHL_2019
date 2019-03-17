@@ -142,7 +142,7 @@ Note: you may get slightly different results as 100 permutations is not enough t
 ## PART 6: iRegulon
 
  1. Export extracellular matrix genes. 
-  * Using your GSEA map at q-value 0.01, select all nodes from the extracellular matrix/collagen cluster. Go to Table Panel, and click on the Settings icon (located on the right, shaped like a ship wheel) and click on 'Export as TXT'. Save the text file under the name 'extracellularmatrix_cluster_genes.txt' or use this file [extracellularmatrix_cluster_genes.txt](https://github.com/bioinformaticsdotca/Pathways_2018/raw/master/integrated_assignment_1/extracellularmatrix_cluster_genes.txt).
+  * Using your GSEA map at q-value 0.01, select all nodes from the extracellular matrix/collagen cluster (after autoannotating). Go to Table Panel, and click on the Settings icon (located on the right, shaped like a ship wheel) and click on 'Export as TXT'. Save the text file under the name 'extracellularmatrix_cluster_genes.txt' or use this file [extracellularmatrix_cluster_genes.txt](https://github.com/bioinformaticsdotca/Pathways_2018/raw/master/integrated_assignment_1/extracellularmatrix_cluster_genes.txt).
  
  2. Import the extracellular matrix genes as a network.
   * In Cytoscape, go to the menu bar and select, File, Import, Network from File... 
