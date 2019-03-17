@@ -68,7 +68,7 @@ Cluster the network and perform pathway enrichment on the network.
 
 **Question** How many clusters did the analysis retrieve?  
 
-**Answer** The analysis retrieved 8 clusters named module 0 to module 9. 
+**Answer** The analysis retrieved 10 clusters named module 0 to module 9. 
 
 <img 
 src="https://github.com/bioinformaticsdotca/CSHL_2019/blob/master/IntegratedAssignment_Day7/img/ReacFI3.png?raw=true" alt="gprofilerresultGO.png" width="750" />
