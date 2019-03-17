@@ -209,10 +209,12 @@ Create a network using ReactomeFI.
 
 4. Fetch FI annotation (Hint: right click on a blank space, Reactome FI, Fetch FI Annotations). You should see arrows (directed graph).
 
-5. Run Pathway enrichment (Hint: right click on the network panel and follow the path showed below). 
+5. Run Pathway enrichment (Hint: right click on the network panel and select Reactome FI > Analyze network functions > Pathway enrichment). 
 **Question** What is the pathway with the lowest (best) FDR?
 
-6. Do a subnetwork of ErbB signaling pathway (K)
+6. Do a subnetwork of ErbB signaling pathway (K). 
+* In the table panel (bottom), scroll down and select 'ErbB signaling pathway (K)'. The nodes for this pathway should be yellow. 
+* Click the button for 'New network from selection (all edges)'
 
 Hint:select the pathway in the table, that should highlight the genes in yellow. Use the subnetwork icon on the Cytoscape tool bar to create it ("New network from selection").
 
