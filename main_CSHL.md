@@ -411,6 +411,7 @@ For additional resources, tutorials, future directions, and more please refer to
 *<font color="#827e9c">Veronique Voisin</font>*
 
 [Lab lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1oVpBFW845FoGJ4Ox6tZV6d9cnIyk5k-M/view?usp=sharing) 
+[Lab lecture with missing animation](https://drive.google.com/a/bioinformatics.ca/file/d/1nyRw48oOTi6O9DmO6vV7dy26YF1jCoiR/view?usp=sharing)
 
 [Lab practical](https://bioinformaticsdotca.github.io/CSHL_2019_Module17_lab)  
 
