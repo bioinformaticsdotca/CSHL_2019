@@ -213,8 +213,6 @@ Create a network using ReactomeFI.
 **Question** What is the pathway with the lowest (best) FDR?
 
 6. Do a subnetwork of ErbB signaling pathway (K). 
-* In the table panel (bottom), scroll down and select 'ErbB signaling pathway (K)'. The nodes for this pathway should be yellow. 
-* Click the button for 'New network from selection (all edges)'
 
 Hint:select the pathway in the table, that should highlight the genes in yellow. Use the subnetwork icon on the Cytoscape tool bar to create it ("New network from selection").
 
